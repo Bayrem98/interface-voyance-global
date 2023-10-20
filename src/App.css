@@ -1,0 +1,16 @@
+.navbar {
+    background-color: rgba(147, 147, 203, 0.866);
+}
+
+video::-webkit-media-controls {
+    display: none;
+  }
+  
+  video::-webkit-media-controls-play-button {
+    display: block;
+  }
+
+  .footer {
+    background-color: rgba(147, 147, 203, 0.866);
+  }
+  
