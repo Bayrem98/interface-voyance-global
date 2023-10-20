@@ -104,9 +104,7 @@ const Home = () => {
         </h2>
         <br />
         <div className="d-flex justify-content-center">
-          <video width={900} loop controls autoPlay>
-            <source src="/home-lune.mp4" type="video/mp4" />
-          </video>
+          <img src="/home-lune.gif" alt="." width={800} />
         </div>
         <br />
         <div className="d-flex justify-content-center">
