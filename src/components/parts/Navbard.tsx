@@ -43,7 +43,7 @@ function Navbard(props: any) {
             <NavItem>
               <NavLink
                 style={{ color: "white", fontStyle: "oblique", fontSize: 20 }}
-                href="#"
+                href="/formation"
               >
                 Formation
               </NavLink>

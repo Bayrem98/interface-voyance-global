@@ -108,7 +108,7 @@ const Home = () => {
         </div>
         <br />
         <div className="d-flex justify-content-center">
-          <p style={{ textAlign: "justify", width: 900 }}>
+          <p style={{ textAlign: "justify", width: 800 }}>
             {" "}
             <span
               style={{

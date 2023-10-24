@@ -13,4 +13,8 @@ video::-webkit-media-controls {
   .footer {
     background-color: rgba(147, 147, 203, 0.866);
   }
+
+  .formation {
+    background-image: url("/public/img/formation/background-formation.jpg");
+  }
   
