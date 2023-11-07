@@ -520,75 +520,70 @@ const Formation = () => {
               symboles par un calcul spécifique avec les 14 zones du
               Référentiel. Ces images sont ensuite disposées le long des quatre
               axes composant la structure du Référentiel.
-              <br />
-              <br />
-              <ul style={{ color: "#b79e56" }}>
-                <li>
-                  <span style={{ color: "black" }}>
-                    Zone 1 : mon image sociale
-                  </span>
-                </li>
-                <li>
-                  <span style={{ color: "black" }}>Zone 2 : ma quête</span>
-                </li>
-                <li>
-                  <span style={{ color: "black" }}>
-                    Zone 3 : ce qui préoccupe ma pensée
-                  </span>
-                </li>
-                <li>
-                  <span style={{ color: "black" }}>
-                    Zone 4 : comment orienter mon existence
-                  </span>
-                </li>
-                <li>
-                  <span style={{ color: "black" }}>
-                    Zone 5 : ce que je répète dans ma vie
-                  </span>
-                </li>
-                <li>
-                  <span style={{ color: "black" }}>
-                    Zone 6 : mes ressources
-                  </span>
-                </li>
-                <li>
-                  <span style={{ color: "black" }}>Zone 7 : mes défis</span>
-                </li>
-                <li>
-                  <span style={{ color: "black" }}>
-                    Zone 8 : les énergies dont je dispose durant une année
-                  </span>
-                </li>
-                <li>
-                  <span style={{ color: "black" }}>
-                    Zone 9 : mon terrain d’excellence
-                  </span>
-                </li>
-                <li>
-                  <span style={{ color: "black" }}>
-                    Zone 10 : mes expériences et/ou mes échecs
-                  </span>
-                </li>
-                <li>
-                  <span style={{ color: "black" }}>
-                    Zone 11 : le projet parental inconscient
-                  </span>
-                </li>
-                <li>
-                  <span style={{ color: "black" }}> Zone 12 : mon idéal</span>
-                </li>
-                <li>
-                  <span style={{ color: "black" }}>
-                    Zone 13 : mes paradoxes
-                  </span>
-                </li>
-                <li>
-                  <span style={{ color: "black" }}>
-                    Zone 14 : mes ressources complémentaires
-                  </span>
-                </li>
-              </ul>
             </p>
+            <br />
+            <ul style={{ color: "#b79e56" }}>
+              <li>
+                <span style={{ color: "black" }}>
+                  Zone 1 : mon image sociale
+                </span>
+              </li>
+              <li>
+                <span style={{ color: "black" }}>Zone 2 : ma quête</span>
+              </li>
+              <li>
+                <span style={{ color: "black" }}>
+                  Zone 3 : ce qui préoccupe ma pensée
+                </span>
+              </li>
+              <li>
+                <span style={{ color: "black" }}>
+                  Zone 4 : comment orienter mon existence
+                </span>
+              </li>
+              <li>
+                <span style={{ color: "black" }}>
+                  Zone 5 : ce que je répète dans ma vie
+                </span>
+              </li>
+              <li>
+                <span style={{ color: "black" }}>Zone 6 : mes ressources</span>
+              </li>
+              <li>
+                <span style={{ color: "black" }}>Zone 7 : mes défis</span>
+              </li>
+              <li>
+                <span style={{ color: "black" }}>
+                  Zone 8 : les énergies dont je dispose durant une année
+                </span>
+              </li>
+              <li>
+                <span style={{ color: "black" }}>
+                  Zone 9 : mon terrain d’excellence
+                </span>
+              </li>
+              <li>
+                <span style={{ color: "black" }}>
+                  Zone 10 : mes expériences et/ou mes échecs
+                </span>
+              </li>
+              <li>
+                <span style={{ color: "black" }}>
+                  Zone 11 : le projet parental inconscient
+                </span>
+              </li>
+              <li>
+                <span style={{ color: "black" }}> Zone 12 : mon idéal</span>
+              </li>
+              <li>
+                <span style={{ color: "black" }}>Zone 13 : mes paradoxes</span>
+              </li>
+              <li>
+                <span style={{ color: "black" }}>
+                  Zone 14 : mes ressources complémentaires
+                </span>
+              </li>
+            </ul>
           </div>
           <div className="">
             <img src="/img/formation/refe-img-2.png" alt="." width={450} />
@@ -640,54 +635,54 @@ const Formation = () => {
               subjectif, et il existe plusieurs méthodes pour lire les mains.
               Cependant, voici quelques règles générales que suivent souvent les
               chiromanciens :
-              <ul style={{ color: "#b79e56" }}>
-                <li>
-                  <span style={{ color: "black" }}>
-                    Étude des lignes : Les lignes les plus importantes sur la
-                    main sont la ligne de la vie, la ligne de tête, la ligne du
-                    cœur et la ligne du destin. Les chiromanciens examinent la
-                    longueur, la profondeur et la qualité de ces lignes pour
-                    obtenir des informations sur la vie de la personne.
-                  </span>
-                </li>
-                <li>
-                  <span style={{ color: "black" }}>
-                    Observation des formes : La forme de la main et des doigts
-                    peut également être importante en chiromancie. Par exemple,
-                    une main en forme de spatule peut indiquer une personnalité
-                    imaginative, alors qu'une main en forme de poing peut
-                    signifier une personnalité déterminée.
-                  </span>
-                </li>
-                <li>
-                  <span style={{ color: "black" }}>
-                    Étude des phalanges : Les phalanges des doigts peuvent aider
-                    à déterminer les traits de caractère d'une personne, tels
-                    que la curiosité, la détermination, etc.
-                  </span>
-                </li>
-                <li>
-                  <span style={{ color: "black" }}>
-                    Étude des jointures : Les jointures peuvent également
-                    fournir des informations sur la personnalité, les capacités
-                    et les obstacles rencontrés par une personne.
-                  </span>
-                </li>
-                <li>
-                  <span style={{ color: "black" }}>
-                    Étude des ongles : La forme, la couleur et la qualité des
-                    ongles peuvent également être prises en compte lors de la
-                    lecture de la main en chiromancie.
-                  </span>
-                </li>
-              </ul>
-              Il est important de se rappeler que les règles et les
-              interprétations en chiromancie peuvent varier d'un pratiquant à
-              l'autre et que la lecture de la main n'est pas considérée comme
-              une science exacte. De plus, les prédictions basées sur la lecture
-              de la main ne doivent pas être considérées comme des affirmations
-              définitives sur le futur.
             </p>
+            <ul style={{ color: "#b79e56" }}>
+              <li>
+                <span style={{ color: "black" }}>
+                  Étude des lignes : Les lignes les plus importantes sur la main
+                  sont la ligne de la vie, la ligne de tête, la ligne du cœur et
+                  la ligne du destin. Les chiromanciens examinent la longueur,
+                  la profondeur et la qualité de ces lignes pour obtenir des
+                  informations sur la vie de la personne.
+                </span>
+              </li>
+              <li>
+                <span style={{ color: "black" }}>
+                  Observation des formes : La forme de la main et des doigts
+                  peut également être importante en chiromancie. Par exemple,
+                  une main en forme de spatule peut indiquer une personnalité
+                  imaginative, alors qu'une main en forme de poing peut
+                  signifier une personnalité déterminée.
+                </span>
+              </li>
+              <li>
+                <span style={{ color: "black" }}>
+                  Étude des phalanges : Les phalanges des doigts peuvent aider à
+                  déterminer les traits de caractère d'une personne, tels que la
+                  curiosité, la détermination, etc.
+                </span>
+              </li>
+              <li>
+                <span style={{ color: "black" }}>
+                  Étude des jointures : Les jointures peuvent également fournir
+                  des informations sur la personnalité, les capacités et les
+                  obstacles rencontrés par une personne.
+                </span>
+              </li>
+              <li>
+                <span style={{ color: "black" }}>
+                  Étude des ongles : La forme, la couleur et la qualité des
+                  ongles peuvent également être prises en compte lors de la
+                  lecture de la main en chiromancie.
+                </span>
+              </li>
+            </ul>
+            Il est important de se rappeler que les règles et les
+            interprétations en chiromancie peuvent varier d'un pratiquant à
+            l'autre et que la lecture de la main n'est pas considérée comme une
+            science exacte. De plus, les prédictions basées sur la lecture de la
+            main ne doivent pas être considérées comme des affirmations
+            définitives sur le futur.
           </div>
         </div>
         <br />
@@ -704,7 +699,11 @@ const Formation = () => {
             </h4>
             <br />
             <p style={{ textAlign: "justify" }}>
-              <p style={{ color: "blue", fontSize: 20 }}>Ligne de VIE :</p>
+              <span style={{ color: "blue", fontSize: 20 }}>
+                Ligne de VIE :
+              </span>
+              <br />
+              <br />
               Révéler la vitalité de la vie et la résistance du corps aux
               maladies d'un individu.Aussi appelée "ligne de terre", la ligne de
               vie descend du haut de la main (entre le pouce et l'index) vers le
@@ -728,7 +727,11 @@ const Formation = () => {
               hospitalisation. La taille de la marque détermine la gravité et la
               durée de la maladie.
               <hr style={{ border: "solid", color: "#b79e56" }}></hr>
-              <p style={{ color: "green", fontSize: 20 }}>Ligne de TETE :</p>
+              <span style={{ color: "green", fontSize: 20 }}>
+                Ligne de TETE :
+              </span>
+              <br />
+              <br />
               Reflèter les capacités d'apprentissage, la réceptivité à la
               connaissance, l'activité cérébrale et l'adaptabilité d'un
               individu.Egalement surnommée « la ligne humaine », la ligne de
@@ -761,7 +764,11 @@ const Formation = () => {
               deux lignes trop éloignés (plus d'un demi- centimètre), reflètent
               une personnalité téméraire et inconséquente.
               <hr style={{ border: "solid", color: "#b79e56" }}></hr>
-              <p style={{ color: "red", fontSize: 20 }}>Ligne de COEUR :</p>
+              <span style={{ color: "red", fontSize: 20 }}>
+                Ligne de COEUR :
+              </span>
+              <br />
+              <br />
               Révéler la manière d'un individu de traiter l'amour , actif,
               passif, passionné ou reserve…Aussi appelée la « ligne céleste »,
               la ligne du cœur traverse la main de gauche à droite. Elle part,
@@ -770,9 +777,11 @@ const Formation = () => {
               apparence révèle les dispositions affectives du sujet tant sur ses
               amours en elles- mêmes, que sur sa stabilité sentimentale.
               <hr style={{ border: "solid", color: "#b79e56" }}></hr>
-              <p style={{ color: "rgb(143,0,255)", fontSize: 20 }}>
+              <span style={{ color: "rgb(143,0,255)", fontSize: 20 }}>
                 Ligne de DESTIN :
-              </p>
+              </span>
+              <br />
+              <br />
               Indiquer les succès et les échecs dans les domaines professionnel
               et personnel du sujet au sein de la société.Egalement connue comme
               la « ligne de la chance », la ligne du destin, typique appartient

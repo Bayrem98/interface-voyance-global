@@ -51,7 +51,15 @@ function Navbard(props: any) {
             <NavItem>
               <NavLink
                 style={{ color: "white", fontStyle: "oblique", fontSize: 20 }}
-                href="#"
+                href="https://bibliotheque-astra.vercel.app"
+              >
+                Bibliothéque
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                style={{ color: "white", fontStyle: "oblique", fontSize: 20 }}
+                href="http://tunis0.telemaque.fr/mediawiki/index.php?title=Sp%C3%A9cial:Connexion&returnto=Accueil"
               >
                 WikiCosmo
               </NavLink>
