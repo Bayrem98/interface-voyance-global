@@ -35,7 +35,7 @@ const AstrologieBlogs = () => {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link style={{ color: "black" }} href="#">
+              <Nav.Link style={{ color: "black" }} href="/tarologieblogs">
                 Tarologie-Blogs
               </Nav.Link>
             </Nav.Item>
