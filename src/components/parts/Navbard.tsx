@@ -51,9 +51,9 @@ function Navbard(props: any) {
             <NavItem>
               <NavLink
                 style={{ color: "white", fontStyle: "oblique", fontSize: 20 }}
-                href="https://bibliotheque-astra.vercel.app"
+                href="/homeblogs"
               >
-                Bibliothéque
+                Blogs
               </NavLink>
             </NavItem>
             <NavItem>
