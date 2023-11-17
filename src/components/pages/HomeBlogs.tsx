@@ -202,7 +202,7 @@ const HomeBlogs = () => {
               />
               <CardImgOverlay>
                 <CardTitle
-                  style={{ color: "black", textAlign: "center", fontSize: 30 }}
+                  style={{ color: "white", textAlign: "center", fontSize: 30 }}
                 >
                   Blog-6
                 </CardTitle>
@@ -261,6 +261,67 @@ const HomeBlogs = () => {
                   style={{ color: "black", textAlign: "center", fontSize: 30 }}
                 >
                   Blog-8
+                </CardTitle>
+                <CardText
+                  style={{
+                    position: "absolute",
+                    bottom: 10,
+                    color: "lightgrey",
+                  }}
+                >
+                  <small>Last updated 3 mins ago</small>
+                </CardText>
+              </CardImgOverlay>
+            </Card>
+          </Link>
+        </div>
+        <div
+          className="d-flex justify-content-center"
+          style={{ marginTop: 30, marginLeft: 20, marginRight: 20 }}
+        >
+          <Link to={"/viewblog9"}>
+            <Card inverse style={{ width: 280, marginRight: 20 }}>
+              <CardImg
+                alt="blog9"
+                src="/img/blogs/blog9.jpg"
+                style={{
+                  height: 300,
+                }}
+                width="100%"
+              />
+              <CardImgOverlay>
+                <CardTitle
+                  style={{ color: "black", textAlign: "center", fontSize: 30 }}
+                >
+                  Blog-9
+                </CardTitle>
+                <CardText
+                  style={{
+                    position: "absolute",
+                    bottom: 10,
+                    color: "lightgrey",
+                  }}
+                >
+                  <small>Last updated 3 mins ago</small>
+                </CardText>
+              </CardImgOverlay>
+            </Card>
+          </Link>
+          <Link to={"/viewblog10"}>
+            <Card inverse style={{ width: 280 }}>
+              <CardImg
+                alt="blog10"
+                src="/img/blogs/blog10.jpg"
+                style={{
+                  height: 300,
+                }}
+                width="100%"
+              />
+              <CardImgOverlay>
+                <CardTitle
+                  style={{ color: "black", textAlign: "center", fontSize: 30 }}
+                >
+                  Blog-10
                 </CardTitle>
                 <CardText
                   style={{

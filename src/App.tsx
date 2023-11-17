@@ -18,6 +18,9 @@ import Viewblog5 from "./components/blogs/ViewBlog5";
 import Viewblog6 from "./components/blogs/ViewBlog6";
 import TarologieBlogs from "./components/pages/TarologieBlogs";
 import Viewblog7 from "./components/blogs/ViewBlog7";
+import ViewBlog8 from "./components/blogs/ViewBlog8";
+import ViewBlog9 from "./components/blogs/ViewBlog9";
+import ViewBlog10 from "./components/blogs/ViewBlog10";
 
 function App() {
   // const handleContextMenu = (event: React.MouseEvent) => {
@@ -43,6 +46,9 @@ function App() {
             <Route path="/viewblog5" element={<Viewblog5 />} />
             <Route path="/viewblog6" element={<Viewblog6 />} />
             <Route path="/viewblog7" element={<Viewblog7 />} />
+            <Route path="/viewblog8" element={<ViewBlog8 />} />
+            <Route path="/viewblog9" element={<ViewBlog9 />} />
+            <Route path="/viewblog10" element={<ViewBlog10 />} />
           </Routes>
         </div>
         <Footer />
