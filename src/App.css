@@ -17,4 +17,113 @@ video::-webkit-media-controls {
   .formation {
     background-image: url("/public/img/formation/background-formation.jpg");
   }
+
+  .home {
+    margin-top: 100px;
+  }
+
+  .home-para {
+    text-align: justify;
+    padding-right: 21px;
+  }
+  
+  .home-imag1 {
+    width: 600px;
+    border-radius: 20px;
+  }
+
+  .section-slider {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .slider {
+    width: 100%;
+    height: 500px;
+  }
+
+  .lune-active {
+    width: 800px;
+  }
+
+  .lune-active-para { 
+    text-align: justify;
+    width: 800px;
+  }
+
+  .lune-active-para1 {
+     font-size: 30px;
+  }
+
+  .section4 {
+    margin-top: 50px;
+  }
+
+  .carte-lune {
+    margin-bottom: 50px;
+  }
+
+  .nouvelle-lune-img {
+    width: 600px;
+    border-radius: 130px;
+    margin-left: 5px;
+  }
+
+  .plein-lune-img {
+     width: 600px;
+     border-radius: 130px;
+     margin-right: 5px;
+  }
+
+  .calend-plein {
+    height: 800px;
+  }
+
+  .calend-plein-para {
+    margin-top: 250px;
+  }
+
+  .plein-para {
+    text-align: justify;
+    margin-right: 20px;
+  }
+
+  .plein-para1 {
+    font-size: 30px;
+    font-style: oblique;
+    color: rgba(147, 147, 203, 0.866);
+
+  }
+
+  .plein-para2 {
+    font-size: 25px;
+    font-style: oblique;
+    color: rgba(147, 147, 203, 0.866);
+  }
+
+  .nouvelle-para {
+    text-align: justify;
+    margin-left: 20px;
+  }
+
+  .nouvelle-para1 {
+    font-size: 30px;
+    font-style: oblique;
+    color: rgba(147, 147, 203, 0.866);
+  }
+
+  .calend-nouvelle {
+    height: 800px;
+  }
+
+  .link-scroll {
+    margin-left: 150px;
+    margin-bottom: 50px;
+    font-size: 15px;
+  }
+
+
+
+
+
   

@@ -7,10 +7,7 @@ const Home = () => {
   };
   return (
     <>
-      <div
-        className="container d-flex justify-content-between"
-        style={{ marginTop: 150 }}
-      >
+      <div className="home container d-flex justify-content-between">
         <div className="section1">
           <h2
             style={{
@@ -20,7 +17,7 @@ const Home = () => {
           >
             Voyance Global
           </h2>
-          <p style={{ textAlign: "justify" }}>
+          <p className="home-para">
             est la destination incontournable pour les voyants en quête
             d'expansion de leurs compétences et de leur connaissance dans le
             domaine de la voyance. Notre plateforme est conçue pour les
@@ -37,57 +34,26 @@ const Home = () => {
             voyance.
           </p>
         </div>
-        <span className="" style={{ width: 100 }}></span>
         <div className="section2">
-          <img
-            src="/img/home/img-home-1.jpg"
-            alt="."
-            style={{ width: 600, borderRadius: 20 }}
-          />
+          <img className="home-imag1" src="/img/home/img-home-1.jpg" alt="." />
         </div>
       </div>
-      <section style={{ marginTop: 50, marginBottom: 50 }}>
+      <section className="section-slider">
         <Carousel controls={false} indicators={false}>
           <Carousel.Item interval={3000}>
-            <img
-              className="slider"
-              src="/img/home/home-slider-1.jpg"
-              alt="."
-              width={1400}
-              height={500}
-            />
+            <img className="slider" src="/img/home/home-slider-1.jpg" alt="." />
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img
-              className="slider"
-              src="/img/home/home-slider-n.png"
-              alt="."
-              width={1400}
-              height={500}
-            />
+            <img className="slider" src="/img/home/home-slider-n.png" alt="." />
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img
-              className="slider"
-              src="/img/home/home-slider-2.jpg"
-              alt="."
-              width={1400}
-              height={500}
-            />
-
+            <img className="slider" src="/img/home/home-slider-2.jpg" alt="." />
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img
-              className="slider"
-              src="/img/home/home-slider-4.jpg"
-              alt="."
-              width={1400}
-              height={500}
-            />
-
+            <img className="slider" src="/img/home/home-slider-4.jpg" alt="." />
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
         </Carousel>
@@ -104,15 +70,14 @@ const Home = () => {
         </h2>
         <br />
         <div className="d-flex justify-content-center">
-          <img src="/home-lune.gif" alt="." width={800} />
+          <img className="lune-active" src="/home-lune.gif" alt="." />
         </div>
-        <br />
         <div className="d-flex justify-content-center">
-          <p style={{ textAlign: "justify", width: 800 }}>
+          <p className="lune-active-para">
             {" "}
             <span
+              className="lune-active-para1"
               style={{
-                fontSize: 30,
                 color: "rgba(147, 147, 203, 0.866)",
                 fontStyle: "oblique",
               }}
@@ -144,11 +109,8 @@ const Home = () => {
           </p>
         </div>
       </section>
-      <section style={{ marginTop: 50 }}>
-        <div
-          className="d-flex justify-content-between"
-          style={{ marginBottom: 50 }}
-        >
+      <section className="section4">
+        <div className="carte-lune d-flex justify-content-between">
           <div>
             <h4
               style={{
@@ -160,10 +122,9 @@ const Home = () => {
               Nouvelle-Lune
             </h4>
             <img
+              className="nouvelle-lune-img"
               src="/img/home/nouvelle-lune.jpg"
               alt="."
-              width={600}
-              style={{ borderRadius: 130, marginLeft: 5 }}
             />
           </div>
           <div>
@@ -177,111 +138,66 @@ const Home = () => {
               Pleine-Lune
             </h4>
             <img
+              className="plein-lune-img"
               src="/img/home/plein-lune.jpg"
               alt="."
-              width={600}
-              style={{ borderRadius: 130, marginRight: 5 }}
             />
           </div>
         </div>
         <div className="d-flex justify-content-between">
           <div>
             {" "}
-            <img src="/img/home/calendrier.jpg" alt="." height={800} />
+            <img
+              className="calend-plein"
+              src="/img/home/calendrier.jpg"
+              alt="."
+            />
           </div>
-          <div style={{ marginTop: 250 }}>
-            <p style={{ textAlign: "justify", marginRight: 20 }}>
-              <span
-                style={{
-                  fontSize: 30,
-                  color: "rgba(147, 147, 203, 0.866)",
-                  fontStyle: "oblique",
-                }}
-              >
-                La pleine lune
-              </span>{" "}
-              est un phénomène astronomique qui se produit lorsque la Lune est
-              alignée directement en face de la Terre par rapport au Soleil.
-              Cela crée une illumination totale de la face visible de la Lune,
-              de sorte qu'elle apparaît comme un disque lumineux et rond dans le
-              ciel nocturne. Le calendrier lunaire est basé sur les phases de la
+          <div className="calend-plein-para">
+            <p className="plein-para">
+              <span className="plein-para1">La pleine lune</span> est un
+              phénomène astronomique qui se produit lorsque la Lune est alignée
+              directement en face de la Terre par rapport au Soleil. Cela crée
+              une illumination totale de la face visible de la Lune, de sorte
+              qu'elle apparaît comme un disque lumineux et rond dans le ciel
+              nocturne. Le calendrier lunaire est basé sur les phases de la
               Lune, qui comprennent quatre principales phases :
               <br />
-              <span
-                style={{
-                  fontSize: 25,
-                  color: "rgba(147, 147, 203, 0.866)",
-                  fontStyle: "oblique",
-                }}
-              >
-                *Nouvelle Lune :
-              </span>{" "}
-              La Lune est située entre la Terre et le Soleil, de sorte que la
-              face éclairée de la Lune n'est pas visible depuis la Terre. C'est
-              le début du cycle lunaire.
+              <span className="plein-para2">*Nouvelle Lune :</span> La Lune est
+              située entre la Terre et le Soleil, de sorte que la face éclairée
+              de la Lune n'est pas visible depuis la Terre. C'est le début du
+              cycle lunaire.
               <br />
-              <span
-                style={{
-                  fontSize: 25,
-                  color: "rgba(147, 147, 203, 0.866)",
-                  fontStyle: "oblique",
-                }}
-              >
-                *Premier quartier :
-              </span>{" "}
-              La moitié droite de la Lune est visible, tandis que l'autre moitié
-              est obscurcie.
+              <span className="plein-para2">*Premier quartier :</span> La moitié
+              droite de la Lune est visible, tandis que l'autre moitié est
+              obscurcie.
               <br />
-              <span
-                style={{
-                  fontSize: 25,
-                  color: "rgba(147, 147, 203, 0.866)",
-                  fontStyle: "oblique",
-                }}
-              >
-                *Pleine Lune :
-              </span>{" "}
-              La face entière de la Lune est illuminée, apparaissant comme un
-              disque complet.
+              <span className="plein-para2">*Pleine Lune :</span> La face
+              entière de la Lune est illuminée, apparaissant comme un disque
+              complet.
               <br />
-              <span
-                style={{
-                  fontSize: 25,
-                  color: "rgba(147, 147, 203, 0.866)",
-                  fontStyle: "oblique",
-                }}
-              >
-                *Dernier quartier :
-              </span>{" "}
-              La moitié gauche de la Lune est visible, tandis que l'autre moitié
-              est obscurcie.
+              <span className="plein-para2">*Dernier quartier :</span> La moitié
+              gauche de la Lune est visible, tandis que l'autre moitié est
+              obscurcie.
             </p>
           </div>
         </div>
         <div className="d-flex justify-content-between">
-          <div style={{ marginTop: 260 }}>
-            <p style={{ textAlign: "justify", marginLeft: 20 }}>
-              <span
-                style={{
-                  fontSize: 30,
-                  color: "rgba(147, 147, 203, 0.866)",
-                  fontStyle: "oblique",
-                }}
-              >
-                La Nouvelle Lune
-              </span>{" "}
-              est l'une des principales phases du cycle lunaire. Elle marque le
-              début du cycle lorsque la Lune est située entre la Terre et le
-              Soleil, de sorte que la face éclairée de la Lune n'est pas visible
-              depuis la Terre. Pendant la Nouvelle Lune, la Lune se trouve
-              directement entre la Terre et le Soleil, de sorte que la face
-              éclairée de la Lune est tournée vers le Soleil, et la face sombre
-              est tournée vers la Terre. Par conséquent, la Lune semble
-              quasiment disparaître du ciel nocturne.Les phases lunaires suivent
-              un cycle régulier qui dure environ 29,5 jours, appelé le mois
-              lunaire. En général, le cycle des phases lunaires se répète chaque
-              mois, avec des variations mineures en raison de l'irrégularité du
-              mois lunaire. Contrairement au calendrier solaire du calendrier
+          <div className="calend-plein-para">
+            <p className="nouvelle-para">
+              <span className="nouvelle-para1">La Nouvelle Lune</span> est l'une
+              des principales phases du cycle lunaire. Elle marque le début du
+              cycle lorsque la Lune est située entre la Terre et le Soleil, de
+              sorte que la face éclairée de la Lune n'est pas visible depuis la
+              Terre. Pendant la Nouvelle Lune, la Lune se trouve directement
+              entre la Terre et le Soleil, de sorte que la face éclairée de la
+              Lune est tournée vers le Soleil, et la face sombre est tournée
+              vers la Terre. Par conséquent, la Lune semble quasiment
+              disparaître du ciel nocturne.Les phases lunaires suivent un cycle
+              régulier qui dure environ 29,5 jours, appelé le mois lunaire. En
+              général, le cycle des phases lunaires se répète chaque mois, avec
+              des variations mineures en raison de l'irrégularité du mois
+              lunaire. Contrairement au calendrier solaire du calendrier
               grégorien, le calendrier lunaire n'est pas basé sur un nombre fixe
               de jours par mois, car les mois lunaires sont légèrement plus
               courts que les mois solaires. Par conséquent, les dates des
@@ -289,13 +205,17 @@ const Home = () => {
               lunaire.
             </p>
           </div>
-          <div className="">
-            <img src="/img/home/calendrier-2.jpg" alt="." height={800} />
+          <div>
+            <img
+              className="calend-nouvelle"
+              src="/img/home/calendrier-2.jpg"
+              alt="."
+            />
           </div>
         </div>
       </section>
       <section>
-        <div style={{ marginLeft: 150, marginBottom: 50 }}>
+        <div className="link-scroll">
           <Link to="/actualite" onClick={scrollToTop}>
             <p>Pour vous suivre lire a propos la lune appuiez içi</p>
           </Link>
