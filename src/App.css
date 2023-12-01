@@ -122,8 +122,137 @@ video::-webkit-media-controls {
     font-size: 15px;
   }
 
+  .act-section1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 
+  .act-title {
+    color: rgba(147, 147, 203, 0.866);
+    font-style: oblique;
+    text-align: center;
+  }
 
+  .act-imag1 {
+    width: 600px;
+    height: 260px;
+    border-radius: 20px;
+    margin-left: 20px;
+  }
+
+  .act-para {
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .act-section {
+    margin-bottom: 50px;
+  }
+
+  .act-imag2 {
+    width: 600px;
+    height: 260px;
+    border-radius: 20px;
+    margin-right: 20px;
+  }
+
+  .act-imag3 {
+    width: 620px;
+    height: 360px;
+    border-radius: 20px;
+    margin-left: 20px;
+  }
+
+  .act-imag4 {
+    width: 600px;
+    height: 310px;
+    border-radius: 20px;
+    margin-right: 20px;
+  }
+
+  .act-imag5 {
+    width: 600px;
+    height: 310px;
+    border-radius: 20px;
+    margin-left: 20px;
+  }
+
+  .ast-chi-title {
+    text-align: center;
+    color: #b79e56;
+    margin-top: 80px;
+  }
+
+  .section-ast-chi1 {
+    margin-top: 50px;
+  }
+
+  .section-ast-chi2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .ast-chi-para1 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .ast-chi-para1-title {
+    text-align: center;
+    font-style: oblique;
+    color: #b79e56;
+  }
+
+  .ast-chi-para1-1 {
+    text-align: justify;
+  }
+
+  .ast-chi-signe {
+    color: #c61017;
+    font-size: 20px;
+  }
+
+  .ast-chi-imag1 {
+    width: 590px;
+    height: 450px;
+    border-radius: 20px;
+    margin-right: 20px;
+  }
+
+  .ast-chi-card {
+    width: 65rem;
+    margin-top: 30px;
+  }
+
+  .ast-chi-cardbody {
+    background-color: #c61017;
+    text-align: justify;
+    font-size: 18px;
+    border-radius: 60px;
+  }
+
+  .para-card {
+    color: #b79e56;
+  }
+
+  .section-ast-chi3 {
+    margin-bottom: 50px;
+  }
+
+  .card-signe {
+    width: 390px;
+  }
+
+  .card-li {
+    color: #b79e56;
+  }
+
+  .card-li-mot {
+    color: #c61017;
+  }
+
+  
 
 
   

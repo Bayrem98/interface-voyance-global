@@ -3,29 +3,19 @@ import { Card, CardBody, Carousel } from "react-bootstrap";
 const Actualite = () => {
   return (
     <>
-      <section style={{ marginTop: 50, marginBottom: 50 }}>
-        <h2
-          style={{
-            color: "rgba(147, 147, 203, 0.866)",
-            fontStyle: "oblique",
-            textAlign: "center",
-          }}
-        >
-          Comment utiliser l’énergie de la lune?
-        </h2>
+      <section className="act-section1">
+        <h2 className="act-title">Comment utiliser l’énergie de la lune?</h2>
         <br />
         <div className="d-flex justify-content-between">
-          <div style={{ marginLeft: 20 }}>
+          <div>
             <img
+              className="act-imag1"
               src="/img/actualite/actualite-img-lune2.png"
               alt="."
-              width={600}
-              height={260}
-              style={{ borderRadius: 20 }}
             />
           </div>
-          <div style={{ marginRight: 20, marginLeft: 20 }}>
-            <p style={{ textAlign: "justify" }}>
+          <div>
+            <p className="act-para">
               Dans les temps anciens, la lune était considérée comme une énergie
               mystique sur laquelle les populations avaient très peu de
               connaissances. C’est pour cette raison que les mythes et les
@@ -45,20 +35,14 @@ const Actualite = () => {
           </div>
         </div>
       </section>
-      <section style={{ marginBottom: 50 }}>
-        <h2
-          style={{
-            color: "rgba(147, 147, 203, 0.866)",
-            fontStyle: "oblique",
-            textAlign: "center",
-          }}
-        >
+      <section className="act-section">
+        <h2 className="act-title">
           Les significations spirituelles des cycles lunaires
         </h2>
         <br />
         <div className="d-flex justify-content-between">
-          <div style={{ marginRight: 20, marginLeft: 20 }}>
-            <p style={{ textAlign: "justify" }}>
+          <div>
+            <p className="act-para">
               {" "}
               Les cycles lunaires désignent les portions illuminées de la lune
               par le Soleil, vues à partir de la Terre. Les phases lunaires
@@ -76,40 +60,28 @@ const Actualite = () => {
               puissantes.{" "}
             </p>
           </div>
-          <div style={{ marginRight: 20 }}>
+          <div>
             <img
+              className="act-imag2"
               src="/img/actualite/actualite-img-lune3.png"
               alt="."
-              width={600}
-              height={260}
-              style={{ borderRadius: 20 }}
             />
           </div>
         </div>
       </section>
-      <section style={{ marginBottom: 50 }}>
-        <h2
-          style={{
-            color: "rgba(147, 147, 203, 0.866)",
-            fontStyle: "oblique",
-            textAlign: "center",
-          }}
-        >
-          La lune croissante et ses significations
-        </h2>
+      <section className="act-section">
+        <h2 className="act-title">La lune croissante et ses significations</h2>
         <br />
         <div className="d-flex justify-content-between">
-          <div style={{ marginLeft: 20 }}>
+          <div>
             <img
+              className="act-imag3"
               src="/img/actualite/actualite-img-lune4.png"
               alt="."
-              width={620}
-              height={360}
-              style={{ borderRadius: 20 }}
             />
           </div>
-          <div style={{ marginLeft: 20, marginRight: 20 }}>
-            <p style={{ textAlign: "justify" }}>
+          <div>
+            <p className="act-para">
               {" "}
               La phase de la lune croissante contient quatre cycles : la
               nouvelle lune, le premier croissant, le premier quartier et la
@@ -134,20 +106,14 @@ const Actualite = () => {
           </div>
         </div>
       </section>
-      <section style={{ marginBottom: 50 }}>
-        <h2
-          style={{
-            color: "rgba(147, 147, 203, 0.866)",
-            fontStyle: "oblique",
-            textAlign: "center",
-          }}
-        >
+      <section className="act-section">
+        <h2 className="act-title">
           La lune décroissante et ses significations
         </h2>
         <br />
         <div className="d-flex justify-content-between">
-          <div style={{ marginLeft: 20, marginRight: 20 }}>
-            <p style={{ textAlign: "justify" }}>
+          <div>
+            <p className="act-para">
               {" "}
               La phase de la lune décroissante contient également quatre cycles
               et après la pleine lune, la lune est dans sa phase descendante :
@@ -169,40 +135,30 @@ const Actualite = () => {
               abandonne-toi à la volonté de l’univers.
             </p>
           </div>
-          <div style={{ marginRight: 20 }}>
+          <div>
             <img
+              className="act-imag4"
               src="/img/actualite/actualite-img-lune5.png"
               alt="."
-              width={600}
-              height={310}
-              style={{ borderRadius: 20 }}
             />
           </div>
         </div>
       </section>
-      <section style={{ marginBottom: 80 }}>
-        <h2
-          style={{
-            color: "rgba(147, 147, 203, 0.866)",
-            fontStyle: "oblique",
-            textAlign: "center",
-          }}
-        >
+      <section>
+        <h2 className="act-title">
           La pleine lune et ses significations spirituelles
         </h2>
         <br />
         <div className="d-flex justify-content-between">
-          <div style={{ marginLeft: 20 }}>
+          <div>
             <img
+              className="act-imag5"
               src="/img/actualite/actualite-img-lune6.png"
               alt="."
-              width={600}
-              height={310}
-              style={{ borderRadius: 20 }}
             />
           </div>
-          <div style={{ marginLeft: 20, marginRight: 20 }}>
-            <p style={{ textAlign: "justify" }}>
+          <div>
+            <p className="act-para">
               {" "}
               La pleine lune marque le milieu du cycle lunaire, c’est à cet
               instant précis qu’elle est entièrement éclairée par le Soleil.
@@ -224,25 +180,14 @@ const Actualite = () => {
           </div>
         </div>
       </section>
-      <h1 style={{ textAlign: "center", color: "#b79e56" }}>
-        Astrologie Chinoise 2023
-      </h1>
-      <section
-        style={{
-          marginTop: 50,
-          marginBottom: 50,
-          marginRight: 5,
-          marginLeft: 5,
-        }}
-      >
+      <h1 className="ast-chi-title">Astrologie Chinoise 2023</h1>
+      <section className="section-ast-chi1">
         <Carousel controls={false} indicators={false}>
           <Carousel.Item interval={3000}>
             <img
               className="slider"
               src="/img/actualite/chinois/astr-chin-img-1.jpg"
               alt="."
-              width={1260}
-              height={500}
             />
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
@@ -251,8 +196,6 @@ const Actualite = () => {
               className="slider"
               src="/img/actualite/chinois/astr-chin-img-2.jpg"
               alt="."
-              width={1260}
-              height={500}
             />
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
@@ -261,10 +204,7 @@ const Actualite = () => {
               className="slider"
               src="/img/actualite/chinois/astr-chin-img-5.jpg"
               alt="."
-              width={1260}
-              height={500}
             />
-
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={3000}>
@@ -272,124 +212,91 @@ const Actualite = () => {
               className="slider"
               src="/img/actualite/chinois/astr-chin-img-4.jpg"
               alt="."
-              width={1260}
-              height={500}
             />
-
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
         </Carousel>
       </section>
-      <section style={{ marginTop: 50, marginBottom: 50 }}>
+      <section className="section-ast-chi2">
         <div className="d-flex justfiy-content-between">
-          <div style={{ marginLeft: 20, marginRight: 20 }}>
-            <h2
-              style={{
-                color: "#b79e56",
-                fontStyle: "oblique",
-                textAlign: "center",
-              }}
-            >
+          <div className="ast-chi-para1">
+            <h2 className="ast-chi-para1-title">
               Quel est votre signe astrologique chinoise?
             </h2>
-            <p style={{ textAlign: "justify" }}>
-              Vous êtes{" "}
-              <span style={{ color: "#c61017", fontSize: 20 }}>Rat</span> si
-              vous êtes né en 1924, 1936, 1948, 1960, 1972, 1984, 1996, 2008,
-              2020. Vous êtes{" "}
-              <span style={{ color: "#c61017", fontSize: 20 }}>Buffle</span> si
-              vous êtes né en 1925, 1937, 1949, 1961, 1973, 1985, 1997, 2009,
-              2021. Vous êtes{" "}
-              <span style={{ color: "#c61017", fontSize: 20 }}>Tigre</span> si
-              vous êtes né en 1914, 1926, 1938, 1950, 1962, 1974, 1986, 1998,
-              2010. Vous êtes{" "}
-              <span style={{ color: "#c61017", fontSize: 20 }}>
-                Chat (Lapin ou Lièvre)
-              </span>{" "}
-              si vous êtes né en 1939, 1951, 1963, 1975, 1987, 1999, 2011. Vous
-              êtes{" "}
-              <span style={{ color: "#c61017", fontSize: 20 }}>Dragon</span> si
-              vous êtes né en 1928, 1940, 1952, 1964, 1976, 1988, 2000, 2012.
-              Vous êtes{" "}
-              <span style={{ color: "#c61017", fontSize: 20 }}>Serpent</span> si
-              vous êtes né en 1917, 1929, 1941, 1953, 1965, 1977, 1989, 2001,
-              2013. Vous êtes
-              <span style={{ color: "#c61017", fontSize: 20 }}>Cheval</span> si
-              vous êtes né en 1918, 1930, 1942, 1954, 1966, 1978, 1990, 2002,
-              2014. Vous êtes{" "}
-              <span style={{ color: "#c61017", fontSize: 20 }}>Chèvre</span>
+            <p className="ast-chi-para1-1">
+              Vous êtes <span className="ast-chi-signe">Rat</span> si vous êtes
+              né en 1924, 1936, 1948, 1960, 1972, 1984, 1996, 2008, 2020. Vous
+              êtes <span className="ast-chi-signe">Buffle</span> si vous êtes né
+              en 1925, 1937, 1949, 1961, 1973, 1985, 1997, 2009, 2021. Vous êtes{" "}
+              <span className="ast-chi-signe">Tigre</span> si vous êtes né en
+              1914, 1926, 1938, 1950, 1962, 1974, 1986, 1998, 2010. Vous êtes{" "}
+              <span className="ast-chi-signe">Chat (Lapin ou Lièvre)</span> si
+              vous êtes né en 1939, 1951, 1963, 1975, 1987, 1999, 2011. Vous
+              êtes <span className="ast-chi-signe">Dragon</span> si vous êtes né
+              en 1928, 1940, 1952, 1964, 1976, 1988, 2000, 2012. Vous êtes{" "}
+              <span className="ast-chi-signe">Serpent</span> si vous êtes né en
+              1917, 1929, 1941, 1953, 1965, 1977, 1989, 2001, 2013. Vous êtes
+              <span className="ast-chi-signe">Cheval</span> si vous êtes né en
+              1918, 1930, 1942, 1954, 1966, 1978, 1990, 2002, 2014. Vous êtes{" "}
+              <span className="ast-chi-signe">Chèvre</span>
               si vous êtes né en 1931, 1943, 1955, 1967, 1979, 1991, 2003, 2015.
-              Vous êtes{" "}
-              <span style={{ color: "#c61017", fontSize: 20 }}>Singe</span> si
-              vous êtes né en 1932, 1944, 1956, 1968, 1980, 1992, 2004, 2016.
-              Vous êtes{" "}
-              <span style={{ color: "#c61017", fontSize: 20 }}>Coq</span> si
-              vous êtes né en 1933, 1945, 1957, 1969, 1981, 1993, 2005, 2017.
-              Vous êtes{" "}
-              <span style={{ color: "#c61017", fontSize: 20 }}>Chien</span> si
-              vous êtes né en 1934, 1946, 1958, 1970, 1982, 1994, 2006. Vous
-              êtes{" "}
-              <span style={{ color: "#c61017", fontSize: 20 }}>Cochon</span> si
-              vous êtes né en 1935, 1947, 1959, 1971, 1983, 1995, 2007, 2019.{" "}
+              Vous êtes <span className="ast-chi-signe">Singe</span> si vous
+              êtes né en 1932, 1944, 1956, 1968, 1980, 1992, 2004, 2016. Vous
+              êtes <span className="ast-chi-signe">Coq</span> si vous êtes né en
+              1933, 1945, 1957, 1969, 1981, 1993, 2005, 2017. Vous êtes{" "}
+              <span className="ast-chi-signe">Chien</span> si vous êtes né en
+              1934, 1946, 1958, 1970, 1982, 1994, 2006. Vous êtes{" "}
+              <span className="ast-chi-signe">Cochon</span> si vous êtes né en
+              1935, 1947, 1959, 1971, 1983, 1995, 2007, 2019.{" "}
             </p>
           </div>
-          <div style={{ marginRight: 20 }}>
+          <div>
             <img
+              className="ast-chi-imag1"
               src="/img/actualite/chinois/astr-chin-img-3.jpg"
               alt="."
-              width={590}
-              height={450}
-              style={{ borderRadius: 20 }}
             />
           </div>
         </div>
-        <div
-          style={{ marginTop: 30 }}
-          className="d-flex justify-content-center"
-        >
-          <Card style={{ width: "65rem", borderRadius: 5 }}>
-            <CardBody
-              style={{
-                color: "#b79e56",
-                backgroundColor: "#c61017",
-                textAlign: "justify",
-                fontSize: 18,
-                borderRadius: 30,
-              }}
-            >
-              Le Nouvel An chinois a eu lieu le dimanche 22 janvier. Après le
-              Tigre l'an dernier, on célèbre le Lapin, ou le Lièvre ou le Chat
-              en 2023. Découvrez, signe par signe, les grandes tendances de
-              votre horoscope dans l'astrologie chinoise. Après l’année du Tigre
-              et son sens de l’action, voici l’année du Lapin. Sur le plan
-              collectif, l’influence du Lapin est positive en matière de
-              diplomatie, le Lapin est intelligent, subtil et dégage une sorte
-              d’aura bienveillante. Selon le zodiaque chinois, 2023 est une
-              année du Lapin, elle commence le 22 janvier 2023 et se termine le
-              9 février 2024. C'est une année du Lapin d'Eau. Alors que nous
-              entrons dans l'Année du Lapin 2023, la fortune des 12 signes
-              chinois inaugurera un changement. Certains auront de la chance et
-              d'autres non. Quels sont les prédictions des 12 signes chinois en
-              2023 ? Les Buffles, les Tigres et les Serpents ont les meilleures
-              fortunes, et les Chiens, les Chevaux, les Chèvres et les Cochons
-              ont aussi de bonnes fortunes. La fortune des Lapins, des Rats et
-              des Serpents sera influencée par «l'opposition au Tai Sui» (Dieu
-              des âges), les Coqs et les Singes devront travailler
-              particulièrement dur pour progresser. Alors, quelle est la fortune
-              spécifique de chaque signe chinois en 2023 ?
+        <div className="d-flex justify-content-center">
+          <Card className="ast-chi-card">
+            <CardBody className="ast-chi-cardbody">
+              <p className="para-card">
+                Le Nouvel An chinois a eu lieu le dimanche 22 janvier. Après le
+                Tigre l'an dernier, on célèbre le Lapin, ou le Lièvre ou le Chat
+                en 2023. Découvrez, signe par signe, les grandes tendances de
+                votre horoscope dans l'astrologie chinoise. Après l’année du
+                Tigre et son sens de l’action, voici l’année du Lapin. Sur le
+                plan collectif, l’influence du Lapin est positive en matière de
+                diplomatie, le Lapin est intelligent, subtil et dégage une sorte
+                d’aura bienveillante. Selon le zodiaque chinois, 2023 est une
+                année du Lapin, elle commence le 22 janvier 2023 et se termine
+                le 9 février 2024. C'est une année du Lapin d'Eau. Alors que
+                nous entrons dans l'Année du Lapin 2023, la fortune des 12
+                signes chinois inaugurera un changement. Certains auront de la
+                chance et d'autres non. Quels sont les prédictions des 12 signes
+                chinois en 2023 ? Les Buffles, les Tigres et les Serpents ont
+                les meilleures fortunes, et les Chiens, les Chevaux, les Chèvres
+                et les Cochons ont aussi de bonnes fortunes. La fortune des
+                Lapins, des Rats et des Serpents sera influencée par
+                «l'opposition au Tai Sui» (Dieu des âges), les Coqs et les
+                Singes devront travailler particulièrement dur pour progresser.
+                Alors, quelle est la fortune spécifique de chaque signe chinois
+                en 2023 ?
+              </p>
             </CardBody>
           </Card>
         </div>
       </section>
-      <section style={{ marginBottom: 50 }}>
-        <div className="d-flex justify-content-between">
-          <div style={{ marginLeft: 10 }}>
-            <Card style={{ width: 390 }}>
+      <section className="section-ast-chi3">
+        <div className="d-flex justify-content-center">
+          <div>
+            <Card className="card-signe">
               <img src="/img/actualite/chinois/lapin-img.png" alt="." />
               <CardBody>
                 <ul>
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>AMOUR</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">AMOUR</span>
                   </li>
                 </ul>
                 C'est votre année, voici une année sentimentale épanouissante.
@@ -399,8 +306,8 @@ const Actualite = () => {
                 viendra casser votre bulle de bonheur.
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>TRAVAIL</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">TRAVAIL</span>
                   </li>
                 </ul>
                 Le succès jalonne votre année. Des portes jusque-là fermées,
@@ -410,8 +317,8 @@ const Actualite = () => {
                 redonner confiance en vous.
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>ARGENT</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">ARGENT</span>
                   </li>
                 </ul>
                 Vos rentrées d’argent seront plus conséquentes et vous surferez
@@ -422,13 +329,13 @@ const Actualite = () => {
               </CardBody>
             </Card>
           </div>
-          <div className="">
-            <Card style={{ width: 390 }}>
+          <div>
+            <Card className="card-signe">
               <img src="/img/actualite/chinois/dragon-img.png" alt="." />
               <CardBody>
                 <ul>
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>AMOUR</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">AMOUR</span>
                   </li>
                 </ul>
                 Vous serez à la recherche de l’âme sœur car vous n’aimez pas
@@ -438,8 +345,8 @@ const Actualite = () => {
                 Écoutez votre cœur parler avant de prendre une décision.
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>TRAVAIL</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">TRAVAIL</span>
                   </li>
                 </ul>
                 Enthousiaste, vous vous adapterez à la nouveauté. Votre attitude
@@ -449,8 +356,8 @@ const Actualite = () => {
                 si les choses ne vont pas assez vite!
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>ARGENT</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">ARGENT</span>
                   </li>
                 </ul>
                 Vous développerez le sens des affaires et vos investissements
@@ -463,13 +370,13 @@ const Actualite = () => {
               </CardBody>
             </Card>
           </div>
-          <div style={{ marginRight: 10 }}>
-            <Card style={{ width: 390 }}>
+          <div>
+            <Card className="card-signe">
               <img src="/img/actualite/chinois/serpent-img.png" alt="." />
               <CardBody>
                 <ul>
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>AMOUR</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">AMOUR</span>
                   </li>
                 </ul>
                 Les choses ne seront pas toujours faciles, mais votre cœur
@@ -479,8 +386,8 @@ const Actualite = () => {
                 trouverez un nouvel équilibre dès le printemps.
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>TRAVAIL</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">TRAVAIL</span>
                   </li>
                 </ul>
                 Dame chance vous donnera de belles opportunités, à vous de les
@@ -491,8 +398,8 @@ const Actualite = () => {
                 <ul>
                   <br />
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>ARGENT</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">ARGENT</span>
                   </li>
                 </ul>
                 Dans l’ensemble vos finances seront préservées mais vous avez
@@ -505,14 +412,14 @@ const Actualite = () => {
           </div>
         </div>
         <br />
-        <div className="d-flex justify-content-between">
-          <div style={{ marginLeft: 10 }}>
-            <Card style={{ width: 390 }}>
+        <div className="d-flex justify-content-center">
+          <div>
+            <Card className="card-signe">
               <img src="/img/actualite/chinois/cheval-img.png" alt="." />
               <CardBody>
                 <ul>
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>AMOUR</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">AMOUR</span>
                   </li>
                 </ul>
                 Vous tirerez un trait sur votre passé pour vous lancer dans ce
@@ -522,8 +429,8 @@ const Actualite = () => {
                 Heureux événement possible en fin d’année.
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>TRAVAIL</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">TRAVAIL</span>
                   </li>
                 </ul>
                 Une année épanouissante dans le domaine professionnel vous
@@ -533,8 +440,8 @@ const Actualite = () => {
                 signe certain d’avancement.
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>ARGENT</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">ARGENT</span>
                   </li>
                 </ul>
                 C’est décidé vous reprendrez votre situation financière en main.
@@ -546,12 +453,12 @@ const Actualite = () => {
             </Card>
           </div>
           <div>
-            <Card style={{ width: 390 }}>
+            <Card className="card-signe">
               <img src="/img/actualite/chinois/chèvre-img.png" alt="." />
               <CardBody>
                 <ul>
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>AMOUR</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">AMOUR</span>
                   </li>
                 </ul>
                 Vous êtes sentimental(e) certes, mais le cycle qui s’ouvre est
@@ -561,8 +468,8 @@ const Actualite = () => {
                 vie à pleines dents.
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>TRAVAIL</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">TRAVAIL</span>
                   </li>
                 </ul>
                 Restez concentré sur vos objectifs professionnels. Vous éviterez
@@ -572,8 +479,8 @@ const Actualite = () => {
                 réussite vous tend les bras!
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>ARGENT</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">ARGENT</span>
                   </li>
                 </ul>
                 Vos rentrées financières seront plus importantes. Vous en
@@ -584,13 +491,13 @@ const Actualite = () => {
               </CardBody>
             </Card>
           </div>
-          <div style={{ marginRight: 10 }}>
-            <Card style={{ width: 390 }}>
+          <div>
+            <Card className="card-signe">
               <img src="/img/actualite/chinois/singe-img.png" alt="." />
               <CardBody>
                 <ul>
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>AMOUR</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">AMOUR</span>
                   </li>
                 </ul>
                 Votre vie sentimentale sera stable. Mais le ronron quotidien
@@ -600,8 +507,8 @@ const Actualite = () => {
                 rencontres peu communes.
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>TRAVAIL</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">TRAVAIL</span>
                   </li>
                 </ul>
                 Votre travail sera reconnu et vous grimperez les échelons plus
@@ -610,8 +517,8 @@ const Actualite = () => {
                 toujours sous les feux de la rampe, alors assurez vos arrières!
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>ARGENT</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">ARGENT</span>
                   </li>
                 </ul>
                 Vous augmenterez vos revenus. Dame chance vous sourira dans le
@@ -624,14 +531,14 @@ const Actualite = () => {
           </div>
         </div>
         <br />
-        <div className="d-flex justify-content-between">
-          <div style={{ marginLeft: 10 }}>
-            <Card style={{ width: 390 }}>
+        <div className="d-flex justify-content-center">
+          <div>
+            <Card className="card-signe">
               <img src="/img/actualite/chinois/coq-img.png" alt="." />
               <CardBody>
                 <ul>
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>AMOUR</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">AMOUR</span>
                   </li>
                 </ul>
                 Célibataire, l’année du Lapin est bénéfique à l’union. Cupidon
@@ -641,8 +548,8 @@ const Actualite = () => {
                 mai, septembre ou décembre.
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>TRAVAIL</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">TRAVAIL</span>
                   </li>
                 </ul>
                 Vous êtes bien décidé à reprendre en main votre avenir
@@ -652,8 +559,8 @@ const Actualite = () => {
                 le cas échéant. Foncez!
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>ARGENT</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">ARGENT</span>
                   </li>
                 </ul>
                 Tourmenté à l’idée de manquer d’argent vous vous montrerez
@@ -665,12 +572,12 @@ const Actualite = () => {
             </Card>
           </div>
           <div>
-            <Card style={{ width: 390 }}>
+            <Card className="card-signe">
               <img src="/img/actualite/chinois/chien-img.png" alt="." />
               <CardBody>
                 <ul>
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>AMOUR</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">AMOUR</span>
                   </li>
                 </ul>
                 Petits nuages à l’horizon en début d’année côté cœur. Une remise
@@ -680,8 +587,8 @@ const Actualite = () => {
                 dialogue.
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>TRAVAIL</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">TRAVAIL</span>
                   </li>
                 </ul>
                 Vous jouerez la carte de la sécurité. Cela ne vous empêchera pas
@@ -691,8 +598,8 @@ const Actualite = () => {
                 ami Chien!
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>ARGENT</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">ARGENT</span>
                   </li>
                 </ul>
                 Dans l’ensemble les finances seront en hausses et vos gains
@@ -704,13 +611,13 @@ const Actualite = () => {
               <br />
             </Card>
           </div>
-          <div style={{ marginRight: 10 }}>
-            <Card style={{ width: 390 }}>
+          <div>
+            <Card className="card-signe">
               <img src="/img/actualite/chinois/cochon-img.png" alt="." />
               <CardBody>
                 <ul>
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>AMOUR</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">AMOUR</span>
                   </li>
                 </ul>
                 Vous ferez le gros dos pour éviter que la situation ne
@@ -720,8 +627,8 @@ const Actualite = () => {
                 l’ambiance sera plus sereine.
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>TRAVAIL</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">TRAVAIL</span>
                   </li>
                 </ul>
                 Opportunités intéressantes à saisir. Vous prendrez de nouvelles
@@ -732,8 +639,8 @@ const Actualite = () => {
                 <ul>
                   <br />
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>ARGENT</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">ARGENT</span>
                   </li>
                 </ul>
                 Vous tiendrez les cordons de votre bourse serrés car la peur de
@@ -746,14 +653,14 @@ const Actualite = () => {
           </div>
         </div>
         <br />
-        <div className="d-flex justify-content-between">
-          <div style={{ marginLeft: 10 }}>
-            <Card style={{ width: 390 }}>
+        <div className="d-flex justify-content-center">
+          <div>
+            <Card className="card-signe">
               <img src="/img/actualite/chinois/rat-img.png" alt="." />
               <CardBody>
                 <ul>
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>AMOUR</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">AMOUR</span>
                   </li>
                 </ul>
                 Vous vous dépenserez sans compter pour le bien-être de ceux qui
@@ -763,8 +670,8 @@ const Actualite = () => {
                 consiste à lâcher prise!
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>TRAVAIL</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">TRAVAIL</span>
                   </li>
                 </ul>
                 Tirez les leçons du passé. Si vous dirigez, soyez un peu moins
@@ -774,8 +681,8 @@ const Actualite = () => {
                 relaxation vous verrez ça marche!
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>ARGENT</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">ARGENT</span>
                   </li>
                 </ul>
                 Vous vous montrerez économe et vous terminerez l’année avec des
@@ -787,12 +694,12 @@ const Actualite = () => {
             </Card>
           </div>
           <div>
-            <Card style={{ width: 390 }}>
+            <Card className="card-signe">
               <img src="/img/actualite/chinois/buffle-img.png" alt="." />
               <CardBody>
                 <ul>
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>AMOUR</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">AMOUR</span>
                   </li>
                 </ul>
                 Séduisant, plein d’humour, vous aurez une véritable cote d’amour
@@ -802,8 +709,8 @@ const Actualite = () => {
                 avec l’être aimé "home sweet home".
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>TRAVAIL</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">TRAVAIL</span>
                   </li>
                 </ul>
                 Vous ferez cavalier seul et cela vous conviendra parfaitement.
@@ -812,8 +719,8 @@ const Actualite = () => {
                 vieille tactique de "la main de fer dans un gant de velours!"
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>ARGENT</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">ARGENT</span>
                   </li>
                 </ul>
                 Vous aurez tendance à faire des dépenses inconsidérées, cela
@@ -824,13 +731,13 @@ const Actualite = () => {
               </CardBody>
             </Card>
           </div>
-          <div style={{ marginRight: 10 }}>
-            <Card style={{ width: 390 }}>
+          <div>
+            <Card className="card-signe">
               <img src="/img/actualite/chinois/tigre-img.png" alt="." />
               <CardBody>
                 <ul>
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>AMOUR</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">AMOUR</span>
                   </li>
                 </ul>
                 Année harmonieuse dans l’ensemble. Bonne entente avec les
@@ -840,8 +747,8 @@ const Actualite = () => {
                 un compromis.
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>TRAVAIL</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">TRAVAIL</span>
                   </li>
                 </ul>
                 Votre savoir-faire sera reconnu à sa juste valeur et vos
@@ -851,8 +758,8 @@ const Actualite = () => {
                 année dynamique s’offre à vous cher(e) ami(e) Tigre.
                 <ul>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "#c61017" }}>ARGENT</span>
+                  <li className="card-li">
+                    <span className="card-li-mot">ARGENT</span>
                   </li>
                 </ul>
                 Votre flair et votre sens des affaires vous permettront de
