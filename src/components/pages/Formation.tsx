@@ -501,82 +501,80 @@ const Formation = () => {
               symboles par un calcul spécifique avec les 14 zones du
               Référentiel. Ces images sont ensuite disposées le long des quatre
               axes composant la structure du Référentiel.
-              <br />
-              <br />
-              <ul className="formation-ref-nais-para2-ul">
-                <li>
-                  <span className="formation-ref-nais-para2-span">
-                    Zone 1 : mon image sociale
-                  </span>
-                </li>
-                <li>
-                  <span className="formation-ref-nais-para2-span">
-                    Zone 2 : ma quête
-                  </span>
-                </li>
-                <li>
-                  <span className="formation-ref-nais-para2-span">
-                    Zone 3 : ce qui préoccupe ma pensée
-                  </span>
-                </li>
-                <li>
-                  <span className="formation-ref-nais-para2-span">
-                    Zone 4 : comment orienter mon existence
-                  </span>
-                </li>
-                <li>
-                  <span className="formation-ref-nais-para2-span">
-                    Zone 5 : ce que je répète dans ma vie
-                  </span>
-                </li>
-                <li>
-                  <span className="formation-ref-nais-para2-span">
-                    Zone 6 : mes ressources
-                  </span>
-                </li>
-                <li>
-                  <span className="formation-ref-nais-para2-span">
-                    Zone 7 : mes défis
-                  </span>
-                </li>
-                <li>
-                  <span className="formation-ref-nais-para2-span">
-                    Zone 8 : les énergies dont je dispose durant une année
-                  </span>
-                </li>
-                <li>
-                  <span className="formation-ref-nais-para2-span">
-                    Zone 9 : mon terrain d’excellence
-                  </span>
-                </li>
-                <li>
-                  <span className="formation-ref-nais-para2-span">
-                    Zone 10 : mes expériences et/ou mes échecs
-                  </span>
-                </li>
-                <li>
-                  <span className="formation-ref-nais-para2-span">
-                    Zone 11 : le projet parental inconscient
-                  </span>
-                </li>
-                <li>
-                  <span className="formation-ref-nais-para2-span">
-                    {" "}
-                    Zone 12 : mon idéal
-                  </span>
-                </li>
-                <li>
-                  <span className="formation-ref-nais-para2-span">
-                    Zone 13 : mes paradoxes
-                  </span>
-                </li>
-                <li>
-                  <span className="formation-ref-nais-para2-span">
-                    Zone 14 : mes ressources complémentaires
-                  </span>
-                </li>
-              </ul>
             </p>
+            <ul className="formation-ref-nais-para2-ul">
+              <li>
+                <span className="formation-ref-nais-para2-span">
+                  Zone 1 : mon image sociale
+                </span>
+              </li>
+              <li>
+                <span className="formation-ref-nais-para2-span">
+                  Zone 2 : ma quête
+                </span>
+              </li>
+              <li>
+                <span className="formation-ref-nais-para2-span">
+                  Zone 3 : ce qui préoccupe ma pensée
+                </span>
+              </li>
+              <li>
+                <span className="formation-ref-nais-para2-span">
+                  Zone 4 : comment orienter mon existence
+                </span>
+              </li>
+              <li>
+                <span className="formation-ref-nais-para2-span">
+                  Zone 5 : ce que je répète dans ma vie
+                </span>
+              </li>
+              <li>
+                <span className="formation-ref-nais-para2-span">
+                  Zone 6 : mes ressources
+                </span>
+              </li>
+              <li>
+                <span className="formation-ref-nais-para2-span">
+                  Zone 7 : mes défis
+                </span>
+              </li>
+              <li>
+                <span className="formation-ref-nais-para2-span">
+                  Zone 8 : les énergies dont je dispose durant une année
+                </span>
+              </li>
+              <li>
+                <span className="formation-ref-nais-para2-span">
+                  Zone 9 : mon terrain d’excellence
+                </span>
+              </li>
+              <li>
+                <span className="formation-ref-nais-para2-span">
+                  Zone 10 : mes expériences et/ou mes échecs
+                </span>
+              </li>
+              <li>
+                <span className="formation-ref-nais-para2-span">
+                  Zone 11 : le projet parental inconscient
+                </span>
+              </li>
+              <li>
+                <span className="formation-ref-nais-para2-span">
+                  {" "}
+                  Zone 12 : mon idéal
+                </span>
+              </li>
+              <li>
+                <span className="formation-ref-nais-para2-span">
+                  Zone 13 : mes paradoxes
+                </span>
+              </li>
+              <li>
+                <span className="formation-ref-nais-para2-span">
+                  Zone 14 : mes ressources complémentaires
+                </span>
+              </li>
+            </ul>
           </div>
           <div>
             <img
@@ -617,47 +615,49 @@ const Formation = () => {
               subjectif, et il existe plusieurs méthodes pour lire les mains.
               Cependant, voici quelques règles générales que suivent souvent les
               chiromanciens :
-              <ul className="formation-chiro-para1-ul">
-                <li>
-                  <span className="formation-chiro-para1-span">
-                    Étude des lignes : Les lignes les plus importantes sur la
-                    main sont la ligne de la vie, la ligne de tête, la ligne du
-                    cœur et la ligne du destin. Les chiromanciens examinent la
-                    longueur, la profondeur et la qualité de ces lignes pour
-                    obtenir des informations sur la vie de la personne.
-                  </span>
-                </li>
-                <li>
-                  <span className="formation-chiro-para1-span">
-                    Observation des formes : La forme de la main et des doigts
-                    peut également être importante en chiromancie. Par exemple,
-                    une main en forme de spatule peut indiquer une personnalité
-                    imaginative, alors qu'une main en forme de poing peut
-                    signifier une personnalité déterminée.
-                  </span>
-                </li>
-                <li>
-                  <span className="formation-chiro-para1-span">
-                    Étude des phalanges : Les phalanges des doigts peuvent aider
-                    à déterminer les traits de caractère d'une personne, tels
-                    que la curiosité, la détermination, etc.
-                  </span>
-                </li>
-                <li>
-                  <span className="formation-chiro-para1-span">
-                    Étude des jointures : Les jointures peuvent également
-                    fournir des informations sur la personnalité, les capacités
-                    et les obstacles rencontrés par une personne.
-                  </span>
-                </li>
-                <li>
-                  <span className="formation-chiro-para1-span">
-                    Étude des ongles : La forme, la couleur et la qualité des
-                    ongles peuvent également être prises en compte lors de la
-                    lecture de la main en chiromancie.
-                  </span>
-                </li>
-              </ul>
+            </p>
+            <ul className="formation-chiro-para1-ul">
+              <li>
+                <span className="formation-chiro-para1-span">
+                  Étude des lignes : Les lignes les plus importantes sur la main
+                  sont la ligne de la vie, la ligne de tête, la ligne du cœur et
+                  la ligne du destin. Les chiromanciens examinent la longueur,
+                  la profondeur et la qualité de ces lignes pour obtenir des
+                  informations sur la vie de la personne.
+                </span>
+              </li>
+              <li>
+                <span className="formation-chiro-para1-span">
+                  Observation des formes : La forme de la main et des doigts
+                  peut également être importante en chiromancie. Par exemple,
+                  une main en forme de spatule peut indiquer une personnalité
+                  imaginative, alors qu'une main en forme de poing peut
+                  signifier une personnalité déterminée.
+                </span>
+              </li>
+              <li>
+                <span className="formation-chiro-para1-span">
+                  Étude des phalanges : Les phalanges des doigts peuvent aider à
+                  déterminer les traits de caractère d'une personne, tels que la
+                  curiosité, la détermination, etc.
+                </span>
+              </li>
+              <li>
+                <span className="formation-chiro-para1-span">
+                  Étude des jointures : Les jointures peuvent également fournir
+                  des informations sur la personnalité, les capacités et les
+                  obstacles rencontrés par une personne.
+                </span>
+              </li>
+              <li>
+                <span className="formation-chiro-para1-span">
+                  Étude des ongles : La forme, la couleur et la qualité des
+                  ongles peuvent également être prises en compte lors de la
+                  lecture de la main en chiromancie.
+                </span>
+              </li>
+            </ul>
+            <p className="formation-chiro-para1">
               Il est important de se rappeler que les règles et les
               interprétations en chiromancie peuvent varier d'un pratiquant à
               l'autre et que la lecture de la main n'est pas considérée comme
