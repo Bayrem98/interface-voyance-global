@@ -5,20 +5,12 @@ import { Card, CardImg, CardImgOverlay, CardText, CardTitle } from "reactstrap";
 const HomeBlogs = () => {
   return (
     <>
-      <div
-        className="home-blogs"
-        style={{
-          marginLeft: 50,
-          marginRight: 50,
-          marginTop: 20,
-          marginBottom: 10,
-        }}
-      >
+      <div className="home-blogs">
         <div className="">
           <Nav fill variant="tabs" defaultActiveKey="/homeblogs">
-            <Nav.Item>
+            <Nav.Item className="home-blogs-nav1">
               <Nav.Link
-                style={{ color: "rgba(147, 147, 203, 0.866)", fontSize: 20 }}
+                style={{ color: "rgba(147, 147, 203, 0.866)" }}
                 href="/homeblogs"
               >
                 Home-Blogs
@@ -41,12 +33,9 @@ const HomeBlogs = () => {
             </Nav.Item>
           </Nav>
         </div>
-        <div
-          className="d-flex justify-content"
-          style={{ marginTop: 30, marginLeft: 20, marginRight: 20 }}
-        >
+        <div className="homeviewblogs d-flex justify-content">
           <Link to={"/viewblog1"}>
-            <Card inverse style={{ width: 280, marginRight: 10 }}>
+            <Card className="home-blogs-cards" inverse>
               <CardImg
                 alt="blog1"
                 src="/img/blogs/blog1.jpg"
@@ -74,7 +63,7 @@ const HomeBlogs = () => {
             </Card>
           </Link>
           <Link to={"/viewblog2"}>
-            <Card inverse style={{ width: 280, marginRight: 10 }}>
+            <Card className="home-blogs-cards" inverse>
               <CardImg
                 alt="blog2"
                 src="/img/blogs/blog2.jpg"
@@ -102,7 +91,7 @@ const HomeBlogs = () => {
             </Card>
           </Link>
           <Link to={"/viewblog3"}>
-            <Card inverse style={{ width: 280, marginRight: 10 }}>
+            <Card className="home-blogs-cards" inverse>
               <CardImg
                 alt="blog3"
                 src="/img/blogs/blog3.jpg"
@@ -130,7 +119,7 @@ const HomeBlogs = () => {
             </Card>
           </Link>
           <Link to={"/viewblog4"}>
-            <Card inverse style={{ width: 280 }}>
+            <Card className="home-blogs-cards" inverse>
               <CardImg
                 alt="blog4"
                 src="/img/blogs/blog4.jpg"
@@ -163,7 +152,7 @@ const HomeBlogs = () => {
           style={{ marginTop: 30, marginLeft: 20, marginRight: 20 }}
         >
           <Link to={"/viewblog5"}>
-            <Card inverse style={{ width: 280, marginRight: 10 }}>
+            <Card className="home-blogs-cards" inverse>
               <CardImg
                 alt="blog5"
                 src="/img/blogs/blog5.jpg"
@@ -191,7 +180,7 @@ const HomeBlogs = () => {
             </Card>
           </Link>
           <Link to={"/viewblog6"}>
-            <Card inverse style={{ width: 280, marginRight: 10 }}>
+            <Card className="home-blogs-cards" inverse>
               <CardImg
                 alt="blog6"
                 src="/img/blogs/blog6.jpg"
@@ -219,7 +208,7 @@ const HomeBlogs = () => {
             </Card>
           </Link>
           <Link to={"/viewblog7"}>
-            <Card inverse style={{ width: 280, marginRight: 10 }}>
+            <Card className="home-blogs-cards" inverse>
               <CardImg
                 alt="blog7"
                 src="/img/blogs/blog7.jpg"
@@ -247,7 +236,7 @@ const HomeBlogs = () => {
             </Card>
           </Link>
           <Link to={"/viewblog8"}>
-            <Card inverse style={{ width: 280 }}>
+            <Card className="home-blogs-cards" inverse>
               <CardImg
                 alt="blog8"
                 src="/img/blogs/blog8.jpg"
@@ -276,11 +265,11 @@ const HomeBlogs = () => {
           </Link>
         </div>
         <div
-          className="d-flex justify-content-center"
+          className="d-flex justify-content"
           style={{ marginTop: 30, marginLeft: 20, marginRight: 20 }}
         >
           <Link to={"/viewblog9"}>
-            <Card inverse style={{ width: 280, marginRight: 20 }}>
+            <Card className="home-blogs-cards" inverse>
               <CardImg
                 alt="blog9"
                 src="/img/blogs/blog9.jpg"
@@ -308,7 +297,7 @@ const HomeBlogs = () => {
             </Card>
           </Link>
           <Link to={"/viewblog10"}>
-            <Card inverse style={{ width: 280 }}>
+            <Card className="home-blogs-cards" inverse>
               <CardImg
                 alt="blog10"
                 src="/img/blogs/blog10.jpg"
