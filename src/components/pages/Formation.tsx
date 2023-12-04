@@ -4,21 +4,14 @@ import Card from "react-bootstrap/Card";
 const Formation = () => {
   return (
     <>
-      <section className="formation" style={{ paddingBottom: 50 }}>
-        <h2
-          style={{
-            color: "rgba(147, 147, 203, 0.866)",
-            fontStyle: "oblique",
-            textAlign: "center",
-            paddingTop: 30,
-          }}
-        >
+      <section className="formation">
+        <h2 className="section-formation-title">
           Des conseils pour les voyants
         </h2>
         <br />
         <div className="d-flex justify-content-around">
           <div>
-            <Card style={{ width: 500, height: 900 }}>
+            <Card className="section-formation-cards1-2">
               <Card.Header>
                 Comment prendre en charge un client dans une consultation de
                 voyance ? Voici quelques étapes pour prendre en charge un client
@@ -28,8 +21,8 @@ const Formation = () => {
               <Card.Body>
                 {" "}
                 <ul>
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       {" "}
                       Écouter attentivement: Écoutez attentivement ce que le
                       client a à dire et posez des questions pour clarifier ses
@@ -37,8 +30,8 @@ const Formation = () => {
                     </span>
                   </li>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       {" "}
                       Établir une relation de confiance: Essayez de créer une
                       atmosphère de confiance et de compréhension en vous
@@ -46,16 +39,16 @@ const Formation = () => {
                     </span>
                   </li>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Expliquer le processus: Expliquez clairement au client
                       comment se déroulera la consultation, ce à quoi il peut
                       s'attendre et les limites de votre travail.
                     </span>
                   </li>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Respecter les préférences du client: Respectez les
                       préférences et les convictions du client en ce qui
                       concerne les méthodes et les approches utilisées pour la
@@ -64,8 +57,8 @@ const Formation = () => {
                   </li>
                   <br />
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Fournir des réponses claires et précises: Fournissez des
                       réponses claires et précises en utilisant un langage
                       simple et compréhensible. Évitez les réponses vagues ou
@@ -74,8 +67,8 @@ const Formation = () => {
                   </li>
                   <br />
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Offrir un soutien: Offrez un soutien et une guidance
                       supplémentaires si nécessaire, et encouragez le client à
                       explorer des options pour résoudre les problèmes qu'il
@@ -93,7 +86,7 @@ const Formation = () => {
             </Card>
           </div>
           <div>
-            <Card style={{ width: 500, height: 900 }}>
+            <Card className="section-formation-cards1-2">
               <Card.Header>
                 {" "}
                 Comment créer une relation de confiance avec un client dans une
@@ -103,8 +96,8 @@ const Formation = () => {
               </Card.Header>
               <Card.Body>
                 <ul>
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Écouter attentivement : Écoutez attentivement ce que le
                       client a à dire et posez des questions pour clarifier ses
                       préoccupations et ses attentes. Montrez-lui que vous êtes
@@ -112,8 +105,8 @@ const Formation = () => {
                     </span>
                   </li>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Soyez transparent : Expliquez clairement comment la
                       consultation se déroulera, ce à quoi le client peut
                       s'attendre et les limites de votre travail. Soyez honnête
@@ -121,8 +114,8 @@ const Formation = () => {
                     </span>
                   </li>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Montrer de l'empathie : Montrez de l'empathie envers les
                       sentiments et les préoccupations du client. Encouragez-le
                       à parler librement de ses inquiétudes et de ses espoirs
@@ -130,8 +123,8 @@ const Formation = () => {
                     </span>
                   </li>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Respectez les croyances du client : Respectez les
                       croyances et les convictions du client en ce qui concerne
                       les méthodes et les approches utilisées pour la
@@ -139,8 +132,8 @@ const Formation = () => {
                     </span>
                   </li>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Fournir des réponses claires et précises : Fournissez des
                       réponses claires et précises en utilisant un langage
                       simple et compréhensible. Évitez les réponses vagues ou
@@ -148,8 +141,8 @@ const Formation = () => {
                     </span>
                   </li>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Offrir un soutien supplémentaire : Offrez un soutien et
                       une guidance supplémentaires si nécessaire, et encouragez
                       le client à explorer des options pour résoudre les
@@ -170,7 +163,7 @@ const Formation = () => {
         <div className="d-flex justify-content-around">
           <div>
             {" "}
-            <Card style={{ width: 500, height: 850 }}>
+            <Card className="section-formation-cards3-4">
               <Card.Header>
                 {" "}
                 Comment fidéliser un client dans une consultation de voyance ?
@@ -180,8 +173,8 @@ const Formation = () => {
               <Card.Body>
                 {" "}
                 <ul>
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Offrir une expérience positive : Assurez-vous que le
                       client a une expérience positive lors de sa consultation.
                       Soyez à l'écoute de ses préoccupations, fournissez des
@@ -190,8 +183,8 @@ const Formation = () => {
                     </span>
                   </li>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Maintien de la communication : Maintenez une communication
                       régulière avec le client, en lui envoyant des mises à jour
                       sur ses préoccupations et en lui offrant des conseils
@@ -199,24 +192,24 @@ const Formation = () => {
                     </span>
                   </li>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Personnaliser l'expérience : Personnalisez l'expérience
                       pour le client en fonction de ses préférences et de ses
                       besoins uniques.
                     </span>
                   </li>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Offrir des incitations : Offrez des incitations, telles
                       que des tarifs réduits pour les consultations futures ou
                       des cadeaux pour fidéliser le client.
                     </span>
                   </li>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Demander des commentaires et des suggestions : Demander
                       des commentaires et des suggestions au client sur comment
                       améliorer votre service peut montrer que vous vous souciez
@@ -236,7 +229,7 @@ const Formation = () => {
           </div>
           <div>
             {" "}
-            <Card style={{ width: 500, height: 850 }}>
+            <Card className="section-formation-cards3-4">
               <Card.Header>
                 Comment convaincre un client d'un prochain rdv dans une
                 consultation de voyance ? Convaincre un client d'un prochain
@@ -246,8 +239,8 @@ const Formation = () => {
               <Card.Body>
                 {" "}
                 <ul>
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Comprendre les besoins du client : Écoutez attentivement
                       les préoccupations et les besoins du client lors de la
                       consultation actuelle. Cela vous permettra de mieux
@@ -256,8 +249,9 @@ const Formation = () => {
                     </span>
                   </li>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <br />
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Montrer l'importance d'une consultation supplémentaire :
                       Expliquez au client l'importance d'une consultation
                       supplémentaire pour poursuivre son cheminement personnel.
@@ -266,8 +260,9 @@ const Formation = () => {
                     </span>
                   </li>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <br />
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Proposer un plan d'action : Proposez un plan d'action
                       concret pour la consultation future, en discutant des
                       objectifs et des attentes pour la session. Assurez-vous
@@ -276,8 +271,9 @@ const Formation = () => {
                     </span>
                   </li>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <br />
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Offrir des options de calendrier : Offrez des options de
                       calendrier pour la consultation future, en discutant des
                       options qui conviennent le mieux au client.
@@ -300,7 +296,7 @@ const Formation = () => {
         <div className="d-flex justify-content-around">
           <div>
             {" "}
-            <Card style={{ width: 500, height: 990 }}>
+            <Card className="section-formation-cards5-6">
               <Card.Header>
                 Pour un voyant, quelle est la bonne façon d'utiliser la voyance
                 ? Pour un voyant, la bonne façon d'utiliser la voyance dépend de
@@ -312,8 +308,8 @@ const Formation = () => {
               <Card.Body>
                 {" "}
                 <ul>
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Respectez les croyances et les opinions de chaque client :
                       Chaque client est unique et peut avoir des croyances et
                       des opinions différentes sur la voyance. Un bon voyant
@@ -323,8 +319,8 @@ const Formation = () => {
                     </span>
                   </li>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Offrez un environnement sécurisant : Une consultation de
                       voyance peut être une expérience émotionnelle pour un
                       client. Il est donc important de créer un environnement de
@@ -333,8 +329,9 @@ const Formation = () => {
                     </span>
                   </li>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <br />
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Soyez honnête et transparent : Il est important d'être
                       honnête avec les clients quant à ce que la voyance peut et
                       ne peut pas accomplir. Un bon voyant doit être capable
@@ -344,8 +341,9 @@ const Formation = () => {
                     </span>
                   </li>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <br />
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Maintenez une déontologie éthique : La voyance est souvent
                       associée à des pratiques peu éthiques, telles que la
                       manipulation et l’exploitation des clients. Un bon voyant
@@ -355,8 +353,9 @@ const Formation = () => {
                     </span>
                   </li>
                   <br />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <br />
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Offrez un soutien continu : Une consultation de voyance
                       peut être un moment clé dans la vie d'un client. Il est
                       donc important pour un voyant de fournir un soutien
@@ -371,15 +370,15 @@ const Formation = () => {
           </div>
           <div>
             {" "}
-            <Card style={{ width: 500, height: 990 }}>
+            <Card className="section-formation-cards5-6">
               <Card.Header>
                 {" "}
                 Comment faire le lien entre la voyance et la psychologie ?
               </Card.Header>
               <Card.Body>
                 <ul>
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       La voyance et la psychologie peuvent être liées de
                       plusieurs manières. Tout d'abord, il est important de
                       comprendre que la voyance est considérée comme une
@@ -392,14 +391,12 @@ const Formation = () => {
                     </span>
                   </li>
                   <img
+                    className="formation-cards-imag"
                     src="/img/formation/img-card-6.jpg"
                     alt="."
-                    height={150}
-                    width={400}
-                    style={{ borderRadius: 20 }}
                   />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       Le lien entre la voyance et la psychologie peut être vu en
                       utilisant la voyance comme un outil complémentaire pour
                       explorer les problèmes émotionnels d'une personne. Par
@@ -413,14 +410,12 @@ const Formation = () => {
                     </span>
                   </li>
                   <img
+                    className="formation-cards-imag"
                     src="/img/formation/img-card-6-2.jpg"
                     alt="."
-                    height={150}
-                    width={400}
-                    style={{ borderRadius: 20 }}
                   />
-                  <li style={{ color: "#b79e56" }}>
-                    <span style={{ color: "black" }}>
+                  <li className="formation-cards-li">
+                    <span className="formation-cards-span">
                       En fin de compte, le lien entre la voyance et la
                       psychologie dépend de la façon dont la voyance est
                       utilisée et de la compréhension personnelle de la personne
@@ -436,33 +431,20 @@ const Formation = () => {
           </div>
         </div>
       </section>
-      <section style={{ marginBottom: 50 }}>
-        <h2
-          style={{
-            color: "rgba(147, 147, 203, 0.866)",
-            fontStyle: "oblique",
-            textAlign: "center",
-            paddingTop: 30,
-          }}
-        >
-          Référentiel de Naissance
-        </h2>
+      <section className="section-formation-ref-nais">
+        <h2 className="formation-ref-nais-title">Référentiel de Naissance</h2>
         <br />
         <div className="d-flex justify-content-around">
-          <div style={{ marginLeft: 30 }}>
+          <div>
             <img
+              className="formation-ref-nais-imag1"
               src="/img/formation/refe-img-3.png"
               alt="."
-              width={500}
-              style={{ borderRadius: 30 }}
             />
           </div>
-          <div style={{ marginRight: 30, marginLeft: 30 }}>
-            <p style={{ textAlign: "justify" }}>
-              <br />
-              <span
-                style={{ color: "rgba(147, 147, 203, 0.866)", fontSize: 22 }}
-              >
+          <div>
+            <p className="formation-ref-nais-para1">
+              <span className="formation-ref-nais-para1-mot1">
                 Le référentiel de naissance
               </span>{" "}
               en voyance est un outil utilisé par les voyants pour aider à
@@ -508,9 +490,8 @@ const Formation = () => {
         </div>
         <br />
         <div className="d-flex justify-content-around">
-          <div style={{ marginLeft: 30 }}>
-            <p style={{ textAlign: "justify" }}>
-              <br />
+          <div>
+            <p className="formation-ref-nais-para2">
               Tout comme nous utilisons un miroir pour ordonner notre image
               physique, le Référentiel est un miroir qui nous permet d’ordonner
               notre image intérieure souvent malmenée par nos différentes
@@ -520,105 +501,106 @@ const Formation = () => {
               symboles par un calcul spécifique avec les 14 zones du
               Référentiel. Ces images sont ensuite disposées le long des quatre
               axes composant la structure du Référentiel.
+              <br />
+              <br />
+              <ul className="formation-ref-nais-para2-ul">
+                <li>
+                  <span className="formation-ref-nais-para2-span">
+                    Zone 1 : mon image sociale
+                  </span>
+                </li>
+                <li>
+                  <span className="formation-ref-nais-para2-span">
+                    Zone 2 : ma quête
+                  </span>
+                </li>
+                <li>
+                  <span className="formation-ref-nais-para2-span">
+                    Zone 3 : ce qui préoccupe ma pensée
+                  </span>
+                </li>
+                <li>
+                  <span className="formation-ref-nais-para2-span">
+                    Zone 4 : comment orienter mon existence
+                  </span>
+                </li>
+                <li>
+                  <span className="formation-ref-nais-para2-span">
+                    Zone 5 : ce que je répète dans ma vie
+                  </span>
+                </li>
+                <li>
+                  <span className="formation-ref-nais-para2-span">
+                    Zone 6 : mes ressources
+                  </span>
+                </li>
+                <li>
+                  <span className="formation-ref-nais-para2-span">
+                    Zone 7 : mes défis
+                  </span>
+                </li>
+                <li>
+                  <span className="formation-ref-nais-para2-span">
+                    Zone 8 : les énergies dont je dispose durant une année
+                  </span>
+                </li>
+                <li>
+                  <span className="formation-ref-nais-para2-span">
+                    Zone 9 : mon terrain d’excellence
+                  </span>
+                </li>
+                <li>
+                  <span className="formation-ref-nais-para2-span">
+                    Zone 10 : mes expériences et/ou mes échecs
+                  </span>
+                </li>
+                <li>
+                  <span className="formation-ref-nais-para2-span">
+                    Zone 11 : le projet parental inconscient
+                  </span>
+                </li>
+                <li>
+                  <span className="formation-ref-nais-para2-span">
+                    {" "}
+                    Zone 12 : mon idéal
+                  </span>
+                </li>
+                <li>
+                  <span className="formation-ref-nais-para2-span">
+                    Zone 13 : mes paradoxes
+                  </span>
+                </li>
+                <li>
+                  <span className="formation-ref-nais-para2-span">
+                    Zone 14 : mes ressources complémentaires
+                  </span>
+                </li>
+              </ul>
             </p>
-            <br />
-            <ul style={{ color: "#b79e56" }}>
-              <li>
-                <span style={{ color: "black" }}>
-                  Zone 1 : mon image sociale
-                </span>
-              </li>
-              <li>
-                <span style={{ color: "black" }}>Zone 2 : ma quête</span>
-              </li>
-              <li>
-                <span style={{ color: "black" }}>
-                  Zone 3 : ce qui préoccupe ma pensée
-                </span>
-              </li>
-              <li>
-                <span style={{ color: "black" }}>
-                  Zone 4 : comment orienter mon existence
-                </span>
-              </li>
-              <li>
-                <span style={{ color: "black" }}>
-                  Zone 5 : ce que je répète dans ma vie
-                </span>
-              </li>
-              <li>
-                <span style={{ color: "black" }}>Zone 6 : mes ressources</span>
-              </li>
-              <li>
-                <span style={{ color: "black" }}>Zone 7 : mes défis</span>
-              </li>
-              <li>
-                <span style={{ color: "black" }}>
-                  Zone 8 : les énergies dont je dispose durant une année
-                </span>
-              </li>
-              <li>
-                <span style={{ color: "black" }}>
-                  Zone 9 : mon terrain d’excellence
-                </span>
-              </li>
-              <li>
-                <span style={{ color: "black" }}>
-                  Zone 10 : mes expériences et/ou mes échecs
-                </span>
-              </li>
-              <li>
-                <span style={{ color: "black" }}>
-                  Zone 11 : le projet parental inconscient
-                </span>
-              </li>
-              <li>
-                <span style={{ color: "black" }}> Zone 12 : mon idéal</span>
-              </li>
-              <li>
-                <span style={{ color: "black" }}>Zone 13 : mes paradoxes</span>
-              </li>
-              <li>
-                <span style={{ color: "black" }}>
-                  Zone 14 : mes ressources complémentaires
-                </span>
-              </li>
-            </ul>
           </div>
-          <div className="">
-            <img src="/img/formation/refe-img-2.png" alt="." width={450} />
+          <div>
+            <img
+              className="formation-ref-nais-imag2"
+              src="/img/formation/refe-img-2.png"
+              alt="."
+            />
           </div>
         </div>
       </section>
-      <section style={{ marginBottom: 50 }}>
-        <h2
-          style={{
-            color: "rgba(147, 147, 203, 0.866)",
-            fontStyle: "oblique",
-            textAlign: "center",
-            paddingTop: 30,
-          }}
-        >
-          Chiromancie
-        </h2>
+      <section className="section-formation-chiro">
+        <h2 className="section-formation-chiro-title1">Chiromancie</h2>
         <br />
         <div className="d-flex justify-content-around">
-          <div style={{ marginLeft: 20 }}>
+          <div>
             <img
+              className="formation-chiro-imag1"
               src="/img/formation/chiro-img-1.jpg"
               alt="."
-              width={500}
-              height={700}
-              style={{ borderRadius: 30 }}
             />
           </div>
-          <div style={{ marginLeft: 20, marginRight: 20 }}>
-            <p style={{ textAlign: "justify", marginTop: 15 }}>
-              <span
-                style={{ color: "rgba(147, 147, 203, 0.866)", fontSize: 22 }}
-              >
-                La chiromancie
-              </span>{" "}
+          <div>
+            <p className="formation-chiro-para1">
+              <span className="formation-chiro-para1-mot1">La chiromancie</span>{" "}
               est une forme de divination qui utilise la lecture de la main pour
               prédire l'avenir et connaître la personnalité d'une personne. Les
               chiromanciens croient que les lignes, les formes et les
@@ -635,74 +617,65 @@ const Formation = () => {
               subjectif, et il existe plusieurs méthodes pour lire les mains.
               Cependant, voici quelques règles générales que suivent souvent les
               chiromanciens :
+              <ul className="formation-chiro-para1-ul">
+                <li>
+                  <span className="formation-chiro-para1-span">
+                    Étude des lignes : Les lignes les plus importantes sur la
+                    main sont la ligne de la vie, la ligne de tête, la ligne du
+                    cœur et la ligne du destin. Les chiromanciens examinent la
+                    longueur, la profondeur et la qualité de ces lignes pour
+                    obtenir des informations sur la vie de la personne.
+                  </span>
+                </li>
+                <li>
+                  <span className="formation-chiro-para1-span">
+                    Observation des formes : La forme de la main et des doigts
+                    peut également être importante en chiromancie. Par exemple,
+                    une main en forme de spatule peut indiquer une personnalité
+                    imaginative, alors qu'une main en forme de poing peut
+                    signifier une personnalité déterminée.
+                  </span>
+                </li>
+                <li>
+                  <span className="formation-chiro-para1-span">
+                    Étude des phalanges : Les phalanges des doigts peuvent aider
+                    à déterminer les traits de caractère d'une personne, tels
+                    que la curiosité, la détermination, etc.
+                  </span>
+                </li>
+                <li>
+                  <span className="formation-chiro-para1-span">
+                    Étude des jointures : Les jointures peuvent également
+                    fournir des informations sur la personnalité, les capacités
+                    et les obstacles rencontrés par une personne.
+                  </span>
+                </li>
+                <li>
+                  <span className="formation-chiro-para1-span">
+                    Étude des ongles : La forme, la couleur et la qualité des
+                    ongles peuvent également être prises en compte lors de la
+                    lecture de la main en chiromancie.
+                  </span>
+                </li>
+              </ul>
+              Il est important de se rappeler que les règles et les
+              interprétations en chiromancie peuvent varier d'un pratiquant à
+              l'autre et que la lecture de la main n'est pas considérée comme
+              une science exacte. De plus, les prédictions basées sur la lecture
+              de la main ne doivent pas être considérées comme des affirmations
+              définitives sur le futur.
             </p>
-            <ul style={{ color: "#b79e56" }}>
-              <li>
-                <span style={{ color: "black" }}>
-                  Étude des lignes : Les lignes les plus importantes sur la main
-                  sont la ligne de la vie, la ligne de tête, la ligne du cœur et
-                  la ligne du destin. Les chiromanciens examinent la longueur,
-                  la profondeur et la qualité de ces lignes pour obtenir des
-                  informations sur la vie de la personne.
-                </span>
-              </li>
-              <li>
-                <span style={{ color: "black" }}>
-                  Observation des formes : La forme de la main et des doigts
-                  peut également être importante en chiromancie. Par exemple,
-                  une main en forme de spatule peut indiquer une personnalité
-                  imaginative, alors qu'une main en forme de poing peut
-                  signifier une personnalité déterminée.
-                </span>
-              </li>
-              <li>
-                <span style={{ color: "black" }}>
-                  Étude des phalanges : Les phalanges des doigts peuvent aider à
-                  déterminer les traits de caractère d'une personne, tels que la
-                  curiosité, la détermination, etc.
-                </span>
-              </li>
-              <li>
-                <span style={{ color: "black" }}>
-                  Étude des jointures : Les jointures peuvent également fournir
-                  des informations sur la personnalité, les capacités et les
-                  obstacles rencontrés par une personne.
-                </span>
-              </li>
-              <li>
-                <span style={{ color: "black" }}>
-                  Étude des ongles : La forme, la couleur et la qualité des
-                  ongles peuvent également être prises en compte lors de la
-                  lecture de la main en chiromancie.
-                </span>
-              </li>
-            </ul>
-            Il est important de se rappeler que les règles et les
-            interprétations en chiromancie peuvent varier d'un pratiquant à
-            l'autre et que la lecture de la main n'est pas considérée comme une
-            science exacte. De plus, les prédictions basées sur la lecture de la
-            main ne doivent pas être considérées comme des affirmations
-            définitives sur le futur.
           </div>
         </div>
         <br />
-        <div className="d-flex justify-content-around">
-          <div style={{ marginLeft: 20, marginRight: 20 }}>
-            <h4
-              style={{
-                color: "rgba(147, 147, 203, 0.866)",
-                fontStyle: "oblique",
-                textAlign: "center",
-              }}
-            >
+        <div className="d-flex justify-content-center">
+          <div>
+            <h4 className="formation-chiro-title2">
               L'interprétation des 4 lignes principales de la main
             </h4>
             <br />
-            <p style={{ textAlign: "justify" }}>
-              <span style={{ color: "blue", fontSize: 20 }}>
-                Ligne de VIE :
-              </span>
-              <br />
+            <p className="formation-chiro-para2">
+              <span className="formation-chiro-para2-mot1">Ligne de VIE :</span>
               <br />
               Révéler la vitalité de la vie et la résistance du corps aux
               maladies d'un individu.Aussi appelée "ligne de terre", la ligne de
@@ -726,11 +699,12 @@ const Formation = () => {
               par une marque de forme triangulaire suppose une maladie voire une
               hospitalisation. La taille de la marque détermine la gravité et la
               durée de la maladie.
-              <hr style={{ border: "solid", color: "#b79e56" }}></hr>
-              <span style={{ color: "green", fontSize: 20 }}>
+            </p>
+            <hr className="formation-chiro-para2-separation"></hr>
+            <p className="formation-chiro-para2">
+              <span className="formation-chiro-para2-mot2">
                 Ligne de TETE :
               </span>
-              <br />
               <br />
               Reflèter les capacités d'apprentissage, la réceptivité à la
               connaissance, l'activité cérébrale et l'adaptabilité d'un
@@ -763,11 +737,12 @@ const Formation = () => {
               extravertie, que rien n'effraie. Enfin, les points de départ des
               deux lignes trop éloignés (plus d'un demi- centimètre), reflètent
               une personnalité téméraire et inconséquente.
-              <hr style={{ border: "solid", color: "#b79e56" }}></hr>
-              <span style={{ color: "red", fontSize: 20 }}>
+            </p>
+            <hr className="formation-chiro-para2-separation"></hr>
+            <p className="formation-chiro-para2">
+              <span className="formation-chiro-para2-mot3">
                 Ligne de COEUR :
               </span>
-              <br />
               <br />
               Révéler la manière d'un individu de traiter l'amour , actif,
               passif, passionné ou reserve…Aussi appelée la « ligne céleste »,
@@ -776,11 +751,12 @@ const Formation = () => {
               pour s'arrêter, quelque part, entre le majeur et l'index. Son
               apparence révèle les dispositions affectives du sujet tant sur ses
               amours en elles- mêmes, que sur sa stabilité sentimentale.
-              <hr style={{ border: "solid", color: "#b79e56" }}></hr>
-              <span style={{ color: "rgb(143,0,255)", fontSize: 20 }}>
+            </p>
+            <hr className="formation-chiro-para2-separation"></hr>
+            <p className="formation-chiro-para2">
+              <span className="formation-chiro-para2-mot4">
                 Ligne de DESTIN :
               </span>
-              <br />
               <br />
               Indiquer les succès et les échecs dans les domaines professionnel
               et personnel du sujet au sein de la société.Egalement connue comme
@@ -812,24 +788,21 @@ const Formation = () => {
               d'une durée de vie plus longue que la normale.
             </p>
           </div>
-          <div style={{ marginRight: 20 }}>
+          <div>
             <img
+              className="formation-chiro-imag2-3-4"
               src="/img/formation/chiro-img-2.jpg"
               alt="."
-              width={500}
-              height={560}
             />
             <img
+              className="formation-chiro-imag2-3-4"
               src="/img/formation/chiro-img-3.jpg"
               alt="."
-              width={500}
-              height={600}
             />
             <img
+              className="formation-chiro-imag2-3-4"
               src="/img/formation/chiro-img-4.jpg"
               alt="."
-              width={500}
-              height={600}
             />
           </div>
         </div>

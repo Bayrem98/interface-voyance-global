@@ -14,10 +14,6 @@ video::-webkit-media-controls {
     background-color: rgba(147, 147, 203, 0.866);
   }
 
-  .formation {
-    background-image: url("/public/img/formation/background-formation.jpg");
-  }
-
   .home {
     margin-top: 100px;
   }
@@ -252,7 +248,172 @@ video::-webkit-media-controls {
     color: #c61017;
   }
 
-  
+  .formation {
+    background-image: url("/public/img/formation/background-formation.jpg");
+    padding-bottom: 50px;
+  }
 
+  .section-formation-title {
+    font-style: oblique;
+    text-align: center;
+    padding-top: 30px;
+    color: rgba(147, 147, 203, 0.866);
+  }
 
-  
+  .section-formation-cards1-2 {
+    width: 500px;
+    height: 900px;
+  }
+
+  .section-formation-cards3-4 {
+    width: 500px;
+    height: 850px;
+  }
+
+  .section-formation-cards5-6 {
+    width: 500px;
+    height: 990px;
+  }
+
+  .formation-cards-li {
+    color: #b79e56;
+  }
+
+  .formation-cards-span {
+     color: black;
+  }
+
+  .formation-cards-imag {
+    height: 150px;
+    width: 400px;
+    border-radius: 20px;
+  }
+
+  .section-formation-ref-nais {
+    margin-bottom: 50px;
+  }
+
+  .formation-ref-nais-title {
+    font-style: oblique;
+    text-align: center;
+    color: rgba(147, 147, 203, 0.866);
+    padding-top: 30px;
+  }
+
+  .formation-ref-nais-imag1 {
+    width: 500px;
+    border-radius: 30px;
+    margin-left: 30px;
+  }
+
+  .formation-ref-nais-para1 {
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+  }
+
+  .formation-ref-nais-para1-mot1 {
+    color: rgba(147, 147, 203, 0.866);
+    font-size: 22px;
+  }
+
+  .formation-ref-nais-para2 {
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+  .formation-ref-nais-para2-ul {
+    color: #b79e56;
+  }
+
+  .formation-ref-nais-para2-span {
+    color: black;
+  }
+
+  .formation-ref-nais-imag2 {
+    width: 450px;
+  }
+
+  .section-formation-chiro {
+    margin-bottom: 50px;
+  }
+
+  .section-formation-chiro-title1 {
+    color: rgba(147, 147, 203, 0.866);
+    font-style: oblique;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .formation-chiro-imag1 {
+    width: 500px;
+    height: 700px;
+    border-radius: 30px;
+    margin-left: 20px;
+  }
+
+  .formation-chiro-para1{
+    text-align: justify;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .formation-chiro-para1-mot1 {
+    color: rgba(147, 147, 203, 0.866);
+    font-size: 22px;
+  }
+
+  .formation-chiro-para1-ul {
+    color: #b79e56;
+  }
+
+  .formation-chiro-para1-span {
+    color: black;
+  }
+
+  .formation-chiro-title2 {
+    color: rgba(147, 147, 203, 0.866);
+    font-style: oblique;
+    text-align: center;
+  }
+
+  .formation-chiro-para2{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .formation-chiro-para2-mot1{
+    color: blue;
+    font-size: 20px;
+  }
+
+  .formation-chiro-para2-mot2{
+    color: green;
+    font-size: 20px;
+  }
+
+  .formation-chiro-para2-mot3{
+    color: red;
+    font-size: 20px;
+  }
+
+  .formation-chiro-para2-mot4{
+    color: rgb(143,0,255);
+    font-size: 20px;
+  }
+
+  .formation-chiro-para2-separation {
+    border: solid;
+    color: #b79e56;
+  }
+
+  .formation-chiro-imag2-3-4 {
+    width: 500px;
+    height: 570px;
+    margin-right: 20px;
+  }
+
