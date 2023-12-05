@@ -439,6 +439,22 @@ video::-webkit-media-controls {
     margin-right: 10px;
   }
 
+  .home-blogs-cards-imag {
+    height: 300px;
+    width: 100%;
+  }
+
+  .home-blogs-cards-title {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .home-blogs-cards-text {
+    position: absolute;
+    bottom: 10px;
+  }
+
   @media screen and (max-width: 430px) {
     .home {
       margin-top: 20px;
@@ -829,25 +845,18 @@ video::-webkit-media-controls {
   width: 105px;
   margin-right: 1px;
 }
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.home-blogs-cards-imag {
+  height: 160px;
+  width: 100%;
+}
+.home-blogs-cards-title {
+  color: black;
+  text-align: center;
+  font-size: 12px;
+}
+.home-blogs-cards-text {
+  position: absolute;
+  bottom: 10px;
+  font-size: 10px;
+}
 }
