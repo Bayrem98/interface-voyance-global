@@ -5,36 +5,28 @@ import { Card, CardImg, CardImgOverlay, CardText, CardTitle } from "reactstrap";
 const NumerologieBlogs = () => {
   return (
     <>
-      <div
-        className="numerologie-blogs"
-        style={{
-          marginLeft: 50,
-          marginRight: 50,
-          marginTop: 20,
-          marginBottom: 330,
-        }}
-      >
-        <div className="">
+      <div className="numeroviewblogs">
+        <div>
           <Nav fill variant="tabs" defaultActiveKey="/numerologieblogs">
-            <Nav.Item>
+            <Nav.Item className="home-blogs-nav1">
               <Nav.Link style={{ color: "black" }} href="/homeblogs">
                 Home-Blogs
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            <Nav.Item className="home-blogs-nav1">
               <Nav.Link style={{ color: "black" }} href="/astrologieblogs">
                 Astrologie-Blogs
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            <Nav.Item className="home-blogs-nav1">
               <Nav.Link
-                style={{ color: "rgba(147, 147, 203, 0.866)", fontSize: 20 }}
+                style={{ color: "rgba(147, 147, 203, 0.866)" }}
                 href="/numerologieblogs"
               >
                 Numérologie-Blogs
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            <Nav.Item className="home-blogs-nav1">
               <Nav.Link style={{ color: "black" }} href="/tarologieblogs">
                 Tarologie-Blogs
               </Nav.Link>

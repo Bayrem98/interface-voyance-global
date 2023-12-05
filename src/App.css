@@ -482,6 +482,13 @@ video::-webkit-media-controls {
     bottom: 10px;
   }
 
+  .numeroviewblogs {
+    margin-top: 20px;
+    margin-bottom: 330px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
 /*Responsive for max-widht 430px */
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
@@ -898,7 +905,6 @@ video::-webkit-media-controls {
 .astro-blogs-cards {
   width: 100px;
   margin-right: 5px;
- 
 }
 .astro-blogs-cards-imag {
   height: 150px;
