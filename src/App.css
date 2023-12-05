@@ -811,7 +811,24 @@ video::-webkit-media-controls {
   height: 520px;
   margin-right: 2px;
 }
-
+.home-blogs{
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+.home-blogs-nav1 {
+  font-size: 12px;
+}
+.homeviewblogs {
+  margin-top: 20px;
+  margin-left: -3px;
+  margin-right: 2px;
+}
+.home-blogs-cards {
+  width: 105px;
+  margin-right: 1px;
+}
 
 
   
