@@ -532,6 +532,127 @@ video::-webkit-media-controls {
   margin-bottom: 30px;
   font-size: 11px;
 }
+.act-section1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.act-title {
+  color: rgba(147, 147, 203, 0.866);
+  font-style: oblique;
+  text-align: center;
+  font-size: 15px;
+}
+.act-imag1 {
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+  margin-left: 2px;
+  margin-top: 40px;
+}
+.act-para {
+  text-align: justify;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 10px;
+}
+.act-section {
+  margin-bottom: 20px;
+}
+.act-imag2 {
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+  margin-right: 2px;
+  margin-top: 40px;
+}
+.act-imag3 {
+  width: 220px;
+  height: 250px;
+  border-radius: 10px;
+  margin-left: 2px;
+  margin-top: 65px;
+}
+.act-imag4 {
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+  margin-right: 2px;
+  margin-top: 70px;
+}
+.act-imag5 {
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+  margin-left: 2px;
+  margin-top: 60px;
+}
+.ast-chi-title {
+  text-align: center;
+  color: #b79e56;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.section-ast-chi1 {
+  margin-top: 20px;
+}
+.section-ast-chi2 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.ast-chi-para1 {
+  margin-left: 2px;
+  margin-right: 5px;
+}
+.ast-chi-para1-title {
+  text-align: center;
+  font-style: oblique;
+  color: #b79e56;
+  font-size: 20px;
+}
+.ast-chi-para1-1 {
+  text-align: justify;
+  font-size: 10px;
+}
+.ast-chi-signe {
+  color: #c61017;
+  font-size: 12px;
+}
+.ast-chi-imag1 {
+  width: 200px;
+  height: 350px;
+  border-radius: 10px;
+  margin-right: 1px;
+  margin-top: 60px;
+}
+.ast-chi-card {
+  width: 25rem;
+  margin-top: 10px;
+}
+.ast-chi-cardbody {
+  background-color: #c61017;
+  text-align: justify;
+  font-size: 11px;
+  border-radius: 4px;
+}
+.para-card {
+  color: #b79e56;
+}
+.section-ast-chi3 {
+  margin-bottom: 30px;
+}
+.card-signe {
+  width: 142px;
+  font-size: 10px;
+  height: 500px;
+}
+.card-li {
+  color: #b79e56;
+}
+.card-li-mot {
+  font-size: 12px;
+  color: #c61017;
+}
+
 
   
 
