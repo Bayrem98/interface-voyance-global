@@ -16,55 +16,46 @@ const AstrologieBlogs = () => {
       >
         <div className="">
           <Nav fill variant="tabs" defaultActiveKey="/astrologieblogs">
-            <Nav.Item>
+            <Nav.Item className="home-blogs-nav1">
               <Nav.Link style={{ color: "black" }} href="/homeblogs">
                 Home-Blogs
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            <Nav.Item className="home-blogs-nav1">
               <Nav.Link
-                style={{ color: "rgba(147, 147, 203, 0.866)", fontSize: 20 }}
+                style={{ color: "rgba(147, 147, 203, 0.866)" }}
                 href="/astrologieblogs"
               >
                 Astrologie-Blogs
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            <Nav.Item className="home-blogs-nav1">
               <Nav.Link style={{ color: "black" }} href="/numerologieblogs">
                 Numérologie-Blogs
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            <Nav.Item className="home-blogs-nav1">
               <Nav.Link style={{ color: "black" }} href="/tarologieblogs">
                 Tarologie-Blogs
               </Nav.Link>
             </Nav.Item>
           </Nav>
         </div>
-        <div
-          className="d-flex justify-content-center"
-          style={{ marginTop: 130, marginLeft: 20, marginRight: 20 }}
-        >
+        <div className="astroviewblogs d-flex justify-content-center">
           <Link to={"/viewblog1"}>
-            <Card inverse style={{ width: 200, marginRight: 30 }}>
+            <Card className="astro-blogs-cards" inverse>
               <CardImg
+                className="astro-blogs-cards-imag"
                 alt="blog1"
                 src="/img/blogs/blog1.jpg"
-                style={{
-                  height: 200,
-                }}
-                width="100%"
               />
               <CardImgOverlay>
-                <CardTitle
-                  style={{ color: "black", textAlign: "center", fontSize: 30 }}
-                >
+                <CardTitle className="astro-blogs-cards-title">
                   Blog-1
                 </CardTitle>
                 <CardText
+                  className="astro-blogs-cards-text"
                   style={{
-                    position: "absolute",
-                    bottom: 10,
                     color: "lightgrey",
                   }}
                 >
@@ -74,25 +65,19 @@ const AstrologieBlogs = () => {
             </Card>
           </Link>
           <Link to={"/viewblog2"}>
-            <Card inverse style={{ width: 200, marginRight: 30 }}>
+            <Card className="astro-blogs-cards" inverse>
               <CardImg
+                className="astro-blogs-cards-imag"
                 alt="blog2"
                 src="/img/blogs/blog2.jpg"
-                style={{
-                  height: 200,
-                }}
-                width="100%"
               />
               <CardImgOverlay>
-                <CardTitle
-                  style={{ color: "white", textAlign: "center", fontSize: 30 }}
-                >
+                <CardTitle className="astro-blogs-cards-title">
                   Blog-2
                 </CardTitle>
                 <CardText
+                  className="astro-blogs-cards-text"
                   style={{
-                    position: "absolute",
-                    bottom: 10,
                     color: "lightgrey",
                   }}
                 >
@@ -102,25 +87,19 @@ const AstrologieBlogs = () => {
             </Card>
           </Link>
           <Link to={"/viewblog3"}>
-            <Card inverse style={{ width: 200, marginRight: 30 }}>
+            <Card className="astro-blogs-cards" inverse>
               <CardImg
+                className="astro-blogs-cards-imag"
                 alt="blog3"
                 src="/img/blogs/blog3.jpg"
-                style={{
-                  height: 200,
-                }}
-                width="100%"
               />
               <CardImgOverlay>
-                <CardTitle
-                  style={{ color: "white", textAlign: "center", fontSize: 30 }}
-                >
+                <CardTitle className="astro-blogs-cards-title">
                   Blog-3
                 </CardTitle>
                 <CardText
+                  className="astro-blogs-cards-text"
                   style={{
-                    position: "absolute",
-                    bottom: 10,
                     color: "lightgrey",
                   }}
                 >
@@ -130,25 +109,19 @@ const AstrologieBlogs = () => {
             </Card>
           </Link>
           <Link to={"/viewblog4"}>
-            <Card inverse style={{ width: 200 }}>
+            <Card className="astro-blogs-cards" inverse>
               <CardImg
+                className="astro-blogs-cards-imag"
                 alt="blog4"
                 src="/img/blogs/blog4.jpg"
-                style={{
-                  height: 200,
-                }}
-                width="100%"
               />
               <CardImgOverlay>
-                <CardTitle
-                  style={{ color: "black", textAlign: "center", fontSize: 30 }}
-                >
+                <CardTitle className="astro-blogs-cards-title">
                   Blog-4
                 </CardTitle>
                 <CardText
+                  className="astro-blogs-cards-text"
                   style={{
-                    position: "absolute",
-                    bottom: 10,
                     color: "lightgrey",
                   }}
                 >

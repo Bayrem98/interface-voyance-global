@@ -454,6 +454,37 @@ video::-webkit-media-controls {
     position: absolute;
     bottom: 10px;
   }
+  
+  .astroviewblogs {
+    margin-top: 130px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .astro-blogs-cards {
+    width: 200px;
+    margin-right: 30px;
+  }
+
+  .astro-blogs-cards-imag {
+    height: 200px;
+    width: 100%;
+  }
+
+  .astro-blogs-cards-title {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .astro-blogs-cards-text {
+    position: absolute;
+    bottom: 10px;
+  }
+
+/*Responsive for max-widht 430px */
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 
   @media screen and (max-width: 430px) {
     .home {
@@ -855,6 +886,30 @@ video::-webkit-media-controls {
   font-size: 12px;
 }
 .home-blogs-cards-text {
+  position: absolute;
+  bottom: 10px;
+  font-size: 10px;
+}
+.astroviewblogs {
+  margin-top: 50px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.astro-blogs-cards {
+  width: 100px;
+  margin-right: 5px;
+ 
+}
+.astro-blogs-cards-imag {
+  height: 150px;
+  width: 100%;
+}
+.astro-blogs-cards-title {
+  color: black;
+  text-align: center;
+  font-size: 12px;
+}
+.astro-blogs-cards-text {
   position: absolute;
   bottom: 10px;
   font-size: 10px;
