@@ -438,3 +438,118 @@ video::-webkit-media-controls {
     width: 280px;
     margin-right: 10px;
   }
+
+  @media screen and (max-width: 430px) {
+    .home {
+      margin-top: 20px;
+    }
+    .home-para {
+      text-align: justify;
+      padding-right: 8px;
+      width: 200px;
+      font-size: 9px;
+      margin-top: 20px;
+    }
+    .home-imag1 {
+      width: 210px;
+      border-radius: 10px;
+      margin-top: 40px;
+      height: 290px;
+    }
+    .section-slider {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .slider {
+      width: 100%;
+      height: 200px;
+    }
+    .lune-active {
+      width: 100%;
+    }
+    .lune-active-para { 
+      text-align: justify;
+      font-size: 11px;
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+    .lune-active-para1 {
+      font-size: 18px;
+   }
+   .section4 {
+    margin-top: 10px;
+  }
+  .carte-lune {
+    margin-bottom: 20px;
+  }
+  .nouvelle-lune-img {
+    width: 200px;
+    border-radius: 30px;
+    margin-left: 10px;
+  }
+  .plein-lune-img {
+    width: 200px;
+    border-radius: 30px;
+ }
+ .calend-plein {
+  height: 550px;
+  width: 220px;
+}
+.calend-plein-para {
+  margin-top: 107px;
+}
+.plein-para {
+  text-align: justify;
+  margin-right: 10px;
+  font-size: 11px;
+}
+.plein-para1 {
+  font-size: 12px;
+  font-style: oblique;
+  color: rgba(147, 147, 203, 0.866);
+}
+.plein-para2 {
+  font-size: 12px;
+  font-style: oblique;
+  color: rgba(147, 147, 203, 0.866);
+}
+.nouvelle-para {
+  text-align: justify;
+  margin-left: 10px;
+  font-size: 11px;
+}
+.nouvelle-para1 {
+  font-size: 12px;
+  font-style: oblique;
+  color: rgba(147, 147, 203, 0.866);
+}
+.calend-nouvelle {
+  height: 650px;
+  width: 220px;
+}
+.link-scroll {
+  margin-left: 20px;
+  margin-bottom: 30px;
+  font-size: 11px;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
