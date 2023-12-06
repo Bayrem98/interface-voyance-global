@@ -2,16 +2,28 @@
     background-color: rgba(147, 147, 203, 0.866);
 }
 
+.navbartitle {
+  color: white;
+  font-style: oblique;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.navbaritem {
+  font-style: oblique;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: rgba(147, 147, 203, 0.866);
+}
+
 video::-webkit-media-controls {
     display: none;
   }
   
   video::-webkit-media-controls-play-button {
     display: block;
-  }
-
-  .footer {
-    background-color: rgba(147, 147, 203, 0.866);
   }
 
   .home {

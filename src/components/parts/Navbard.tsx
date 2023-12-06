@@ -17,13 +17,11 @@ function Navbard(props: any) {
   return (
     <div>
       <Navbar className="navbar" color="faded" light>
-        <NavbarBrand
-          href="/"
-          className="me-auto"
-          style={{ color: "white", fontStyle: "oblique", fontSize: 27 }}
-        >
-          <img src="/img/home/logo-title.png" alt="." />
-          Voyance Global
+        <NavbarBrand href="/" className="me-auto">
+          <div className="d-flex justify-content">
+            <img src="/img/home/logo-title.png" alt="." />
+            <p className="navbartitle">Voyance Global</p>
+          </div>
         </NavbarBrand>
         <NavbarToggler
           onClick={toggleNavbar}
@@ -32,33 +30,24 @@ function Navbard(props: any) {
         />
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
-            <NavItem>
-              <NavLink
-                style={{ color: "white", fontStyle: "oblique", fontSize: 20 }}
-                href="/actualite"
-              >
+            <NavItem className="navbaritem">
+              <NavLink style={{ color: "white" }} href="/actualite">
                 Actualite
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink
-                style={{ color: "white", fontStyle: "oblique", fontSize: 20 }}
-                href="/formation"
-              >
+            <NavItem className="navbaritem">
+              <NavLink style={{ color: "white" }} href="/formation">
                 Formation
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink
-                style={{ color: "white", fontStyle: "oblique", fontSize: 20 }}
-                href="/homeblogs"
-              >
+            <NavItem className="navbaritem">
+              <NavLink style={{ color: "white" }} href="/homeblogs">
                 Blogs
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className="navbaritem">
               <NavLink
-                style={{ color: "white", fontStyle: "oblique", fontSize: 20 }}
+                style={{ color: "white" }}
                 href="http://tunis0.telemaque.fr/mediawiki/index.php?title=Sp%C3%A9cial:Connexion&returnto=Accueil"
               >
                 WikiCosmo
