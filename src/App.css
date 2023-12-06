@@ -556,45 +556,45 @@ video::-webkit-media-controls {
     bottom: 10px;
   }
 
-  .blog1-icon-retour {
+  .blog-icon-retour {
     color: rgba(147, 147, 203, 0.866);
     cursor: pointer;
     margin-top: 10px;
     margin-left: 10px;
   }
 
-  .blog1-card {
+  .blog-card {
     margin-top: 20px;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 20px;
   }
 
-  .blog1-title {
+  .blog-title {
     text-align: center;
     color: rgba(147, 147, 203, 0.866);
     font-size: 30px;
   }
 
-  .blog1-title2-3 {
+  .blog-title2-3 {
     color: rgba(147, 147, 203, 0.866);
     font-size: 20px;
   }
 
-  .blog1-para {
+  .blog-para {
     text-align: justify;
     font-size: 15px;
   }
 
-  .blog1-ul {
+  .blog-ul {
    text-align: justify;
   }
 
-  .blog1-li {
+  .blog-li {
     color: rgba(147, 147, 203, 0.866);
   }
 
-  .blog1-span {
+  .blog-span {
     color: black;
     font-size: 15px;
   }
