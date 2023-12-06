@@ -5,7 +5,7 @@ import { Card, CardImg, CardImgOverlay, CardText, CardTitle } from "reactstrap";
 const NumerologieBlogs = () => {
   return (
     <>
-      <div className="numeroviewblogs">
+      <div className="numero-blogs">
         <div>
           <Nav fill variant="tabs" defaultActiveKey="/numerologieblogs">
             <Nav.Item className="home-blogs-nav1">
@@ -33,30 +33,21 @@ const NumerologieBlogs = () => {
             </Nav.Item>
           </Nav>
         </div>
-        <div
-          className="d-flex justify-content-center"
-          style={{ marginTop: 130, marginLeft: 20, marginRight: 20 }}
-        >
+        <div className="numeroviewblogs d-flex justify-content-center">
           <Link to={"/viewblog5"}>
-            <Card inverse style={{ width: 200, marginRight: 10 }}>
+            <Card className="numero-blogs-cards" inverse>
               <CardImg
+                className="numero-blogs-cards-imag"
                 alt="blog5"
                 src="/img/blogs/blog5.jpg"
-                style={{
-                  height: 200,
-                }}
-                width="100%"
               />
               <CardImgOverlay>
-                <CardTitle
-                  style={{ color: "white", textAlign: "center", fontSize: 30 }}
-                >
+                <CardTitle className="numero-blogs-cards-title">
                   Blog-5
                 </CardTitle>
                 <CardText
+                  className="numero-blogs-cards-text"
                   style={{
-                    position: "absolute",
-                    bottom: 10,
                     color: "lightgrey",
                   }}
                 >
@@ -66,25 +57,19 @@ const NumerologieBlogs = () => {
             </Card>
           </Link>
           <Link to={"/viewblog6"}>
-            <Card inverse style={{ width: 200, marginRight: 10 }}>
+            <Card className="numero-blogs-cards" inverse>
               <CardImg
+                className="numero-blogs-cards-imag"
                 alt="blog6"
                 src="/img/blogs/blog6.jpg"
-                style={{
-                  height: 200,
-                }}
-                width="100%"
               />
               <CardImgOverlay>
-                <CardTitle
-                  style={{ color: "black", textAlign: "center", fontSize: 30 }}
-                >
+                <CardTitle className="numero-blogs-cards-title">
                   Blog-6
                 </CardTitle>
                 <CardText
+                  className="numero-blogs-cards-text"
                   style={{
-                    position: "absolute",
-                    bottom: 10,
                     color: "lightgrey",
                   }}
                 >
@@ -94,25 +79,19 @@ const NumerologieBlogs = () => {
             </Card>
           </Link>
           <Link to={"/viewblog7"}>
-            <Card inverse style={{ width: 200, marginRight: 10 }}>
+            <Card className="numero-blogs-cards" inverse>
               <CardImg
+                className="numero-blogs-cards-imag"
                 alt="blog7"
                 src="/img/blogs/blog7.jpg"
-                style={{
-                  height: 200,
-                }}
-                width="100%"
               />
               <CardImgOverlay>
-                <CardTitle
-                  style={{ color: "black", textAlign: "center", fontSize: 30 }}
-                >
+                <CardTitle className="numero-blogs-cards-title">
                   Blog-7
                 </CardTitle>
                 <CardText
+                  className="numero-blogs-cards-text"
                   style={{
-                    position: "absolute",
-                    bottom: 10,
                     color: "lightgrey",
                   }}
                 >

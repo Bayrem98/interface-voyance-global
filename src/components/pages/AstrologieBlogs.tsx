@@ -5,15 +5,7 @@ import { Card, CardImg, CardImgOverlay, CardText, CardTitle } from "reactstrap";
 const AstrologieBlogs = () => {
   return (
     <>
-      <div
-        className="astrologie-blogs"
-        style={{
-          marginLeft: 50,
-          marginRight: 50,
-          marginTop: 20,
-          marginBottom: 330,
-        }}
-      >
+      <div className="astro-blogs">
         <div className="">
           <Nav fill variant="tabs" defaultActiveKey="/astrologieblogs">
             <Nav.Item className="home-blogs-nav1">
