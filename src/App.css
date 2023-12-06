@@ -18,6 +18,13 @@
   background-color: rgba(147, 147, 203, 0.866);
 }
 
+.footer-text {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-style: oblique;
+}
+
 video::-webkit-media-controls {
     display: none;
   }
