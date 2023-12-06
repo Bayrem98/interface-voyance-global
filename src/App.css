@@ -1020,5 +1020,32 @@ video::-webkit-media-controls {
   bottom: 10px;
   font-size: 10px;
 }
-
+.taro-blogs {
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.taroviewblogs {
+  margin-top: 50px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.taro-blogs-cards {
+  width: 130px;
+  margin-right: 5px;
+}
+.taro-blogs-cards-imag {
+  width: 100%;
+  height: 180px;
+}
+.taro-blogs-cards-title {
+  color: black;
+  text-align: center;
+  font-size: 12px;
+}
+.taro-blogs-cards-text {
+  position: absolute;
+  bottom: 10px;
+  font-size: 10px;
+}
 }
