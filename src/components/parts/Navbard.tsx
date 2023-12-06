@@ -19,7 +19,11 @@ function Navbard(props: any) {
       <Navbar className="navbar" color="faded" light>
         <NavbarBrand href="/" className="me-auto">
           <div className="d-flex justify-content">
-            <img src="/img/home/logo-title.png" alt="." />
+            <img
+              className="icon-brand"
+              src="/img/home/logo-title.png"
+              alt="."
+            />
             <p className="navbartitle">Voyance Global</p>
           </div>
         </NavbarBrand>

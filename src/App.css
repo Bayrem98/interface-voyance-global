@@ -628,6 +628,32 @@ video::-webkit-media-controls {
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 
   @media screen and (max-width: 430px) {
+    .navbar {
+      background-color: rgba(147, 147, 203, 0.866);
+    }
+    .icon-brand {
+      width: 45px;
+      height: 45px;
+    }
+    .navbartitle {
+      color: white;
+      font-style: oblique;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    .navbaritem {
+      font-style: oblique;
+      font-size: 14px;
+    }
+    .footer {
+      background-color: rgba(147, 147, 203, 0.866);
+    }
+    .footer-text {
+      color: white;
+      font-size: 11px;
+      font-style: oblique;
+      font-weight: bold;
+    }
     .home {
       margin-top: 20px;
     }
