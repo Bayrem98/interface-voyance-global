@@ -992,4 +992,33 @@ video::-webkit-media-controls {
   bottom: 10px;
   font-size: 10px;
 }
+.numero-blogs {
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.numeroviewblogs {
+  margin-top: 50px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.numero-blogs-cards {
+  width: 130px;
+  margin-right: 5px;
+}
+.numero-blogs-cards-imag {
+  width: 100%;
+  height: 180px;
+}
+.numero-blogs-cards-title {
+  color: black;
+  text-align: center;
+  font-size: 12px;
+}
+.numero-blogs-cards-text {
+  position: absolute;
+  bottom: 10px;
+  font-size: 10px;
+}
+
 }
