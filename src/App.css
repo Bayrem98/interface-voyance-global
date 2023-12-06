@@ -556,6 +556,49 @@ video::-webkit-media-controls {
     bottom: 10px;
   }
 
+  .blog1-icon-retour {
+    color: rgba(147, 147, 203, 0.866);
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .blog1-card {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+  }
+
+  .blog1-title {
+    text-align: center;
+    color: rgba(147, 147, 203, 0.866);
+    font-size: 30px;
+  }
+
+  .blog1-title2-3 {
+    color: rgba(147, 147, 203, 0.866);
+    font-size: 20px;
+  }
+
+  .blog1-para {
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .blog1-ul {
+   text-align: justify;
+  }
+
+  .blog1-li {
+    color: rgba(147, 147, 203, 0.866);
+  }
+
+  .blog1-span {
+    color: black;
+    font-size: 15px;
+  }
+
 /*Responsive for max-widht 430px */
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
