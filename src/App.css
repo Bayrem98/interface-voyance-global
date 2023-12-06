@@ -599,6 +599,11 @@ video::-webkit-media-controls {
     font-size: 15px;
   }
 
+  .blog-remarque {
+    color: #c61017;
+    font-size: 20px;
+  }
+
 /*Responsive for max-widht 430px */
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
