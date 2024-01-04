@@ -180,7 +180,7 @@ const Actualite = () => {
           </div>
         </div>
       </section>
-      <h1 className="ast-chi-title">Astrologie Chinoise 2023</h1>
+      <h1 className="ast-chi-title">Astrologie Chinoise 2024</h1>
       <section className="section-ast-chi1">
         <Carousel controls={false} indicators={false}>
           <Carousel.Item interval={3000}>

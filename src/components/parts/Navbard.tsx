@@ -52,9 +52,9 @@ function Navbard(props: any) {
             <NavItem className="navbaritem">
               <NavLink
                 style={{ color: "white" }}
-                href="http://tunis0.telemaque.fr/mediawiki/index.php?title=Sp%C3%A9cial:Connexion&returnto=Accueil"
+                href="/videopage"
               >
-                WikiCosmo
+                Vidéos
               </NavLink>
             </NavItem>
           </Nav>

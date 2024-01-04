@@ -21,6 +21,8 @@ import Viewblog7 from "./components/blogs/ViewBlog7";
 import ViewBlog8 from "./components/blogs/ViewBlog8";
 import ViewBlog9 from "./components/blogs/ViewBlog9";
 import ViewBlog10 from "./components/blogs/ViewBlog10";
+import VideosPage from "./components/pages/VideosPage";
+import "video-react/dist/video-react.css";
 
 function App() {
   // const handleContextMenu = (event: React.MouseEvent) => {
@@ -49,6 +51,7 @@ function App() {
             <Route path="/viewblog8" element={<ViewBlog8 />} />
             <Route path="/viewblog9" element={<ViewBlog9 />} />
             <Route path="/viewblog10" element={<ViewBlog10 />} />
+            <Route path="/videopage" element={<VideosPage />} />
           </Routes>
         </div>
         <Footer />
