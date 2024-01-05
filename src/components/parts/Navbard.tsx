@@ -57,6 +57,14 @@ function Navbard(props: any) {
                 Vidéos
               </NavLink>
             </NavItem>
+            <NavItem className="navbaritem">
+              <NavLink
+                style={{ color: "white" }}
+                href="/addvideo"
+              >
+                Ajouter
+              </NavLink>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>

@@ -7,22 +7,24 @@ import Footer from "./components/parts/Footer";
 import { Route, Routes } from "react-router-dom";
 import Actualite from "./components/pages/Actualite";
 import Formation from "./components/pages/Formation";
-import ViewBlog1 from "./components/blogs/ViewBlog1";
-import ViewBlog2 from "./components/blogs/ViewBlog2";
-import ViewBlog3 from "./components/blogs/ViewBlog3";
+import ViewBlog1 from "./components/pages/blogs/ViewBlog1";
+import ViewBlog2 from "./components/pages/blogs/ViewBlog2";
+import ViewBlog3 from "./components/pages/blogs/ViewBlog3";
 import HomeBlogs from "./components/pages/HomeBlogs";
 import AstrologieBlogs from "./components/pages/AstrologieBlogs";
-import Viewblog4 from "./components/blogs/ViewBlog4";
+import Viewblog4 from "./components/pages/blogs/ViewBlog4";
 import NumerologieBlogs from "./components/pages/NumerologieBlogs";
-import Viewblog5 from "./components/blogs/ViewBlog5";
-import Viewblog6 from "./components/blogs/ViewBlog6";
+import Viewblog5 from "./components/pages/blogs/ViewBlog5";
+import Viewblog6 from "./components/pages/blogs/ViewBlog6";
 import TarologieBlogs from "./components/pages/TarologieBlogs";
-import Viewblog7 from "./components/blogs/ViewBlog7";
-import ViewBlog8 from "./components/blogs/ViewBlog8";
-import ViewBlog9 from "./components/blogs/ViewBlog9";
-import ViewBlog10 from "./components/blogs/ViewBlog10";
+import Viewblog7 from "./components/pages/blogs/ViewBlog7";
+import ViewBlog8 from "./components/pages/blogs/ViewBlog8";
+import ViewBlog9 from "./components/pages/blogs/ViewBlog9";
+import ViewBlog10 from "./components/pages/blogs/ViewBlog10";
 import VideosPage from "./components/pages/VideosPage";
 import "video-react/dist/video-react.css";
+import UploadVideos from "./components/pages/UploadVideos";
+import BlogVideoTable from "./components/pages/videos/BlogVideoTable";
 
 function App() {
   // const handleContextMenu = (event: React.MouseEvent) => {
@@ -52,6 +54,7 @@ function App() {
             <Route path="/viewblog9" element={<ViewBlog9 />} />
             <Route path="/viewblog10" element={<ViewBlog10 />} />
             <Route path="/videopage" element={<VideosPage />} />
+            <Route path="/addvideo" element={<BlogVideoTable />} />
           </Routes>
         </div>
         <Footer />
