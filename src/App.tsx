@@ -23,7 +23,6 @@ import ViewBlog9 from "./components/pages/blogs/ViewBlog9";
 import ViewBlog10 from "./components/pages/blogs/ViewBlog10";
 import VideosPage from "./components/pages/VideosPage";
 import "video-react/dist/video-react.css";
-import UploadVideos from "./components/pages/UploadVideos";
 import BlogVideoTable from "./components/pages/videos/BlogVideoTable";
 
 function App() {

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { addblog } from "../../../actions/Blogs/action";
 import {
+  Button,
   Form,
   FormGroup,
   Input,
@@ -21,19 +22,22 @@ const BlogVideoAdd = (props: BlogAddPropsType) => {
 
   const [coverPath, setCoverPath] = useState<any>();
   const [videoPath, setVideoPath] = useState<any>();
+  const [posterPath, setPosterPath] = useState<any>();
 
   const changeCoverHandler = (event: any) => {
     const selectedCover = event.target.files[0];
     const formData = new FormData();
     formData.append("file", selectedCover);
-    fetch(`${process.env.REACT_APP_API_URL}/cover`, {
+    fetch(`${process.env.REACT_APP_API_URL}/upload/cover`, {
       method: "POST",
       body: formData,
     })
       .then((response) => response.json())
       .then((result) => {
         console.log("Success:", result);
-        setCoverPath(`${result.filename}`);
+        setCoverPath(
+          `${process.env.REACT_APP_API_URL}/upload/cover/${result.filename}`
+        );
       })
       .catch((error) => {
         console.error("Error:", error);
@@ -45,14 +49,16 @@ const BlogVideoAdd = (props: BlogAddPropsType) => {
     const selectedVideo = event.target.files[0];
     const formData = new FormData();
     formData.append("file", selectedVideo);
-    fetch(`${process.env.REACT_APP_API_URL}/video`, {
+    fetch(`${process.env.REACT_APP_API_URL}/upload/video`, {
       method: "POST",
       body: formData,
     })
       .then((response) => response.json())
       .then((result) => {
         console.log("Success:", result);
-        setVideoPath(`${result.filename}`);
+        setVideoPath(
+          `${process.env.REACT_APP_API_URL}/upload/video/${result.filename}`
+        );
       })
       .catch((error) => {
         console.error("Error:", error);
@@ -60,10 +66,32 @@ const BlogVideoAdd = (props: BlogAddPropsType) => {
       });
   };
 
+  const changePosterHandler = (event: any) => {
+    const selectedPoster = event.target.files[0];
+    const formData = new FormData();
+    formData.append("file", selectedPoster);
+    fetch(`${process.env.REACT_APP_API_URL}/upload/poster`, {
+      method: "POST",
+      body: formData,
+    })
+      .then((response) => response.json())
+      .then((result) => {
+        console.log("Success:", result);
+        setPosterPath(
+          `${process.env.REACT_APP_API_URL}/upload/poster/${result.filename}`
+        );
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+        setPosterPath(undefined);
+      });
+  };
+
   const submit = () => {
     const newBlog = {
       coverPath,
       videoPath,
+      posterPath,
     };
     console.log(newBlog);
 
@@ -77,13 +105,17 @@ const BlogVideoAdd = (props: BlogAddPropsType) => {
   const reset = () => {
     setCoverPath("");
     setVideoPath("");
+    setPosterPath("");
   };
 
   return (
     <>
-      <button className="addbookbutton" onClick={() => setIsOpened(true)}>
-        <FontAwesomeIcon className="plus" icon={faAdd} color="black" />
-      </button>
+      <Button
+        onClick={() => setIsOpened(true)}
+        style={{ backgroundColor: "rgba(147, 147, 203, 0.866)", border: 0 }}
+      >
+        <FontAwesomeIcon icon={faAdd} color="white" />
+      </Button>
       <Modal
         centered
         scrollable
@@ -107,6 +139,15 @@ const BlogVideoAdd = (props: BlogAddPropsType) => {
                 name="coverPath"
                 type="file"
                 onChange={changeCoverHandler}
+              />
+            </FormGroup>
+            <FormGroup>
+              <Label for="posterPath">Poster</Label>
+              <Input
+                id="posterPath"
+                name="posterPath"
+                type="file"
+                onChange={changePosterHandler}
               />
             </FormGroup>
             <FormGroup>

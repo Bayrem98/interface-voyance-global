@@ -21,9 +21,9 @@ const BlogVideoDelete = ({ blog, refresh }: BlogDeletePropsType) => {
   };
   return (
     <>
-      <button className="btn3-delete" onClick={() => setIsOpened(true)}>
+      <Button color="danger" onClick={() => setIsOpened(true)}>
         <FontAwesomeIcon icon={faTrash} />
-      </button>
+      </Button>
       <Modal
         className="font-['Helvetica']"
         centered

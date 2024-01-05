@@ -6,6 +6,7 @@ import BlogVideoDelete from "./BlogVideoDelete";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBoxOpen } from "@fortawesome/free-solid-svg-icons";
 import { getBlogs } from "../../../actions/Blogs/action";
+import { Player } from "video-react";
 
 interface Props {}
 
@@ -27,28 +28,33 @@ const BlogVideoTable = (props: Props) => {
         }}
       >
         <div className="d-flex justify-content-between">
-          <p className="titlebookstable">Tableau des videos</p>
+          <h2>Tableau des videos</h2>
           <BlogVideoAdd refresh={() => getBlogs(null, setBlogs)} />
         </div>
-
-        <Table className="bookstable-table" bordered responsive hover>
-          <thead className="bookstable-table-thead">
+        <br />
+        <Table bordered responsive hover>
+          <thead style={{ textAlign: "center" }}>
             <tr>
               <th>Image</th>
+              <th>Poster</th>
               <th>Video</th>
+              <th>Action</th>
             </tr>
           </thead>
           <tbody>
             {Array.isArray(blogs) && blogs.length ? (
               blogs.map((blog) => (
-                <tr key={blog._id}>
+                <tr key={blog._id} style={{ textAlign: "center" }}>
                   <td>
-                    <img src={blog.coverPath} alt="." />
+                    <img src={blog.coverPath} alt="." width={50} />
                   </td>
                   <td>
-                    <audio controls controlsList="nodownload">
+                    <img src={blog.posterPath} alt="." width={200} />
+                  </td>
+                  <td>
+                    <Player>
                       <source src={blog.videoPath} />
-                    </audio>
+                    </Player>
                   </td>
                   <td>
                     <ButtonGroup>
