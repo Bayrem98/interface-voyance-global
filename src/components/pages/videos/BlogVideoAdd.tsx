@@ -28,16 +28,14 @@ const BlogVideoAdd = (props: BlogAddPropsType) => {
     const selectedCover = event.target.files[0];
     const formData = new FormData();
     formData.append("file", selectedCover);
-    fetch(`${process.env.REACT_APP_API_URL}/upload/cover`, {
+    fetch(`${process.env.REACT_APP_API_URL}/cover`, {
       method: "POST",
       body: formData,
     })
       .then((response) => response.json())
       .then((result) => {
         console.log("Success:", result);
-        setCoverPath(
-          `${process.env.REACT_APP_API_URL}/upload/cover/${result.filename}`
-        );
+        setCoverPath(`${result.filename}`);
       })
       .catch((error) => {
         console.error("Error:", error);
@@ -49,7 +47,7 @@ const BlogVideoAdd = (props: BlogAddPropsType) => {
     const selectedVideo = event.target.files[0];
     const formData = new FormData();
     formData.append("file", selectedVideo);
-    fetch(`${process.env.REACT_APP_API_URL}/upload/video`, {
+    fetch(`${process.env.REACT_APP_API_URL}/video`, {
       method: "POST",
       body: formData,
     })
@@ -57,7 +55,7 @@ const BlogVideoAdd = (props: BlogAddPropsType) => {
       .then((result) => {
         console.log("Success:", result);
         setVideoPath(
-          `${process.env.REACT_APP_API_URL}/upload/video/${result.filename}`
+          `${result.filename}`
         );
       })
       .catch((error) => {
@@ -70,7 +68,7 @@ const BlogVideoAdd = (props: BlogAddPropsType) => {
     const selectedPoster = event.target.files[0];
     const formData = new FormData();
     formData.append("file", selectedPoster);
-    fetch(`${process.env.REACT_APP_API_URL}/upload/poster`, {
+    fetch(`${process.env.REACT_APP_API_URL}/poster`, {
       method: "POST",
       body: formData,
     })
@@ -78,7 +76,7 @@ const BlogVideoAdd = (props: BlogAddPropsType) => {
       .then((result) => {
         console.log("Success:", result);
         setPosterPath(
-          `${process.env.REACT_APP_API_URL}/upload/poster/${result.filename}`
+          `${result.filename}`
         );
       })
       .catch((error) => {
