@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Blog from "../../../@types/Blog";
-import { deleteBlogs } from "../../../actions/Blogs/action";
+import Blog from "../../../../@types/Blog";
+import { deleteBlogs } from "../../../../actions/Blogs/action";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
 import { Button, Modal, ModalBody, ModalFooter, ModalHeader } from "reactstrap";

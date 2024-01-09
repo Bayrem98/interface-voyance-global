@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import Blog from "../../../@types/Blog";
+import Blog from "../../../../@types/Blog";
 import BlogVideoAdd from "./BlogVideoAdd";
 import { ButtonGroup, Table } from "reactstrap";
 import BlogVideoDelete from "./BlogVideoDelete";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBoxOpen } from "@fortawesome/free-solid-svg-icons";
-import { getBlogs } from "../../../actions/Blogs/action";
+import { getBlogs } from "../../../../actions/Blogs/action";
 import { Player } from "video-react";
 
 interface Props {}
@@ -28,7 +28,9 @@ const BlogVideoTable = (props: Props) => {
         }}
       >
         <div className="d-flex justify-content-between">
-          <h2>Tableau des videos</h2>
+          <h2 style={{ color: "rgba(147, 147, 203, 0.866)" }}>
+            Tableau des videos
+          </h2>
           <BlogVideoAdd refresh={() => getBlogs(null, setBlogs)} />
         </div>
         <br />

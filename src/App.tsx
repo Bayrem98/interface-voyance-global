@@ -23,7 +23,8 @@ import ViewBlog9 from "./components/pages/blogs/ViewBlog9";
 import ViewBlog10 from "./components/pages/blogs/ViewBlog10";
 import VideosPage from "./components/pages/VideosPage";
 import "video-react/dist/video-react.css";
-import BlogVideoTable from "./components/pages/videos/BlogVideoTable";
+import BlogVideoTable from "./components/pages/admin-session/videos/BlogVideoTable";
+import UsersTable from "./components/pages/admin-session/users/UsersTable";
 
 function App() {
   // const handleContextMenu = (event: React.MouseEvent) => {
@@ -34,6 +35,13 @@ function App() {
       <div>
         <Navbard />
         <div>
+          {localStorage.getItem("access_token") && (
+            <Routes>
+              <Route path="/addvideo" element={<BlogVideoTable />} />
+              <Route path="/userstable" element={<UsersTable />} />
+            </Routes>
+          )}
+
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/actualite" element={<Actualite />} />
@@ -53,7 +61,6 @@ function App() {
             <Route path="/viewblog9" element={<ViewBlog9 />} />
             <Route path="/viewblog10" element={<ViewBlog10 />} />
             <Route path="/videopage" element={<VideosPage />} />
-            <Route path="/addvideo" element={<BlogVideoTable />} />
           </Routes>
         </div>
         <Footer />

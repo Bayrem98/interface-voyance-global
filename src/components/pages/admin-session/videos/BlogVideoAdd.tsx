@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { addblog } from "../../../actions/Blogs/action";
+import { addblog } from "../../../../actions/Blogs/action";
 import {
   Button,
   Form,
