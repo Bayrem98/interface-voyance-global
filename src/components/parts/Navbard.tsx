@@ -137,6 +137,17 @@ function Navbard(props: any) {
               </NavLink>
             </NavItem>
 
+            {localStorage.getItem("access_token") && (
+              <NavItem className="navbaritem">
+                <NavLink style={{ color: "white" }} href="/userstable">
+                  Ajouter des utilisateurs
+                </NavLink>
+                <NavLink style={{ color: "white" }} href="/addvideo">
+                  Ajouter des vidéos
+                </NavLink>
+              </NavItem>
+            )}
+
             {localStorage.getItem("access_token") ? (
               <NavItem
                 className="navbaritem"
@@ -152,14 +163,6 @@ function Navbard(props: any) {
                 style={{ cursor: "pointer" }}
               >
                 <NavLink style={{ color: "white" }}>login</NavLink>
-              </NavItem>
-            )}
-
-            {localStorage.getItem("access_token") && (
-              <NavItem className="navbaritem">
-                <NavLink style={{ color: "white" }} href="/userstable">
-                  Ajouter utilisateur
-                </NavLink>
               </NavItem>
             )}
           </Nav>
