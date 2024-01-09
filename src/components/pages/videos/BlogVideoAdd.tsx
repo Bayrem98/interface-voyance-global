@@ -54,9 +54,7 @@ const BlogVideoAdd = (props: BlogAddPropsType) => {
       .then((response) => response.json())
       .then((result) => {
         console.log("Success:", result);
-        setVideoPath(
-          `${result.filename}`
-        );
+        setVideoPath(`${result.filename}`);
       })
       .catch((error) => {
         console.error("Error:", error);
@@ -75,9 +73,7 @@ const BlogVideoAdd = (props: BlogAddPropsType) => {
       .then((response) => response.json())
       .then((result) => {
         console.log("Success:", result);
-        setPosterPath(
-          `${result.filename}`
-        );
+        setPosterPath(`${result.filename}`);
       })
       .catch((error) => {
         console.error("Error:", error);
@@ -120,18 +116,28 @@ const BlogVideoAdd = (props: BlogAddPropsType) => {
         isOpen={isOpened}
         toggle={() => setIsOpened(!isOpened)}
       >
-        <ModalBody>
-          <p className="addbook-modal-title">Ajouter video et image</p>
+        <ModalBody style={{ backgroundColor: "rgba(147, 147, 203, 0.866)" }}>
+          <p style={{ color: "white", fontSize: 20, textAlign: "center" }}>
+            Ajouter video et image
+          </p>
           <span
-            className="addbook-modal-iconclose"
             onClick={() => setIsOpened(false)}
+            style={{
+              position: "absolute",
+              right: 10,
+              color: "white",
+              top: 10,
+              cursor: "pointer",
+            }}
           >
             X
           </span>
           <br />
           <Form>
             <FormGroup>
-              <Label for="coverPath">Image</Label>
+              <Label for="coverPath" style={{ color: "white", fontSize: 18 }}>
+                Image
+              </Label>
               <Input
                 id="coverPath"
                 name="coverPath"
@@ -140,7 +146,9 @@ const BlogVideoAdd = (props: BlogAddPropsType) => {
               />
             </FormGroup>
             <FormGroup>
-              <Label for="posterPath">Poster</Label>
+              <Label for="posterPath" style={{ color: "white", fontSize: 18 }}>
+                Poster
+              </Label>
               <Input
                 id="posterPath"
                 name="posterPath"
@@ -149,7 +157,9 @@ const BlogVideoAdd = (props: BlogAddPropsType) => {
               />
             </FormGroup>
             <FormGroup>
-              <Label for="videoPath">Video</Label>
+              <Label for="videoPath" style={{ color: "white", fontSize: 18 }}>
+                Video
+              </Label>
               <Input
                 id="videoPath"
                 name="videoPath"
@@ -159,20 +169,28 @@ const BlogVideoAdd = (props: BlogAddPropsType) => {
             </FormGroup>
           </Form>
         </ModalBody>
-        <ModalFooter>
-          <button
-            className="addbook-modal-button1"
+        <ModalFooter style={{ backgroundColor: "rgba(147, 147, 203, 0.866)" }}>
+          <Button
+            style={{
+              backgroundColor: "black",
+              color: "white",
+              border: 0,
+            }}
             onClick={submit}
             disabled={!coverPath || !videoPath}
           >
             Confirmer
-          </button>{" "}
-          <button
-            className="addbook-modal-button2"
+          </Button>{" "}
+          <Button
+            style={{
+              backgroundColor: "white",
+              color: "rgba(147, 147, 203, 0.866)",
+              border: 0,
+            }}
             onClick={() => setIsOpened(false)}
           >
             Annuler
-          </button>
+          </Button>
         </ModalFooter>
       </Modal>
     </>

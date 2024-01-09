@@ -23,46 +23,51 @@ const VideosPage = () => {
             fontStyle: "oblique",
           }}
         >
-          Des vidéos sur vous choix
+         HOROSCOPE-2024
         </h2>
         <br />
-        <div
-          className="d-flex justify-content-between"
-          style={{ marginLeft: 20, marginRight: 20, marginBottom: 200 }}
-        >
-          {Array.isArray(blogs) && blogs.length ? (
-            blogs.map((blog) => (
-              <Card style={{ width: 300 }} key={blog._id}>
-                <CardHeader
-                  style={{
-                    textAlign: "center",
-                  }}
+        <div className="container">
+          <div className="row">
+            {Array.isArray(blogs) && blogs.length ? (
+              blogs.map((blog) => (
+                <div
+                  key={blog._id}
+                  className="col-6 col-sm-4"
+                  style={{ padding: 30 }}
                 >
-                  <img src={blog.coverPath} alt="." width={50} />
-                </CardHeader>
-                <CardBody>
-                  {" "}
-                  <Player poster={blog.posterPath}>
-                    <source src={blog.videoPath} />
-                  </Player>
-                </CardBody>
-              </Card>
-            ))
-          ) : (
-            <div
-              className="text-center p-5"
-              style={{
-                color: "#0e0e0ee7",
-                position: "absolute",
-                top: 150,
-                right: 550,
-              }}
-            >
-              <FontAwesomeIcon icon={faBoxOpen} size="4x" />
-              <br />
-              Pas des données...
-            </div>
-          )}
+                  <Card style={{ width: 300 }}>
+                    <CardHeader
+                      style={{
+                        textAlign: "center",
+                      }}
+                    >
+                      <img src={blog.coverPath} alt="." width={50} />
+                    </CardHeader>
+                    <CardBody>
+                      {" "}
+                      <Player poster={blog.posterPath}>
+                        <source src={blog.videoPath} />
+                      </Player>
+                    </CardBody>
+                  </Card>
+                </div>
+              ))
+            ) : (
+              <div
+                className="text-center p-5"
+                style={{
+                  color: "#0e0e0ee7",
+                  position: "absolute",
+                  top: 150,
+                  right: 550,
+                }}
+              >
+                <FontAwesomeIcon icon={faBoxOpen} size="4x" />
+                <br />
+                Pas des données...
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </>

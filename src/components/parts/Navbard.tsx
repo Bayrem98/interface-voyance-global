@@ -50,18 +50,12 @@ function Navbard(props: any) {
               </NavLink>
             </NavItem>
             <NavItem className="navbaritem">
-              <NavLink
-                style={{ color: "white" }}
-                href="/videopage"
-              >
-                Vidéos
+              <NavLink style={{ color: "white" }} href="/videopage">
+                Horoscope 2024
               </NavLink>
             </NavItem>
             <NavItem className="navbaritem">
-              <NavLink
-                style={{ color: "white" }}
-                href="/addvideo"
-              >
+              <NavLink style={{ color: "white" }} href="/addvideo">
                 Ajouter
               </NavLink>
             </NavItem>
