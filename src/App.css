@@ -623,6 +623,28 @@ video::-webkit-media-controls {
     font-size: 20px;
   }
 
+  .horoscope-page {
+    margin-top: 40px;
+  }
+
+  .horoscope-title {
+    text-align: center;
+    font-style: oblique;
+    color: rgba(147, 147, 203, 0.866);
+  }
+
+  .horoscope-view {
+    padding: 30px;
+  }
+
+  .horoscope-cards {
+    width: 270px;
+  }
+
+  .horoscope-cards-img {
+    width: 50px;
+  }
+  
 /*Responsive for max-widht 430px */
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
@@ -1184,5 +1206,25 @@ video::-webkit-media-controls {
   color: #c61017;
   font-size: 12px;
   margin-bottom: 15px;
+}
+.horoscope-page {
+  margin-top: 20px;
+}
+.horoscope-title {
+  text-align: center;
+  font-style: oblique;
+  color: rgba(147, 147, 203, 0.866);
+  font-size: 15px;
+}
+.horoscope-view {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.horoscope-cards {
+  width: 300px;
+}
+.horoscope-cards-img {
+  width: 25px;
 }
 }

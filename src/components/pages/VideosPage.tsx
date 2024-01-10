@@ -1,6 +1,11 @@
 import { useEffect, useState } from "react";
 import { Card, CardBody, CardHeader } from "reactstrap";
-import { Player } from "video-react";
+import {
+  ControlBar,
+  LoadingSpinner,
+  Player,
+  VolumeMenuButton,
+} from "video-react";
 import Blog from "../../@types/Blog";
 import { getBlogs } from "../../actions/Blogs/action";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -15,38 +20,36 @@ const VideosPage = () => {
 
   return (
     <>
-      <div className="" style={{ marginTop: 20 }}>
-        <h2
-          style={{
-            textAlign: "center",
-            color: "rgba(147, 147, 203, 0.866)",
-            fontStyle: "oblique",
-          }}
-        >
-         HOROSCOPE-2024
-        </h2>
-        <br />
+      <div className="horoscope-page">
+        <h2 className="horoscope-title">HOROSCOPE-2024</h2>
         <div className="container">
           <div className="row">
             {Array.isArray(blogs) && blogs.length ? (
               blogs.map((blog) => (
                 <div
                   key={blog._id}
-                  className="col-6 col-sm-4"
-                  style={{ padding: 30 }}
+                  className="horoscope-view col-md-3"
                 >
-                  <Card style={{ width: 300 }}>
+                  <Card className="horoscope-cards">
                     <CardHeader
                       style={{
                         textAlign: "center",
                       }}
                     >
-                      <img src={blog.coverPath} alt="." width={50} />
+                      <img
+                        className="horoscope-cards-img"
+                        src={blog.coverPath}
+                        alt="."
+                      />
                     </CardHeader>
                     <CardBody>
                       {" "}
                       <Player poster={blog.posterPath}>
+                        <LoadingSpinner />
                         <source src={blog.videoPath} />
+                        <ControlBar autoHide={false}>
+                          <VolumeMenuButton vertical />
+                        </ControlBar>
                       </Player>
                     </CardBody>
                   </Card>
