@@ -21,7 +21,7 @@ const VideosPage = () => {
   return (
     <>
       <div className="horoscope-page">
-        <h2 className="horoscope-title">HOROSCOPE-2024</h2>
+        <p className="horoscope-title">HOROSCOPE-2024</p>
         <div className="container">
           <div className="row">
             {Array.isArray(blogs) && blogs.length ? (

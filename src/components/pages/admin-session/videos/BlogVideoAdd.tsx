@@ -11,7 +11,7 @@ import {
   ModalFooter,
 } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAdd } from "@fortawesome/free-solid-svg-icons";
+import { faVideo } from "@fortawesome/free-solid-svg-icons";
 
 interface BlogAddPropsType {
   refresh: () => void;
@@ -104,12 +104,10 @@ const BlogVideoAdd = (props: BlogAddPropsType) => {
 
   return (
     <>
-      <Button
-        onClick={() => setIsOpened(true)}
-        style={{ backgroundColor: "rgba(147, 147, 203, 0.866)", border: 0 }}
-      >
-        <FontAwesomeIcon icon={faAdd} color="white" />
-      </Button>
+      <button className="videosAdd-button" onClick={() => setIsOpened(true)}>
+        <span className="videosAdd-button-plus">+</span>
+        <FontAwesomeIcon icon={faVideo} color="white" />
+      </button>
       <Modal
         centered
         scrollable

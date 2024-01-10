@@ -644,6 +644,53 @@ video::-webkit-media-controls {
   .horoscope-cards-img {
     width: 50px;
   }
+
+  .videos-space {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .videos-space-title {
+    color: rgba(147, 147, 203, 0.866);
+    font-size: 30px;
+    font-style: oblique;
+  }
+
+  .videosAdd-button {
+    background-color: rgba(147, 147, 203, 0.866);
+    width: 48px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+  }
+
+  .videosAdd-button-plus {
+    color: white;
+    font-size: 20px;
+  }
+
+  .videos-space-title-button {
+    margin-bottom: 20px;
+  }
+
+  .videos-table-img {
+    width: 50px;
+  }
+
+  .videos-table-poster {
+    width: 200px;
+    height: 80px;
+  }
+
+  .videos-table-td-img {
+    width: 250px;
+  }
+
+  .videos-table-td-button {
+    width: 100px;
+  }
   
 /*Responsive for max-widht 430px */
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
@@ -1226,5 +1273,43 @@ video::-webkit-media-controls {
 }
 .horoscope-cards-img {
   width: 25px;
+}
+.videos-space {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.videos-space-title {
+  color: rgba(147, 147, 203, 0.866);
+  font-size: 20px;
+  font-style: oblique;
+}
+.videosAdd-button {
+  background-color: rgba(147, 147, 203, 0.866);
+  width: 48px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0;
+}
+.videosAdd-button-plus {
+  color: white;
+  font-size: 20px;
+}
+.videos-space-title-button {
+  margin-bottom: 20px;
+}
+.videos-table-img {
+  width: 40px;
+}
+.videos-table-poster {
+  width: 80px;
+  height: 50px;
+}
+.videos-table-td-img {
+  width: 50px;
+}
+.videos-table-td-button {
+  width: 50px;
 }
 }

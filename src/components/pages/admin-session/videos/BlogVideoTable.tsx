@@ -19,21 +19,11 @@ const BlogVideoTable = (props: Props) => {
 
   return (
     <>
-      <div
-        style={{
-          marginLeft: 50,
-          marginRight: 50,
-          marginTop: 50,
-          marginBottom: 350,
-        }}
-      >
-        <div className="d-flex justify-content-between">
-          <h2 style={{ color: "rgba(147, 147, 203, 0.866)" }}>
-            Tableau des videos
-          </h2>
+      <div className="videos-space">
+        <div className="videos-space-title-button d-flex justify-content-between">
+          <p className="videos-space-title">Tableau des vidéos</p>
           <BlogVideoAdd refresh={() => getBlogs(null, setBlogs)} />
         </div>
-        <br />
         <Table bordered responsive hover>
           <thead style={{ textAlign: "center" }}>
             <tr>
@@ -47,18 +37,26 @@ const BlogVideoTable = (props: Props) => {
             {Array.isArray(blogs) && blogs.length ? (
               blogs.map((blog) => (
                 <tr key={blog._id} style={{ textAlign: "center" }}>
-                  <td>
-                    <img src={blog.coverPath} alt="." width={50} />
+                  <td className="videos-table-td-img">
+                    <img
+                      className="videos-table-img"
+                      src={blog.coverPath}
+                      alt="."
+                    />
                   </td>
-                  <td>
-                    <img src={blog.posterPath} alt="." width={200} />
+                  <td className="videos-table-td-img">
+                    <img
+                      className="videos-table-poster"
+                      src={blog.posterPath}
+                      alt="."
+                    />
                   </td>
                   <td>
                     <Player>
                       <source src={blog.videoPath} />
                     </Player>
                   </td>
-                  <td>
+                  <td className="videos-table-td-button">
                     <ButtonGroup>
                       <BlogVideoDelete
                         blog={blog}
