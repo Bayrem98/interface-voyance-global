@@ -1353,3 +1353,645 @@ video::-webkit-media-controls {
   border: 0;
 }
 }
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+@media screen and (max-width: 360px) {
+  .navbar {
+    background-color: rgba(147, 147, 203, 0.866);
+  }
+  .icon-brand {
+    width: 40px;
+    height: 40px;
+  }
+  .navbartitle {
+    color: white;
+    font-style: oblique;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  .navbaritem {
+    font-style: oblique;
+    font-size: 12px;
+  }
+  .footer {
+    background-color: rgba(147, 147, 203, 0.866);
+  }
+  .footer-text {
+    color: white;
+    font-size: 9px;
+    font-style: oblique;
+    font-weight: bold;
+  }
+  .home {
+    margin-top: 20px;
+  }
+  .home-para {
+    text-align: justify;
+    padding-right: 1px;
+    width: 170px;
+    font-size: 9px;
+    margin-top: 5px;
+    margin-left: -10px;
+  }
+  .home-imag1 {
+    width: 186px;
+    border-radius: 10px;
+    margin-top: 65px;
+    height: 290px;
+  }
+  .section-slider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .slider {
+    width: 100%;
+    height: 200px;
+  }
+  .lune-active {
+    width: 100%;
+  }
+  .lune-active-para { 
+    text-align: justify;
+    font-size: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .lune-active-para1 {
+    font-size: 15px;
+ }
+ .section4 {
+  margin-top: 10px;
+}
+.carte-lune {
+  margin-bottom: 20px;
+}
+.nouvelle-lune-img {
+  width: 172px;
+  border-radius: 30px;
+  margin-left: 5px;
+}
+.plein-lune-img {
+  width: 172px;
+  border-radius: 30px;
+}
+.calend-plein {
+height: 550px;
+width: 210px;
+}
+.calend-plein-para {
+margin-top: 60px;
+}
+.plein-para {
+text-align: justify;
+margin-right: 5px;
+font-size: 10px;
+}
+.plein-para1 {
+font-size: 11px;
+font-style: oblique;
+color: rgba(147, 147, 203, 0.866);
+}
+.plein-para2 {
+font-size: 11px;
+font-style: oblique;
+color: rgba(147, 147, 203, 0.866);
+}
+.nouvelle-para {
+text-align: justify;
+margin-left: 5px;
+font-size: 10px;
+}
+.nouvelle-para1 {
+font-size: 11px;
+font-style: oblique;
+color: rgba(147, 147, 203, 0.866);
+}
+.calend-nouvelle {
+height: 650px;
+width: 210px;
+}
+.link-scroll {
+margin-left: 20px;
+margin-bottom: 30px;
+font-size: 11px;
+}
+.act-section1 {
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.act-title {
+color: rgba(147, 147, 203, 0.866);
+font-style: oblique;
+text-align: center;
+font-size: 14px;
+}
+.act-imag1 {
+width: 200px;
+height: 230px;
+border-radius: 10px;
+margin-left: 2px;
+margin-top: 40px;
+}
+.act-para {
+text-align: justify;
+margin-right: 5px;
+margin-left: 5px;
+font-size: 9px;
+}
+.act-section {
+margin-bottom: 20px;
+}
+.act-imag2 {
+width: 200px;
+height: 230px;
+border-radius: 10px;
+margin-right: 2px;
+margin-top: 40px;
+}
+.act-imag3 {
+width: 200px;
+height: 250px;
+border-radius: 10px;
+margin-left: 2px;
+margin-top: 70px;
+}
+.act-imag4 {
+width: 200px;
+height: 230px;
+border-radius: 10px;
+margin-right: 2px;
+margin-top: 70px;
+}
+.act-imag5 {
+width: 200px;
+height: 230px;
+border-radius: 10px;
+margin-left: 2px;
+margin-top: 60px;
+}
+.ast-chi-title {
+text-align: center;
+color: #b79e56;
+margin-top: 30px;
+font-size: 18px;
+}
+.section-ast-chi1 {
+margin-top: 20px;
+}
+.section-ast-chi2 {
+margin-top: 20px;
+margin-bottom: 30px;
+}
+.ast-chi-para1 {
+margin-left: 1px;
+margin-right: 2px;
+}
+.ast-chi-para1-title {
+text-align: center;
+font-style: oblique;
+color: #b79e56;
+font-size: 15px;
+}
+.ast-chi-para1-1 {
+text-align: justify;
+font-size: 9px;
+}
+.ast-chi-signe {
+color: #c61017;
+font-size: 10px;
+}
+.ast-chi-imag1 {
+width: 190px;
+height: 350px;
+border-radius: 10px;
+margin-right: 1px;
+margin-top: 45px;
+}
+.ast-chi-card {
+width: 25rem;
+margin-top: 8px;
+}
+.ast-chi-cardbody {
+background-color: #c61017;
+text-align: justify;
+font-size: 11px;
+border-radius: 4px;
+}
+.para-card {
+color: #b79e56;
+}
+.section-ast-chi3 {
+margin-bottom: 20px;
+}
+.card-signe {
+width: 120px;
+font-size: 8px;
+height: 500px;
+}
+.card-li {
+color: #b79e56;
+}
+.card-li-mot {
+font-size: 10px;
+color: #c61017;
+}
+.formation {
+background-image: url("/public/img/formation/background-formation.jpg");
+padding-bottom: 50px;
+}
+.section-formation-title {
+font-style: oblique;
+text-align: center;
+padding-top: 20px;
+color: rgba(147, 147, 203, 0.866);
+font-size: 20px;
+}
+.section-formation-cards1-2 {
+width: 210px;
+font-size: 9px;
+margin-bottom: -10px;
+text-align: justify;
+}
+.section-formation-cards3-4 {
+width: 210px;
+font-size: 9px;
+margin-bottom: -12px;
+text-align: justify;
+}
+.section-formation-cards5-6 {
+width: 210px;
+font-size: 9px;
+text-align: justify;
+}
+.formation-cards-li {
+color: #b79e56;
+margin-left: -35px;
+}
+.formation-cards-span {
+ color: black;
+}
+.formation-cards-imag {
+height: 115px;
+width: 200px;
+border-radius: 10px;
+margin-left: -44px;
+}
+.section-formation-ref-nais {
+margin-bottom: 10px;
+}
+.formation-ref-nais-title {
+font-style: oblique;
+text-align: center;
+color: rgba(147, 147, 203, 0.866);
+padding-top: 20px;
+font-size: 20px;
+}
+.formation-ref-nais-imag1 {
+width: 200px;
+height: 580px;
+border-radius: 10px;
+margin-left: 2px;
+}
+.formation-ref-nais-para1 {
+text-align: justify;
+margin-left: 2px;
+margin-right: 2px;
+margin-top: -4px;
+font-size: 9px;
+}
+.formation-ref-nais-para1-mot1 {
+color: rgba(147, 147, 203, 0.866);
+font-size: 12px;
+}
+.formation-ref-nais-para2 {
+text-align: justify;
+margin-left: 2px;
+margin-top: 2px;
+font-size: 9px;
+}
+.formation-ref-nais-para2-ul {
+color: #b79e56;
+margin-left: -15px;
+}
+.formation-ref-nais-para2-span {
+color: black;
+font-size: 9px;
+}
+.formation-ref-nais-imag2 {
+width: 220px;
+height: 550px;
+}
+.section-formation-chiro {
+margin-bottom: 10px;
+}
+.section-formation-chiro-title1 {
+color: rgba(147, 147, 203, 0.866);
+font-style: oblique;
+text-align: center;
+padding-top: 20px;
+font-size: 20px;
+}
+.formation-chiro-imag1 {
+width: 210px;
+height: 600px;
+border-radius: 10px;
+margin-left: 2px;
+margin-top: 150px;
+}
+.formation-chiro-para1{
+text-align: justify;
+margin-top: -8px;
+margin-left: 2px;
+margin-right: 2px;
+font-size: 9px;
+}
+.formation-chiro-para1-mot1 {
+color: rgba(147, 147, 203, 0.866);
+font-size: 12px;
+}
+.formation-chiro-para1-ul {
+color: #b79e56;
+margin-left: -15px;
+}
+.formation-chiro-para1-span {
+color: black;
+font-size: 9px;
+}
+.formation-chiro-title2 {
+color: rgba(147, 147, 203, 0.866);
+font-style: oblique;
+text-align: center;
+font-size: 12px;
+}
+.formation-chiro-para2{
+text-align: justify;
+margin-left: 2px;
+margin-right: 2px;
+font-size: 9px;
+}
+.formation-chiro-para2-mot1{
+color: blue;
+font-size: 12px;
+}
+.formation-chiro-para2-mot2{
+color: green;
+font-size: 12px;
+}
+.formation-chiro-para2-mot3{
+color: red;
+font-size: 12px;
+}
+.formation-chiro-para2-mot4{
+color: rgb(143,0,255);
+font-size: 12px;
+}
+.formation-chiro-para2-separation {
+border: solid;
+color: #b79e56;
+}
+.formation-chiro-imag2-3-4 {
+width: 190px;
+height: 520px;
+margin-right: 2px;
+}
+.home-blogs{
+margin-top: 20px;
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: 10px;
+}
+.home-blogs-nav1 {
+font-size: 12px;
+}
+.homeviewblogs {
+margin-top: 20px;
+margin-left: -3px;
+margin-right: 2px;
+}
+.home-blogs-cards {
+width: 105px;
+margin-right: 1px;
+}
+.home-blogs-cards-imag {
+height: 160px;
+width: 100%;
+}
+.home-blogs-cards-title {
+color: black;
+text-align: center;
+font-size: 12px;
+}
+.home-blogs-cards-text {
+position: absolute;
+bottom: 10px;
+font-size: 10px;
+}
+.astro-blogs {
+margin-top: 20px;
+margin-left: 5px;
+margin-right: 5px;
+}
+.astroviewblogs {
+margin-top: 50px;
+margin-left: 2px;
+margin-right: 2px;
+}
+.astro-blogs-cards {
+width: 100px;
+margin-right: 5px;
+}
+.astro-blogs-cards-imag {
+height: 150px;
+width: 100%;
+}
+.astro-blogs-cards-title {
+color: black;
+text-align: center;
+font-size: 12px;
+}
+.astro-blogs-cards-text {
+position: absolute;
+bottom: 10px;
+font-size: 10px;
+}
+.numero-blogs {
+margin-top: 20px;
+margin-left: 5px;
+margin-right: 5px;
+}
+.numeroviewblogs {
+margin-top: 50px;
+margin-left: 2px;
+margin-right: 2px;
+}
+.numero-blogs-cards {
+width: 130px;
+margin-right: 5px;
+}
+.numero-blogs-cards-imag {
+width: 100%;
+height: 180px;
+}
+.numero-blogs-cards-title {
+color: black;
+text-align: center;
+font-size: 12px;
+}
+.numero-blogs-cards-text {
+position: absolute;
+bottom: 10px;
+font-size: 10px;
+}
+.taro-blogs {
+margin-top: 20px;
+margin-left: 5px;
+margin-right: 5px;
+}
+.taroviewblogs {
+margin-top: 50px;
+margin-left: 2px;
+margin-right: 2px;
+}
+.taro-blogs-cards {
+width: 130px;
+margin-right: 5px;
+}
+.taro-blogs-cards-imag {
+width: 100%;
+height: 180px;
+}
+.taro-blogs-cards-title {
+color: black;
+text-align: center;
+font-size: 12px;
+}
+.taro-blogs-cards-text {
+position: absolute;
+bottom: 10px;
+font-size: 10px;
+}
+.blog-icon-retour {
+color: rgba(147, 147, 203, 0.866);
+cursor: pointer;
+margin-top: 5px;
+margin-left: 5px;
+width: 25px;
+}
+.blog-card {
+margin-top: 1px;
+margin-left: 2px;
+margin-right: 2px;
+margin-bottom: 10px;
+}
+.blog-title {
+text-align: center;
+color: rgba(147, 147, 203, 0.866);
+font-size: 16px;
+margin-top: 5px;
+font-weight: bold;
+}
+.blog-title2-3 {
+color: rgba(147, 147, 203, 0.866);
+font-size: 12px;
+font-weight: bold;
+}
+.blog-para {
+text-align: justify;
+font-size: 10px;
+}
+.blog-ul {
+text-align: justify;
+}
+.blog-li {
+color: rgba(147, 147, 203, 0.866);
+}
+.blog-span {
+color: black;
+font-size: 10px;
+}
+.blog-remarque {
+color: #c61017;
+font-size: 12px;
+margin-bottom: 15px;
+}
+.horoscope-page {
+margin-top: 20px;
+}
+.horoscope-title {
+text-align: center;
+font-style: oblique;
+color: rgba(147, 147, 203, 0.866);
+font-size: 15px;
+}
+.horoscope-view {
+padding: 20px;
+display: flex;
+justify-content: center;
+}
+.horoscope-cards {
+width: 300px;
+}
+.horoscope-cards-img {
+width: 25px;
+}
+.videos-space {
+margin-left: 5px;
+margin-right: 5px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.videos-space-title {
+color: rgba(147, 147, 203, 0.866);
+font-size: 20px;
+font-style: oblique;
+}
+.videosAdd-button {
+background-color: rgba(147, 147, 203, 0.866);
+width: 48px;
+height: 40px;
+border-radius: 10px;
+border: 0;
+}
+.videosAdd-button-plus {
+color: white;
+font-size: 20px;
+}
+.videos-space-title-button {
+margin-bottom: 20px;
+}
+.videos-table-img {
+width: 40px;
+}
+.videos-table-poster {
+width: 80px;
+height: 50px;
+}
+.videos-table-td-img {
+width: 50px;
+}
+.videos-table-td-button {
+width: 50px;
+}
+.users-space {
+margin-top: 90px;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 190px;
+}
+.users-space-title {
+color: rgba(147, 147, 203, 0.866);
+font-style: oblique;
+font-size: 20px;
+}
+.usersAdd-button {
+background-color: rgba(147, 147, 203, 0.866);
+width: 48px;
+height: 40px;
+border-radius: 10px;
+border: 0;
+}
+}
