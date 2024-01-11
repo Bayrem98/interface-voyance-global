@@ -2,10 +2,8 @@ import { useState } from "react";
 import { addUser } from "../../../../actions/Users/action";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-regular-svg-icons";
-import { faAdd } from "@fortawesome/free-solid-svg-icons";
 import {
   Button,
-  Form,
   FormGroup,
   Input,
   Label,
@@ -13,6 +11,7 @@ import {
   ModalBody,
   ModalFooter,
 } from "reactstrap";
+import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
 
 interface UserAddPropsType {
   refresh: () => void;
@@ -51,12 +50,9 @@ const UserAdd = (props: UserAddPropsType) => {
 
   return (
     <>
-      <Button
-        onClick={() => setIsOpened(true)}
-        style={{ backgroundColor: "rgba(147, 147, 203, 0.866)", border: 0 }}
-      >
-        <FontAwesomeIcon icon={faAdd} color="white" />
-      </Button>
+      <button className="usersAdd-button" onClick={() => setIsOpened(true)}>
+        <FontAwesomeIcon icon={faUserPlus} color="white" />
+      </button>
       <Modal
         centered
         scrollable

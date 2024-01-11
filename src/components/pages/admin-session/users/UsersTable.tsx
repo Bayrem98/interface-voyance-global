@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ButtonGroup, Container, Table } from "reactstrap";
+import { ButtonGroup, Table } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBoxOpen } from "@fortawesome/free-solid-svg-icons";
 import UserAdd from "./UserAdd";
@@ -18,18 +18,11 @@ const UsersTable = (props: Props) => {
 
   return (
     <>
-      <div
-        style={{
-          marginLeft: 50,
-          marginRight: 50,
-          marginTop: 50,
-          marginBottom: 350,
-        }}
-      >
+      <div className="users-space">
         <div className="d-flex justify-content-between">
-          <h2 style={{ color: "rgba(147, 147, 203, 0.866)" }}>
+          <p className="users-space-title">
             Tableau des utilisateurs
-          </h2>
+          </p>
           <UserAdd refresh={() => getUsers(setUsers)} />
         </div>
         <br />

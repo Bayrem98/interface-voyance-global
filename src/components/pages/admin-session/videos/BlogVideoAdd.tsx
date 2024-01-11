@@ -105,8 +105,8 @@ const BlogVideoAdd = (props: BlogAddPropsType) => {
   return (
     <>
       <button className="videosAdd-button" onClick={() => setIsOpened(true)}>
-        <span className="videosAdd-button-plus">+</span>
         <FontAwesomeIcon icon={faVideo} color="white" />
+        <span className="videosAdd-button-plus">+</span>
       </button>
       <Modal
         centered
