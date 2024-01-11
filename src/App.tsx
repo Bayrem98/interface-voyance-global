@@ -25,6 +25,7 @@ import VideosPage from "./components/pages/VideosPage";
 import "video-react/dist/video-react.css";
 import BlogVideoTable from "./components/pages/admin-session/videos/BlogVideoTable";
 import UsersTable from "./components/pages/admin-session/users/UsersTable";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   // const handleContextMenu = (event: React.MouseEvent) => {
@@ -64,6 +65,7 @@ function App() {
           </Routes>
         </div>
         <Footer />
+        <SpeedInsights />
       </div>
     </>
   );
