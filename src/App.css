@@ -1291,10 +1291,10 @@ video::-webkit-media-controls {
   justify-content: center;
 }
 .horoscope-cards {
-  width: 300px;
+  width: 400px;
 }
 .horoscope-cards-img {
-  width: 25px;
+  width: 50px;
 }
 .videos-space {
   margin-left: 5px;
@@ -1766,19 +1766,17 @@ margin-right: 5px;
 margin-bottom: 10px;
 }
 .home-blogs-nav1 {
-font-size: 12px;
+font-size: 10px;
 }
 .homeviewblogs {
 margin-top: 20px;
-margin-left: -3px;
-margin-right: 2px;
+margin-left: -4px;
 }
 .home-blogs-cards {
-width: 105px;
-margin-right: 1px;
+width: 88px;
 }
 .home-blogs-cards-imag {
-height: 160px;
+height: 120px;
 width: 100%;
 }
 .home-blogs-cards-title {
@@ -1788,8 +1786,8 @@ font-size: 12px;
 }
 .home-blogs-cards-text {
 position: absolute;
-bottom: 10px;
-font-size: 10px;
+bottom: 2px;
+font-size: 9px;
 }
 .astro-blogs {
 margin-top: 20px;
@@ -1802,8 +1800,8 @@ margin-left: 2px;
 margin-right: 2px;
 }
 .astro-blogs-cards {
-width: 100px;
-margin-right: 5px;
+width: 88px;
+margin-right: 2px;
 }
 .astro-blogs-cards-imag {
 height: 150px;
@@ -1812,12 +1810,12 @@ width: 100%;
 .astro-blogs-cards-title {
 color: black;
 text-align: center;
-font-size: 12px;
+font-size: 11px;
 }
 .astro-blogs-cards-text {
 position: absolute;
-bottom: 10px;
-font-size: 10px;
+bottom: 2px;
+font-size: 9px;
 }
 .numero-blogs {
 margin-top: 20px;
@@ -1830,22 +1828,22 @@ margin-left: 2px;
 margin-right: 2px;
 }
 .numero-blogs-cards {
-width: 130px;
-margin-right: 5px;
+width: 115px;
+margin-right: 2px;
 }
 .numero-blogs-cards-imag {
 width: 100%;
-height: 180px;
+height: 150px;
 }
 .numero-blogs-cards-title {
 color: black;
 text-align: center;
-font-size: 12px;
+font-size: 11px;
 }
 .numero-blogs-cards-text {
 position: absolute;
-bottom: 10px;
-font-size: 10px;
+bottom: 2px;
+font-size: 9px;
 }
 .taro-blogs {
 margin-top: 20px;
@@ -1858,29 +1856,29 @@ margin-left: 2px;
 margin-right: 2px;
 }
 .taro-blogs-cards {
-width: 130px;
-margin-right: 5px;
+width: 115px;
+margin-right: 2px;
 }
 .taro-blogs-cards-imag {
 width: 100%;
-height: 180px;
+height: 150px;
 }
 .taro-blogs-cards-title {
 color: black;
 text-align: center;
-font-size: 12px;
+font-size: 11px;
 }
 .taro-blogs-cards-text {
 position: absolute;
-bottom: 10px;
-font-size: 10px;
+bottom: 2px;
+font-size: 9px;
 }
 .blog-icon-retour {
 color: rgba(147, 147, 203, 0.866);
 cursor: pointer;
 margin-top: 5px;
 margin-left: 5px;
-width: 25px;
+width: 20px;
 }
 .blog-card {
 margin-top: 1px;
@@ -1891,18 +1889,18 @@ margin-bottom: 10px;
 .blog-title {
 text-align: center;
 color: rgba(147, 147, 203, 0.866);
-font-size: 16px;
+font-size: 15px;
 margin-top: 5px;
 font-weight: bold;
 }
 .blog-title2-3 {
 color: rgba(147, 147, 203, 0.866);
-font-size: 12px;
+font-size: 10px;
 font-weight: bold;
 }
 .blog-para {
 text-align: justify;
-font-size: 10px;
+font-size: 9px;
 }
 .blog-ul {
 text-align: justify;
@@ -1912,32 +1910,33 @@ color: rgba(147, 147, 203, 0.866);
 }
 .blog-span {
 color: black;
-font-size: 10px;
+font-size: 9px;
 }
 .blog-remarque {
 color: #c61017;
-font-size: 12px;
+font-size: 10px;
 margin-bottom: 15px;
 }
 .horoscope-page {
 margin-top: 20px;
+margin-bottom: 20px;
 }
 .horoscope-title {
 text-align: center;
 font-style: oblique;
 color: rgba(147, 147, 203, 0.866);
-font-size: 15px;
+font-size: 14px;
 }
 .horoscope-view {
-padding: 20px;
+padding: 15px;
 display: flex;
 justify-content: center;
 }
 .horoscope-cards {
-width: 300px;
+width: 350px;
 }
 .horoscope-cards-img {
-width: 25px;
+width: 40px;
 }
 .videos-space {
 margin-left: 5px;
@@ -1947,7 +1946,7 @@ margin-bottom: 20px;
 }
 .videos-space-title {
 color: rgba(147, 147, 203, 0.866);
-font-size: 20px;
+font-size: 18px;
 font-style: oblique;
 }
 .videosAdd-button {
@@ -1965,7 +1964,7 @@ font-size: 20px;
 margin-bottom: 20px;
 }
 .videos-table-img {
-width: 40px;
+width: 35px;
 }
 .videos-table-poster {
 width: 80px;
@@ -1981,12 +1980,12 @@ width: 50px;
 margin-top: 90px;
 margin-left: 10px;
 margin-right: 10px;
-margin-bottom: 190px;
+margin-bottom: 200px;
 }
 .users-space-title {
 color: rgba(147, 147, 203, 0.866);
 font-style: oblique;
-font-size: 20px;
+font-size: 18px;
 }
 .usersAdd-button {
 background-color: rgba(147, 147, 203, 0.866);
