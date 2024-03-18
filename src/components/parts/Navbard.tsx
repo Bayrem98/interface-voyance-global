@@ -117,32 +117,38 @@ function Navbard(props: any) {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem className="navbaritem">
-              <NavLink style={{ color: "white" }} href="/actualite">
+              <NavLink style={{ color: "white", width: 10 }} href="/actualite">
                 Actualite
               </NavLink>
             </NavItem>
             <NavItem className="navbaritem">
-              <NavLink style={{ color: "white" }} href="/formation">
+              <NavLink style={{ color: "white", width: 10 }} href="/formation">
                 Formation
               </NavLink>
             </NavItem>
             <NavItem className="navbaritem">
-              <NavLink style={{ color: "white" }} href="/homeblogs">
+              <NavLink style={{ color: "white", width: 10 }} href="/homeblogs">
                 Blogs
               </NavLink>
             </NavItem>
             <NavItem className="navbaritem">
-              <NavLink style={{ color: "white" }} href="/videopage">
+              <NavLink style={{ color: "white", width: 140 }} href="/videopage">
                 Horoscope 2024
               </NavLink>
             </NavItem>
 
             {localStorage.getItem("access_token") && (
               <NavItem className="navbaritem">
-                <NavLink style={{ color: "white" }} href="/userstable">
+                <NavLink
+                  style={{ color: "white", width: 197 }}
+                  href="/userstable"
+                >
                   Ajouter des utilisateurs
                 </NavLink>
-                <NavLink style={{ color: "white" }} href="/addvideo">
+                <NavLink
+                  style={{ color: "white", width: 156 }}
+                  href="/addvideo"
+                >
                   Ajouter des vidéos
                 </NavLink>
               </NavItem>
@@ -152,17 +158,35 @@ function Navbard(props: any) {
               <NavItem
                 className="navbaritem"
                 onClick={logout}
-                style={{ cursor: "pointer" }}
+                style={{ cursor: "pointer", width: 100 }}
               >
-                <NavLink style={{ color: "white" }}>Logout</NavLink>
+                <NavLink style={{ color: "white" }}>
+                  <Button
+                    style={{
+                      backgroundColor: "transparent",
+                      borderColor: "white",
+                    }}
+                  >
+                    Déconnexion
+                  </Button>
+                </NavLink>
               </NavItem>
             ) : (
               <NavItem
                 className="navbaritem"
                 onClick={toggleModal}
-                style={{ cursor: "pointer" }}
+                style={{ cursor: "pointer", width: 100 }}
               >
-                <NavLink style={{ color: "white" }}>login</NavLink>
+                <NavLink style={{ color: "white" }}>
+                  <Button
+                    style={{
+                      backgroundColor: "transparent",
+                      borderColor: "white",
+                    }}
+                  >
+                    Connexion
+                  </Button>
+                </NavLink>
               </NavItem>
             )}
           </Nav>
