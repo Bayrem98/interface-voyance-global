@@ -186,7 +186,7 @@ const Actualite = () => {
           <Carousel.Item interval={3000}>
             <img
               className="slider"
-              src="/img/actualite/chinois/astr-chin-img-1.jpg"
+              src="/img/actualite/chinois/update-image-chinois2024/Horoscope_chinois_2024_4.jpg"
               alt="."
             />
             <Carousel.Caption></Carousel.Caption>
@@ -194,7 +194,7 @@ const Actualite = () => {
           <Carousel.Item interval={3000}>
             <img
               className="slider"
-              src="/img/actualite/chinois/astr-chin-img-2.jpg"
+              src="/img/actualite/chinois/update-image-chinois2024/Horoscope_chinois_2024_5.jpg"
               alt="."
             />
             <Carousel.Caption></Carousel.Caption>
@@ -202,7 +202,7 @@ const Actualite = () => {
           <Carousel.Item interval={3000}>
             <img
               className="slider"
-              src="/img/actualite/chinois/astr-chin-img-5.jpg"
+              src="/img/actualite/chinois/update-image-chinois2024/Horoscope_chinois_2024_6.jpg"
               alt="."
             />
             <Carousel.Caption></Carousel.Caption>
@@ -210,7 +210,7 @@ const Actualite = () => {
           <Carousel.Item interval={3000}>
             <img
               className="slider"
-              src="/img/actualite/chinois/astr-chin-img-4.jpg"
+              src="/img/actualite/chinois/update-image-chinois2024/Horoscope_chinois_2024_7.jpg"
               alt="."
             />
             <Carousel.Caption></Carousel.Caption>
@@ -233,9 +233,15 @@ const Actualite = () => {
               <span className="ast-chi-signe">Chat (Lapin ou Lièvre)</span> si
               vous êtes né en 1939, 1951, 1963, 1975, 1987, 1999, 2011. Vous
               êtes <span className="ast-chi-signe">Dragon</span> si vous êtes né
-              en 1928, 1940, 1952, 1964, 1976, 1988, 2000, 2012. Vous êtes{" "}
-              <span className="ast-chi-signe">Serpent</span> si vous êtes né en
-              1917, 1929, 1941, 1953, 1965, 1977, 1989, 2001, 2013. Vous êtes
+              en 1928, 1940, 1952, 1964, 1976, 1988, 2000, 2012,{" "}
+              <span
+                style={{ fontSize: 22, color: "#b79e56", fontWeight: "bold" }}
+              >
+                2024
+              </span>
+              . Vous êtes <span className="ast-chi-signe">Serpent</span> si vous
+              êtes né en 1917, 1929, 1941, 1953, 1965, 1977, 1989, 2001, 2013.
+              Vous êtes
               <span className="ast-chi-signe">Cheval</span> si vous êtes né en
               1918, 1930, 1942, 1954, 1966, 1978, 1990, 2002, 2014. Vous êtes{" "}
               <span className="ast-chi-signe">Chèvre</span>
@@ -261,29 +267,28 @@ const Actualite = () => {
         <div className="d-flex justify-content-center">
           <Card className="ast-chi-card">
             <CardBody className="ast-chi-cardbody">
-              <p className="para-card">
-                Le Nouvel An chinois a eu lieu le dimanche 22 janvier. Après le
-                Tigre l'an dernier, on célèbre le Lapin, ou le Lièvre ou le Chat
-                en 2023. Découvrez, signe par signe, les grandes tendances de
-                votre horoscope dans l'astrologie chinoise. Après l’année du
-                Tigre et son sens de l’action, voici l’année du Lapin. Sur le
-                plan collectif, l’influence du Lapin est positive en matière de
-                diplomatie, le Lapin est intelligent, subtil et dégage une sorte
-                d’aura bienveillante. Selon le zodiaque chinois, 2023 est une
-                année du Lapin, elle commence le 22 janvier 2023 et se termine
-                le 9 février 2024. C'est une année du Lapin d'Eau. Alors que
-                nous entrons dans l'Année du Lapin 2023, la fortune des 12
-                signes chinois inaugurera un changement. Certains auront de la
-                chance et d'autres non. Quels sont les prédictions des 12 signes
-                chinois en 2023 ? Les Buffles, les Tigres et les Serpents ont
-                les meilleures fortunes, et les Chiens, les Chevaux, les Chèvres
-                et les Cochons ont aussi de bonnes fortunes. La fortune des
-                Lapins, des Rats et des Serpents sera influencée par
-                «l'opposition au Tai Sui» (Dieu des âges), les Coqs et les
-                Singes devront travailler particulièrement dur pour progresser.
-                Alors, quelle est la fortune spécifique de chaque signe chinois
-                en 2023 ?
-              </p>
+              <div className="d-flex justify-content-between">
+                <p className="para-card">
+                  La fougue et l’excentricité du dragon, le meilleur des signes
+                  selon l’astrologie chinoise, vont sans conteste dynamiser les
+                  secteurs de votre vie mais elles seront tempérées par
+                  l’élément bois qui va, lui, apporter plus de stabilité, de
+                  mesure, à toute cette énergie. En somme, vous allez vous
+                  lâcher, oser tenter de nouvelles aventures mais vous ne ferez
+                  pas non plus n’importe quoi. Pour connaître votre signe
+                  astrologique chinois, il faut se référer à votre date de
+                  naissance. Ainsi, les personnes associées au signe du Dragon
+                  sont nées en 1928, 1940, 1952, 1964, 1976, 1988, 2000, 2012 et 2024.
+                  Découvrez l’horoscope chinois signe par signe de l’année à
+                  venir, qui sera celle du Dragon de bois.
+                </p>
+                <img
+                  src="/img/actualite/chinois/update-image-chinois2024/Horoscope_Chinois_2024_2.jpg"
+                  alt="."
+                  height={220}
+                  style={{ marginLeft: 20, borderRadius: 20 }}
+                />
+              </div>
             </CardBody>
           </Card>
         </div>
