@@ -61,11 +61,11 @@ const VideosPage = () => {
                 style={{
                   color: "#0e0e0ee7",
                   position: "absolute",
-                  top: 150,
-                  right: 550,
+                  top: 300,
+                  right: 1,
                 }}
               >
-                <FontAwesomeIcon icon={faBoxOpen} size="4x" />
+                <FontAwesomeIcon icon={faBoxOpen} size="8x" />
                 <br />
                 Pas des données...
               </div>
