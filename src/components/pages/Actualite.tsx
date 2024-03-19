@@ -185,7 +185,7 @@ const Actualite = () => {
           <Carousel.Item interval={3000}>
             <img
               className="slider"
-              src="/img/actualite/chinois/update-image-chinois2024/Horoscope_chinois_2024_4.jpg"
+              src="/img/actualite/chinois/Horoscope_chinois_2024_4.jpg"
               alt="."
             />
             <Carousel.Caption></Carousel.Caption>
@@ -193,7 +193,7 @@ const Actualite = () => {
           <Carousel.Item interval={3000}>
             <img
               className="slider"
-              src="/img/actualite/chinois/update-image-chinois2024/Horoscope_chinois_2024_5.jpg"
+              src="/img/actualite/chinois/Horoscope_chinois_2024_5.jpg"
               alt="."
             />
             <Carousel.Caption></Carousel.Caption>
@@ -201,7 +201,7 @@ const Actualite = () => {
           <Carousel.Item interval={3000}>
             <img
               className="slider"
-              src="/img/actualite/chinois/update-image-chinois2024/Horoscope_chinois_2024_6.jpg"
+              src="/img/actualite/chinois/Horoscope_chinois_2024_6.jpg"
               alt="."
             />
             <Carousel.Caption></Carousel.Caption>
@@ -209,7 +209,7 @@ const Actualite = () => {
           <Carousel.Item interval={3000}>
             <img
               className="slider"
-              src="/img/actualite/chinois/update-image-chinois2024/Horoscope_chinois_2024_7.jpg"
+              src="/img/actualite/chinois/Horoscope_chinois_2024_7.jpg"
               alt="."
             />
             <Carousel.Caption></Carousel.Caption>
@@ -282,7 +282,7 @@ const Actualite = () => {
                   à venir, qui sera celle du Dragon de bois.
                 </p>
                 <img
-                  src="/img/actualite/chinois/update-image-chinois2024/Horoscope_Chinois_2024_2.jpg"
+                  src="/img/actualite/chinois/Horoscope_Chinois_2024_2.jpg"
                   alt="."
                   height={220}
                   style={{ marginLeft: 20, borderRadius: 20 }}
