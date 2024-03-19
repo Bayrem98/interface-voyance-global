@@ -153,6 +153,7 @@ video::-webkit-media-controls {
     height: 260px;
     border-radius: 20px;
     margin-left: 20px;
+    margin-top: 50px
   }
 
   .act-para {
@@ -170,6 +171,7 @@ video::-webkit-media-controls {
     height: 260px;
     border-radius: 20px;
     margin-right: 20px;
+    margin-top: 20px
   }
 
   .act-imag3 {
@@ -177,6 +179,7 @@ video::-webkit-media-controls {
     height: 360px;
     border-radius: 20px;
     margin-left: 20px;
+    margin-top: 40px
   }
 
   .act-imag4 {
@@ -184,6 +187,7 @@ video::-webkit-media-controls {
     height: 310px;
     border-radius: 20px;
     margin-right: 20px;
+    margin-top: 40px
   }
 
   .act-imag5 {
@@ -191,6 +195,7 @@ video::-webkit-media-controls {
     height: 310px;
     border-radius: 20px;
     margin-left: 20px;
+    margin-top: 40px
   }
 
   .ast-chi-title {

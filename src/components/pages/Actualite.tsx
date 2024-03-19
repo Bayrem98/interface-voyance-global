@@ -4,8 +4,6 @@ const Actualite = () => {
   return (
     <>
       <section className="act-section1">
-        <h2 className="act-title">Comment utiliser l’énergie de la lune?</h2>
-        <br />
         <div className="d-flex justify-content-between">
           <div>
             <img
@@ -15,6 +13,9 @@ const Actualite = () => {
             />
           </div>
           <div>
+            <h3 className="act-title">
+              Comment utiliser l’énergie de la lune?
+            </h3>
             <p className="act-para">
               Dans les temps anciens, la lune était considérée comme une énergie
               mystique sur laquelle les populations avaient très peu de
@@ -36,12 +37,11 @@ const Actualite = () => {
         </div>
       </section>
       <section className="act-section">
-        <h2 className="act-title">
-          Les significations spirituelles des cycles lunaires
-        </h2>
-        <br />
         <div className="d-flex justify-content-between">
           <div>
+            <h3 className="act-title">
+              Les significations spirituelles des cycles lunaires
+            </h3>
             <p className="act-para">
               {" "}
               Les cycles lunaires désignent les portions illuminées de la lune
@@ -70,8 +70,6 @@ const Actualite = () => {
         </div>
       </section>
       <section className="act-section">
-        <h2 className="act-title">La lune croissante et ses significations</h2>
-        <br />
         <div className="d-flex justify-content-between">
           <div>
             <img
@@ -81,6 +79,9 @@ const Actualite = () => {
             />
           </div>
           <div>
+            <h3 className="act-title">
+              La lune croissante et ses significations
+            </h3>
             <p className="act-para">
               {" "}
               La phase de la lune croissante contient quatre cycles : la
@@ -107,12 +108,11 @@ const Actualite = () => {
         </div>
       </section>
       <section className="act-section">
-        <h2 className="act-title">
-          La lune décroissante et ses significations
-        </h2>
-        <br />
         <div className="d-flex justify-content-between">
           <div>
+            <h3 className="act-title">
+              La lune décroissante et ses significations
+            </h3>
             <p className="act-para">
               {" "}
               La phase de la lune décroissante contient également quatre cycles
@@ -145,10 +145,6 @@ const Actualite = () => {
         </div>
       </section>
       <section>
-        <h2 className="act-title">
-          La pleine lune et ses significations spirituelles
-        </h2>
-        <br />
         <div className="d-flex justify-content-between">
           <div>
             <img
@@ -158,6 +154,9 @@ const Actualite = () => {
             />
           </div>
           <div>
+            <h3 className="act-title">
+              La pleine lune et ses significations spirituelles
+            </h3>
             <p className="act-para">
               {" "}
               La pleine lune marque le milieu du cycle lunaire, c’est à cet
@@ -278,9 +277,9 @@ const Actualite = () => {
                   pas non plus n’importe quoi. Pour connaître votre signe
                   astrologique chinois, il faut se référer à votre date de
                   naissance. Ainsi, les personnes associées au signe du Dragon
-                  sont nées en 1928, 1940, 1952, 1964, 1976, 1988, 2000, 2012 et 2024.
-                  Découvrez l’horoscope chinois signe par signe de l’année à
-                  venir, qui sera celle du Dragon de bois.
+                  sont nées en 1928, 1940, 1952, 1964, 1976, 1988, 2000, 2012 et
+                  2024. Découvrez l’horoscope chinois signe par signe de l’année
+                  à venir, qui sera celle du Dragon de bois.
                 </p>
                 <img
                   src="/img/actualite/chinois/update-image-chinois2024/Horoscope_Chinois_2024_2.jpg"
