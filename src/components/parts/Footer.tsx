@@ -5,7 +5,12 @@ const Footer = () => {
         <p className="footer-text">
           {" "}
           &copy; 2023 VOYANCE GLOBAL - Tous droits réservés -
-          www.voyance-global.vercel.app
+          <a
+            href="https://voyance-global.vercel.app/"
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            www.voyance-global.vercel.app
+          </a>
         </p>
       </div>
     </>
