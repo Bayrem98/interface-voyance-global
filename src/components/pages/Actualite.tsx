@@ -185,28 +185,28 @@ const Actualite = () => {
           <Carousel.Item interval={3000}>
             <img
               className="slider"
-              src="/img/actualite/chinois/Horoscope_chinois_2024_4.jpg"
+              src="/Horoscope_chinois_2024_4.jpg"
               alt="."
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
               className="slider"
-              src="/img/actualite/chinois/Horoscope_chinois_2024_5.jpg"
+              src="/Horoscope_chinois_2024_5.jpg"
               alt="."
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
               className="slider"
-              src="/img/actualite/chinois/Horoscope_chinois_2024_6.jpg"
+              src="/Horoscope_chinois_2024_6.jpg"
               alt="."
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
               className="slider"
-              src="/img/actualite/chinois/Horoscope_chinois_2024_7.jpg"
+              src="/Horoscope_chinois_2024_7.jpg"
               alt="."
             />
           </Carousel.Item>
