@@ -1,3 +1,20 @@
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(147, 147, 203, 0.866);
+  color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.scroll-to-top-button:hover {
+  background-color: rgba(147, 147, 203, 0.866);
+}
+
+
 .navbar {
     background-color: rgba(147, 147, 203, 0.866);
 }
@@ -101,19 +118,20 @@ video::-webkit-media-controls {
   .plein-para {
     text-align: justify;
     margin-right: 20px;
+    margin-top: 60px;
   }
 
   .plein-para1 {
     font-size: 30px;
     font-style: oblique;
     color: rgba(147, 147, 203, 0.866);
-
   }
 
   .plein-para2 {
-    font-size: 25px;
+    font-size: 22px;
     font-style: oblique;
     color: rgba(147, 147, 203, 0.866);
+    margin-left: 200px;
   }
 
   .nouvelle-para {

@@ -188,7 +188,6 @@ const Actualite = () => {
               src="/img/actualite/chinois/Horoscope_chinois_2024_4.jpg"
               alt="."
             />
-            <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
@@ -196,7 +195,6 @@ const Actualite = () => {
               src="/img/actualite/chinois/Horoscope_chinois_2024_5.jpg"
               alt="."
             />
-            <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
@@ -204,7 +202,6 @@ const Actualite = () => {
               src="/img/actualite/chinois/Horoscope_chinois_2024_6.jpg"
               alt="."
             />
-            <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
@@ -212,7 +209,6 @@ const Actualite = () => {
               src="/img/actualite/chinois/Horoscope_chinois_2024_7.jpg"
               alt="."
             />
-            <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
         </Carousel>
       </section>

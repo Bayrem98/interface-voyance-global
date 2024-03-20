@@ -26,6 +26,7 @@ import "video-react/dist/video-react.css";
 import BlogVideoTable from "./components/pages/admin-session/videos/BlogVideoTable";
 import UsersTable from "./components/pages/admin-session/users/UsersTable";
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import ScrollToTopButton from "./components/parts/ScrollToTopButton";
 
 function App() {
   // const handleContextMenu = (event: React.MouseEvent) => {
@@ -64,6 +65,7 @@ function App() {
             <Route path="/videopage" element={<VideosPage />} />
           </Routes>
         </div>
+        <ScrollToTopButton />
         <Footer />
         <SpeedInsights />
       </div>

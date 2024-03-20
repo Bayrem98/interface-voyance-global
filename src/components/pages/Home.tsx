@@ -144,6 +144,24 @@ const Home = () => {
             />
           </div>
         </div>
+        <br />
+        <div>
+          <span className="plein-para2">*Nouvelle Lune :</span> La Lune est
+          située entre la Terre et le Soleil, de sorte que la face éclairée de
+          la Lune n'est pas visible depuis la Terre.
+          <br />
+          <span className="plein-para2">*Premier quartier :</span> La moitié
+          droite de la Lune est visible, tandis que l'autre moitié est
+          obscurcie.
+          <br />
+          <span className="plein-para2">*Pleine Lune :</span> La face entière de
+          la Lune est illuminée, apparaissant comme un disque complet.
+          <br />
+          <span className="plein-para2">*Dernier quartier :</span> La moitié
+          gauche de la Lune est visible, tandis que l'autre moitié est
+          obscurcie.
+        </div>
+        <br />
         <div className="d-flex justify-content-between">
           <div>
             {" "}
@@ -161,24 +179,7 @@ const Home = () => {
               une illumination totale de la face visible de la Lune, de sorte
               qu'elle apparaît comme un disque lumineux et rond dans le ciel
               nocturne. Le calendrier lunaire est basé sur les phases de la
-              Lune, qui comprennent quatre principales phases :
-              <br />
-              <span className="plein-para2">*Nouvelle Lune :</span> La Lune est
-              située entre la Terre et le Soleil, de sorte que la face éclairée
-              de la Lune n'est pas visible depuis la Terre. C'est le début du
-              cycle lunaire.
-              <br />
-              <span className="plein-para2">*Premier quartier :</span> La moitié
-              droite de la Lune est visible, tandis que l'autre moitié est
-              obscurcie.
-              <br />
-              <span className="plein-para2">*Pleine Lune :</span> La face
-              entière de la Lune est illuminée, apparaissant comme un disque
-              complet.
-              <br />
-              <span className="plein-para2">*Dernier quartier :</span> La moitié
-              gauche de la Lune est visible, tandis que l'autre moitié est
-              obscurcie.
+              Lune, qui comprennent quatre principales phases.
             </p>
           </div>
         </div>
