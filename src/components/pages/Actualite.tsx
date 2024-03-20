@@ -183,32 +183,16 @@ const Actualite = () => {
       <section className="section-ast-chi1">
         <Carousel controls={false} indicators={false}>
           <Carousel.Item interval={3000}>
-            <img
-              className="slider"
-              src="/Horoscope_chinois_2024_4.jpg"
-              alt="."
-            />
+            <img className="slider" src="/slider1.jpg" alt="." />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img
-              className="slider"
-              src="/Horoscope_chinois_2024_5.jpg"
-              alt="."
-            />
+            <img className="slider" src="/slider2.jpg" alt="." />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img
-              className="slider"
-              src="/Horoscope_chinois_2024_6.jpg"
-              alt="."
-            />
+            <img className="slider" src="/slider3.jpg" alt="." />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img
-              className="slider"
-              src="/Horoscope_chinois_2024_7.jpg"
-              alt="."
-            />
+            <img className="slider" src="/slider4.jpg" alt="." />
           </Carousel.Item>
         </Carousel>
       </section>
